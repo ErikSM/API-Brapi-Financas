@@ -1,14 +1,12 @@
-duvidas_e_questoes = dict()
-
-acoes_fundos_indices_bdrs = dict()
+doubts_and_questions = dict()
 
 
-duvidas_e_questoes['Sobre a api:'] = """
+doubts_and_questions['Sobre a api:'] = """
     Fornece informações detalhadas sobre cotações de ações, fundos, índices e BDRs permitindo que você obtenha um 
  resumo de todos os tickers disponíveis. Ela oferece flexibilidade para ordenar, filtrar e buscar os tickers 
  que você deseja."""
 
-duvidas_e_questoes['O que são ações?'] = """
+doubts_and_questions['O que são ações?'] = """
 Ações são títulos que representam uma fração do valor das companhias ou sociedades anônimas. Ou seja, uma ação é
  como se fosse um pedaço de uma empresa.
     Ações representam frações de companhias de capital aberto, ou seja, aquelas empresas que são negociadas na
@@ -20,7 +18,7 @@ maneira conjunta no mercado financeiro e de capitais.
     Assim, os rendimentos são distribuídos entre os participantes, de acordo com a proporção do valor depositado 
 por cada um."""
 
-duvidas_e_questoes['O que são BDRs?'] = """
+doubts_and_questions['O que são BDRs?'] = """
     Conhecidos pela sigla BDR, os Brazilian Depositary Receipts são certificados que representam ações emitidas por 
 empresas em outros países, mas que são negociados aqui, no pregão da B3. É como se fossem valores mobiliários 
 lastreados em papéis de companhias estrangeiras e, desde setembro de 2020, também brasileiras.
@@ -30,7 +28,7 @@ bloqueadas em uma instituição financeira que atua como custodiante – ou seja
     Já quem assegura o funcionamento de todo esse sistema é também uma instituição financeira, chamada de 
 depositária, que é a responsável por emitir os BDRs no Brasil."""
 
-duvidas_e_questoes['O que são os índices das Bolsas de Valores?'] = """
+doubts_and_questions['O que são os índices das Bolsas de Valores?'] = """
     Índices das Bolsas de Valores funcionam como cestas de ações que medem o desempenho de empresas 
 específicas dentro do mercado financeiro.
     Eles são extremamente relevantes para investidores e analistas, pois refletem as tendências do mercado, a saúde 
@@ -38,7 +36,7 @@ econômica de setores ou até mesmo de um país inteiro.
     Cada índice segue critérios próprios, focando em aspectos como capitalização de mercado, liquidez e setor de 
 atuação das empresas."""
 
-duvidas_e_questoes['Para que servem os índices da bolsa?'] = """
+doubts_and_questions['Para que servem os índices da bolsa?'] = """
     Eles são usados como benchmarks (metas de rentabilidade) para 
 comparar o desempenho de carteiras de investimentos, possibilitando uma análise mais aprofundada das tendências do 
 mercado e auxiliando na formulação de estratégias de investimento.
@@ -46,7 +44,11 @@ mercado e auxiliando na formulação de estratégias de investimento.
 cada ação individualmente. Abaixo, separamos alguns dos principais índices de mercado para você conhecer sua 
 composição e racional."""
 
-acoes_fundos_indices_bdrs['ticker parameters traducer'] = {
+
+
+about_stocks_funds_indexes_bdrs = dict()
+
+about_stocks_funds_indexes_bdrs['ticker parameters traducer'] = {
     'name': "Nome do ticker",
     'close': "Preço de fechamento",
     'change': "Variação percentual",
@@ -56,7 +58,7 @@ acoes_fundos_indices_bdrs['ticker parameters traducer'] = {
     'sector': "Setor da ação",
 }
 
-acoes_fundos_indices_bdrs['ameaning tickers'] = {
+about_stocks_funds_indexes_bdrs['ameaning tickers'] = {
     'Preço de fechamento': "O preço de fechamento de um ativo é o último preço em que ele foi negociado numa sessão.",
     'Variação percentual': """
         Elas são a base dos cálculos financeiros e a partir deste entendimento é que surgem por exemplo outros 
@@ -68,7 +70,7 @@ acoes_fundos_indices_bdrs['ameaning tickers'] = {
      em circulação de uma empresa cotada na bolsa.""",
 }
 
-acoes_fundos_indices_bdrs['all sectors traducer'] = {
+about_stocks_funds_indexes_bdrs['all sectors traducer'] = {
     'Retail Trade': "Comércio Varejista",
     'Energy Minerals': "Minerais Energéticos",
     'Health Services': "Serviços de Saúde",

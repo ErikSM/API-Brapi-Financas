@@ -10,13 +10,13 @@ class Stock:
         try:
             self.__stock = Stock.stock[ticker]
         except KeyError:
-            self.__stock = {'stock': "KeyError", "name": "not found"}
+            self.__stock = {'stock': f"{tiker}", "name": "KeyError"}
 
     def __str__(self):
         return self.__stock['name']
 
     def __repr__(self):
-        return self.__stock['stock']
+        return f"Stock({self.__stock['stock']})"
 
     def __getitem__(self, item):
         return self.__stock[item]
@@ -29,7 +29,7 @@ class Stock:
         try:
             webview.create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
         except KeyError:
-            pass
+            webview.create_window(self.__stock['name'], "https://brapi.dev/", width=350, height=200)
         else:
             return webview
 
@@ -40,3 +40,4 @@ class Stock:
 
 
 stock = Stock('AMER3')
+print(stock)

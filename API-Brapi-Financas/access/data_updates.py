@@ -39,7 +39,7 @@ def _write_stock_file():
         for j in data_requested[i]:
 
             if i == 'stocks':
-                text_field.insert(END, f'    "{j['stock']}":')
+                text_field.insert(END, f'    "{j['ticker']}":')
                 text_field.insert(END, ' { \n')
 
                 for z in j:
@@ -51,7 +51,7 @@ def _write_stock_file():
                 text_field.insert(END, '    }, \n\n')
 
             elif i == 'indexes':
-                text_field.insert(END, f'    "{j['stock']}": ')
+                text_field.insert(END, f'    "{j['ticker']}": ')
 
                 if type(j) is str:
                     text_field.insert(END, f'"{j}", \n')

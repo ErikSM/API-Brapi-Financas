@@ -1,10 +1,10 @@
 import json
-
 import requests
 
-my_key = 'spxS5DhJhKUmar2nz3TJWj'
 
+my_key = 'spxS5DhJhKUmar2nz3TJWj'
 test_endpoint = '/quote/list'
+
 
 all_endpoints = dict()
 all_endpoints['All stocks'] = {'endpoint': "/quote/list",
@@ -64,7 +64,7 @@ def make_request(endpoint: all_endpoints, **parameters):
 
 
 def testar_request():
-    testando = make_request('Specific stock', complement='BBDC4')
+    testando = make_request('Specific stock', complement='^AORD')
 
     print("-" * 70)
     for i in testando:
@@ -93,4 +93,4 @@ def testar_request():
                 print("-" * 70)
 
 
-#testar_request()
+#  testar_request()
