@@ -162,5 +162,3 @@ stocks = (
     "MERC4F", "ENMT4F", "TGTB34", "RECX11", "N2LY34", "BPRP11", "RBRI11", "GURU11", "BEWY39", "ORLY34", "BIHI39", 
     "T2RE34", "BMIN3F", "BGIP3F", 
 ) 
-
-all_tickers_tuple = (indexes, stocks)

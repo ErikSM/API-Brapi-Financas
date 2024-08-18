@@ -1,14 +1,13 @@
-from api_data.all_stocks import all_stocks_tuple
-import webview
+from api_data.all_stocks import stocks
+from webview import create_window
 
 
 class Stock:
-    stock = all_stocks_tuple[1]
 
     def __init__(self, ticker):
 
         try:
-            self.__stock = Stock.stock[ticker]
+            self.__stock = stocks[ticker]
         except KeyError:
             self.__stock = {'stock': f"{tiker}", "name": "KeyError"}
 
@@ -27,17 +26,17 @@ class Stock:
     def show_logo(self):
 
         try:
-            webview.create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
+            create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
         except KeyError:
-            webview.create_window(self.__stock['name'], "https://brapi.dev/", width=350, height=200)
+            create_window(self.__stock['name'], "https://brapi.dev/", width=350, height=200)
         else:
             return webview
 
     def basic_info(self):
 
+        advanced = 'logo', 'change', 'volume', 'close'
+
         for i in self.__stock:
-            yield f'{i}: {self.__stock[i]}'
+            if i not in advanced:
+                yield f'{i}: {self.__stock[i]}\n'
 
-
-stock = Stock('AMER3')
-print(stock)

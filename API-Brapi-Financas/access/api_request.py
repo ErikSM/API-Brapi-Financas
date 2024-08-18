@@ -36,7 +36,7 @@ def make_request(endpoint: all_endpoints, **parameters):
     base_url = 'https://brapi.dev/api'
 
     point_data = all_endpoints[endpoint]
-    params = {'token': my_key}
+    params = dict()
 
     endpoint_used = ''
     complement_used = ''
@@ -53,6 +53,8 @@ def make_request(endpoint: all_endpoints, **parameters):
             pass
         else:
             params[i] = parameters[i]
+
+    params['token'] = my_key
 
     print(params)
     print(f'{base_url}{endpoint_used}{complement_used}')

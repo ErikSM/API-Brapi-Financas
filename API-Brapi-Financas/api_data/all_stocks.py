@@ -1,44 +1,43 @@
+indexes = {
+    "^AORD": {'stock': '^AORD', 'name': 'ALL ORDINARIES'},
+    "^BFX": {'stock': '^BFX', 'name': 'BEL 20'},
+    "^FCHI": {'stock': '^FCHI', 'name': 'CAC 40'},
+    "^BUK100P": {'stock': '^BUK100P', 'name': 'Cboe UK 100'},
+    "^VIX": {'stock': '^VIX', 'name': 'CBOE Volatility Index'},
+    "^GDAXI": {'stock': '^GDAXI', 'name': 'DAX PERFORMANCE-INDEX'},
+    "^DJI": {'stock': '^DJI', 'name': 'Dow Jones Industrial Average'},
+    "^CASE30": {'stock': '^CASE30', 'name': 'EGX 30 Price Return Index'},
+    "^STOXX50E": {'stock': '^STOXX50E', 'name': 'ESTX 50 PR.EUR'},
+    "^N100": {'stock': '^N100', 'name': 'Euronext 100 Index'},
+    "^FTSE": {'stock': '^FTSE', 'name': 'FTSE 100'},
+    "^KLSE": {'stock': '^KLSE', 'name': 'FTSE Bursa Malaysia KLCI'},
+    "^HSI": {'stock': '^HSI', 'name': 'HANG SENG INDEX'},
+    "^BVSP": {'stock': '^BVSP', 'name': 'IBOVESPA'},
+    "^JKSE": {'stock': '^JKSE', 'name': 'IDX COMPOSITE'},
+    "IFIX.SA": {'stock': 'IFIX.SA', 'name': 'IND FDO IMOB'},
+    "^MXX": {'stock': '^MXX', 'name': 'IPC MEXICO'},
+    "^KS11": {'stock': '^KS11', 'name': 'KOSPI Composite Index'},
+    "^MERV": {'stock': '^MERV', 'name': 'MERVAL'},
+    "^IXIC": {'stock': '^IXIC', 'name': 'NASDAQ Composite'},
+    "^N225": {'stock': '^N225', 'name': 'Nikkei 225'},
+    "^XAX": {'stock': '^XAX', 'name': 'NYSE AMEX COMPOSITE INDEX'},
+    "^NYA": {'stock': '^NYA', 'name': 'NYSE COMPOSITE (DJ)'},
+    "^RUT": {'stock': '^RUT', 'name': 'Russell 2000'},
+    "^GSPC": {'stock': '^GSPC', 'name': 'S&P 500'},
+    "^BSESN": {'stock': '^BSESN', 'name': 'S&P BSE SENSEX'},
+    "^AXJO": {'stock': '^AXJO', 'name': 'S&P/ASX 200'},
+    "^IPSA": {'stock': '^IPSA', 'name': 'S&P/CLX IPSA'},
+    "^NZ50": {'stock': '^NZ50', 'name': 'S&P/NZX 50 INDEX GROSS ( GROSS'},
+    "^GSPTSE": {'stock': '^GSPTSE', 'name': 'S&P/TSX Composite index'},
+    "^STI": {'stock': '^STI', 'name': 'STI Index'},
+    "^TA125.TA": {'stock': '^TA125.TA', 'name': 'TA-125'},
+    "^JN0U.JO": {'stock': '^JN0U.JO', 'name': 'Top 40 USD Net TRI Index'},
+    "^TWII": {'stock': '^TWII', 'name': 'TSEC weighted index'},
+}
 
-indexes = { 
-    "^AORD": {'stock': '^AORD', 'name': 'ALL ORDINARIES'}, 
-    "^BFX": {'stock': '^BFX', 'name': 'BEL 20'}, 
-    "^FCHI": {'stock': '^FCHI', 'name': 'CAC 40'}, 
-    "^BUK100P": {'stock': '^BUK100P', 'name': 'Cboe UK 100'}, 
-    "^VIX": {'stock': '^VIX', 'name': 'CBOE Volatility Index'}, 
-    "^GDAXI": {'stock': '^GDAXI', 'name': 'DAX PERFORMANCE-INDEX'}, 
-    "^DJI": {'stock': '^DJI', 'name': 'Dow Jones Industrial Average'}, 
-    "^CASE30": {'stock': '^CASE30', 'name': 'EGX 30 Price Return Index'}, 
-    "^STOXX50E": {'stock': '^STOXX50E', 'name': 'ESTX 50 PR.EUR'}, 
-    "^N100": {'stock': '^N100', 'name': 'Euronext 100 Index'}, 
-    "^FTSE": {'stock': '^FTSE', 'name': 'FTSE 100'}, 
-    "^KLSE": {'stock': '^KLSE', 'name': 'FTSE Bursa Malaysia KLCI'}, 
-    "^HSI": {'stock': '^HSI', 'name': 'HANG SENG INDEX'}, 
-    "^BVSP": {'stock': '^BVSP', 'name': 'IBOVESPA'}, 
-    "^JKSE": {'stock': '^JKSE', 'name': 'IDX COMPOSITE'}, 
-    "IFIX.SA": {'stock': 'IFIX.SA', 'name': 'IND FDO IMOB'}, 
-    "^MXX": {'stock': '^MXX', 'name': 'IPC MEXICO'}, 
-    "^KS11": {'stock': '^KS11', 'name': 'KOSPI Composite Index'}, 
-    "^MERV": {'stock': '^MERV', 'name': 'MERVAL'}, 
-    "^IXIC": {'stock': '^IXIC', 'name': 'NASDAQ Composite'}, 
-    "^N225": {'stock': '^N225', 'name': 'Nikkei 225'}, 
-    "^XAX": {'stock': '^XAX', 'name': 'NYSE AMEX COMPOSITE INDEX'}, 
-    "^NYA": {'stock': '^NYA', 'name': 'NYSE COMPOSITE (DJ)'}, 
-    "^RUT": {'stock': '^RUT', 'name': 'Russell 2000'}, 
-    "^GSPC": {'stock': '^GSPC', 'name': 'S&P 500'}, 
-    "^BSESN": {'stock': '^BSESN', 'name': 'S&P BSE SENSEX'}, 
-    "^AXJO": {'stock': '^AXJO', 'name': 'S&P/ASX 200'}, 
-    "^IPSA": {'stock': '^IPSA', 'name': 'S&P/CLX IPSA'}, 
-    "^NZ50": {'stock': '^NZ50', 'name': 'S&P/NZX 50 INDEX GROSS ( GROSS'}, 
-    "^GSPTSE": {'stock': '^GSPTSE', 'name': 'S&P/TSX Composite index'}, 
-    "^STI": {'stock': '^STI', 'name': 'STI Index'}, 
-    "^TA125.TA": {'stock': '^TA125.TA', 'name': 'TA-125'}, 
-    "^JN0U.JO": {'stock': '^JN0U.JO', 'name': 'Top 40 USD Net TRI Index'}, 
-    "^TWII": {'stock': '^TWII', 'name': 'TSEC weighted index'}, 
-} 
+stocks = {
 
-
-stocks = { 
-    "CIEL3L": { 
+    "CIEL3L": {
         "stock": "CIEL3L",
         "name": "CIELO",
         "close": 5.82,
@@ -48,9 +47,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cielo--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "AMER3": { 
+    "AMER3": {
         "stock": "AMER3",
         "name": "AMERICANAS",
         "close": 0.33,
@@ -60,9 +59,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/americanas--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RENT3": { 
+    "RENT3": {
         "stock": "RENT3",
         "name": "LOCALIZA",
         "close": 40,
@@ -72,9 +71,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/localiza--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HAPV3": { 
+    "HAPV3": {
         "stock": "HAPV3",
         "name": "HAPVIDA",
         "close": 4.41,
@@ -84,9 +83,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hapvida--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "COGN3": { 
+    "COGN3": {
         "stock": "COGN3",
         "name": "COGNA",
         "close": 1.39,
@@ -96,9 +95,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cogna--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "ITUB4": { 
+    "ITUB4": {
         "stock": "ITUB4",
         "name": "ITAUUNIBANCOPN",
         "close": 36.470001,
@@ -108,9 +107,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BBDC4": { 
+    "BBDC4": {
         "stock": "BBDC4",
         "name": "BRADESCO PN",
         "close": 15.01,
@@ -120,9 +119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradesco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VALE3": { 
+    "VALE3": {
         "stock": "VALE3",
         "name": "VALE",
         "close": 56,
@@ -132,9 +131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vale--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "IFCM3": { 
+    "IFCM3": {
         "stock": "IFCM3",
         "name": "INFRACOMM",
         "close": 0.29,
@@ -144,9 +143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/infracomm-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "B3SA3": { 
+    "B3SA3": {
         "stock": "B3SA3",
         "name": "B3",
         "close": 12.7,
@@ -156,9 +155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/b3-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PETR4": { 
+    "PETR4": {
         "stock": "PETR4",
         "name": "PETROBRAS PN",
         "close": 37.759998,
@@ -168,9 +167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasileiro-petrobras--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "AZUL4": { 
+    "AZUL4": {
         "stock": "AZUL4",
         "name": "AZUL PN",
         "close": 7.75,
@@ -180,9 +179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/azul--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "ITSA4": { 
+    "ITSA4": {
         "stock": "ITSA4",
         "name": "ITAUSA PN",
         "close": 10.86,
@@ -192,9 +191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itausa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CIEL3": { 
+    "CIEL3": {
         "stock": "CIEL3",
         "name": "CIELO",
         "close": 5.81,
@@ -204,9 +203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cielo--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "RAIZ4": { 
+    "RAIZ4": {
         "stock": "RAIZ4",
         "name": "RAIZEN PN ED",
         "close": 3.25,
@@ -216,9 +215,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/raizen--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "CMIG4": { 
+    "CMIG4": {
         "stock": "CMIG4",
         "name": "CEMIG PN",
         "close": 11.97,
@@ -228,9 +227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cemig--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MGLU3": { 
+    "MGLU3": {
         "stock": "MGLU3",
         "name": "MAGAZINE LUIZA",
         "close": 12.74,
@@ -240,9 +239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/magaz-luiza-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "MLAS3": { 
+    "MLAS3": {
         "stock": "MLAS3",
         "name": "MULTILASER",
         "close": 1.83,
@@ -252,9 +251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/multilaser-on-ed-nm--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "FNAM11": { 
+    "FNAM11": {
         "stock": "FNAM11",
         "name": "FINAM CI *",
         "close": 0.43,
@@ -264,9 +263,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/amazonia-on-es--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JBSS3": { 
+    "JBSS3": {
         "stock": "JBSS3",
         "name": "JBS",
         "close": 37.34,
@@ -276,9 +275,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jbs-s-a--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BPAC11": { 
+    "BPAC11": {
         "stock": "BPAC11",
         "name": "BTGP BANCO UNT",
         "close": 35,
@@ -288,9 +287,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "ABEV3": { 
+    "ABEV3": {
         "stock": "ABEV3",
         "name": "AMBEV S/A",
         "close": 12.56,
@@ -300,9 +299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ambev--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "RDOR3": { 
+    "RDOR3": {
         "stock": "RDOR3",
         "name": "REDE D OR",
         "close": 30.73,
@@ -312,9 +311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rede-d-or--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "ROXO34": { 
+    "ROXO34": {
         "stock": "ROXO34",
         "name": "NU HOLDINGS DRN",
         "close": 12.05,
@@ -324,9 +323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nu-holdings--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BBAS3": { 
+    "BBAS3": {
         "stock": "BBAS3",
         "name": "BRASIL",
         "close": 27.93,
@@ -336,9 +335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ENEV3": { 
+    "ENEV3": {
         "stock": "ENEV3",
         "name": "ENEVA",
         "close": 13.47,
@@ -348,9 +347,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eneva--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LREN3": { 
+    "LREN3": {
         "stock": "LREN3",
         "name": "LOJAS RENNERON",
         "close": 16.190001,
@@ -360,9 +359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lojas-renner--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "MRVE3": { 
+    "MRVE3": {
         "stock": "MRVE3",
         "name": "MRV",
         "close": 7.28,
@@ -372,9 +371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mrv--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CMIN3": { 
+    "CMIN3": {
         "stock": "CMIN3",
         "name": "CSNMINERACAOON",
         "close": 5,
@@ -384,9 +383,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/csn-mineracao--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "LWSA3": { 
+    "LWSA3": {
         "stock": "LWSA3",
         "name": "LWSA",
         "close": 4.77,
@@ -396,9 +395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/locaweb--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "CPLE6": { 
+    "CPLE6": {
         "stock": "CPLE6",
         "name": "COPEL PNB",
         "close": 10.53,
@@ -408,9 +407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "NTCO3": { 
+    "NTCO3": {
         "stock": "NTCO3",
         "name": "GRUPO NATURAON",
         "close": 14.75,
@@ -420,9 +419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/natura-and-co--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ONCO3": { 
+    "ONCO3": {
         "stock": "ONCO3",
         "name": "ONCOCLINICASON",
         "close": 6.3,
@@ -432,9 +431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oncoclinicason-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "USIM5": { 
+    "USIM5": {
         "stock": "USIM5",
         "name": "USIMINAS PNA",
         "close": 6.09,
@@ -444,9 +443,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/usiminas-pna-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "RAIL3": { 
+    "RAIL3": {
         "stock": "RAIL3",
         "name": "RUMO S.A.",
         "close": 23.379999,
@@ -456,9 +455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rumo-s-a--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "PCAR3": { 
+    "PCAR3": {
         "stock": "PCAR3",
         "name": "P.ACUCAR-CBDON",
         "close": 3.2,
@@ -468,9 +467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-brasileira-distr-pao-de-acucar--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CVCB3": { 
+    "CVCB3": {
         "stock": "CVCB3",
         "name": "CVC BRASIL",
         "close": 1.91,
@@ -480,9 +479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cvc-brasil-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "BRFS3": { 
+    "BRFS3": {
         "stock": "BRFS3",
         "name": "BRF SA",
         "close": 23.51,
@@ -492,9 +491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brf-sa--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ASAI3": { 
+    "ASAI3": {
         "stock": "ASAI3",
         "name": "ASSAI",
         "close": 10.67,
@@ -504,9 +503,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/assai-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RADL3": { 
+    "RADL3": {
         "stock": "RADL3",
         "name": "RAIADROGASILON",
         "close": 30,
@@ -516,9 +515,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/raiadrogasilon--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "BEEF3": { 
+    "BEEF3": {
         "stock": "BEEF3",
         "name": "MINERVA",
         "close": 7.59,
@@ -528,9 +527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/minerva-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "PETR3": { 
+    "PETR3": {
         "stock": "PETR3",
         "name": "PETROBRAS",
         "close": 40.98,
@@ -540,9 +539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasileiro-petrobras--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "ANIM3": { 
+    "ANIM3": {
         "stock": "ANIM3",
         "name": "ANIMA",
         "close": 3.27,
@@ -552,9 +551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/anima--big.svg",
         "sector": "Miscellaneous",
         "type": "stock",
-    }, 
+    },
 
-    "GGBR4": { 
+    "GGBR4": {
         "stock": "GGBR4",
         "name": "GERDAU PN ED",
         "close": 17.4,
@@ -564,9 +563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "NVDC34": { 
+    "NVDC34": {
         "stock": "NVDC34",
         "name": "NVIDIA CORP DRN",
         "close": 13.45,
@@ -576,9 +575,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nvidia--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "CSAN3": { 
+    "CSAN3": {
         "stock": "CSAN3",
         "name": "COSAN",
         "close": 13.51,
@@ -588,9 +587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosan--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "PETZ3": { 
+    "PETZ3": {
         "stock": "PETZ3",
         "name": "PETZ",
         "close": 3.82,
@@ -600,9 +599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petz--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "CSNA3": { 
+    "CSNA3": {
         "stock": "CSNA3",
         "name": "SID NACIONALON",
         "close": 11.7,
@@ -612,9 +611,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/companhia-siderurgica-nacional--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "PRIO3": { 
+    "PRIO3": {
         "stock": "PRIO3",
         "name": "PETRORIO",
         "close": 49.599998,
@@ -624,9 +623,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petrorio-on-nm--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "EQTL3": { 
+    "EQTL3": {
         "stock": "EQTL3",
         "name": "EQUATORIAL",
         "close": 35.459999,
@@ -636,9 +635,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equatorial--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BOVA11": { 
+    "BOVA11": {
         "stock": "BOVA11",
         "name": "ISHARES BOVACI",
         "close": 129.67999,
@@ -648,9 +647,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "TIMS3": { 
+    "TIMS3": {
         "stock": "TIMS3",
         "name": "TIM",
         "close": 18.1,
@@ -660,9 +659,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tim-participacoes--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "ALPA4": { 
+    "ALPA4": {
         "stock": "ALPA4",
         "name": "ALPARGATAS PN",
         "close": 7.86,
@@ -672,9 +671,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alpargatas--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BBDC3": { 
+    "BBDC3": {
         "stock": "BBDC3",
         "name": "BRADESCO",
         "close": 13.39,
@@ -684,9 +683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradesco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "WEGE3": { 
+    "WEGE3": {
         "stock": "WEGE3",
         "name": "WEG ED",
         "close": 51.540001,
@@ -696,9 +695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/weg--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "MRFG3": { 
+    "MRFG3": {
         "stock": "MRFG3",
         "name": "MARFRIG",
         "close": 12.83,
@@ -708,9 +707,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marfrig-on-nm--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "VVEO3": { 
+    "VVEO3": {
         "stock": "VVEO3",
         "name": "VIVEO",
         "close": 2.28,
@@ -720,9 +719,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/viveo-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "VAMO3": { 
+    "VAMO3": {
         "stock": "VAMO3",
         "name": "VAMOS",
         "close": 8.32,
@@ -732,9 +731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vamos-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "POMO4": { 
+    "POMO4": {
         "stock": "POMO4",
         "name": "MARCOPOLO PN",
         "close": 6.94,
@@ -744,9 +743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marcopolo--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "MOVI3": { 
+    "MOVI3": {
         "stock": "MOVI3",
         "name": "MOVIDA",
         "close": 7.37,
@@ -756,9 +755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/movida-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "GOAU4": { 
+    "GOAU4": {
         "stock": "GOAU4",
         "name": "GERDAU MET PN ED",
         "close": 10.09,
@@ -768,9 +767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "ELET3": { 
+    "ELET3": {
         "stock": "ELET3",
         "name": "ELETROBRAS",
         "close": 40.150002,
@@ -780,9 +779,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/centrais-eletr-bras-sa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "VBBR3": { 
+    "VBBR3": {
         "stock": "VBBR3",
         "name": "VIBRA",
         "close": 25.24,
@@ -792,9 +791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vibra-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "SUZB3": { 
+    "SUZB3": {
         "stock": "SUZB3",
         "name": "SUZANO S.A.",
         "close": 54.700001,
@@ -804,9 +803,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/suzano--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "ALOS3": { 
+    "ALOS3": {
         "stock": "ALOS3",
         "name": "ALLOS",
         "close": 23.65,
@@ -816,9 +815,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "LJQQ3": { 
+    "LJQQ3": {
         "stock": "LJQQ3",
         "name": "QUERO-QUERO",
         "close": 4.27,
@@ -828,9 +827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/quero-quero-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CRFB3": { 
+    "CRFB3": {
         "stock": "CRFB3",
         "name": "CARREFOUR BRON",
         "close": 9.770001,
@@ -840,9 +839,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/carrefour--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "STBP3": { 
+    "STBP3": {
         "stock": "STBP3",
         "name": "SANTOS BRP",
         "close": 14.1,
@@ -852,9 +851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santos-brp--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "RRRP3": { 
+    "RRRP3": {
         "stock": "RRRP3",
         "name": "3R PETROLEUMON",
         "close": 29.58,
@@ -864,9 +863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/3r-petroleum--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "UGPA3": { 
+    "UGPA3": {
         "stock": "UGPA3",
         "name": "ULTRAPAR",
         "close": 23.6,
@@ -876,9 +875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ultrapar-participacoes--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "ENGI11": { 
+    "ENGI11": {
         "stock": "ENGI11",
         "name": "ENERGISA UNT ED",
         "close": 48.32,
@@ -888,9 +887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "EMBR3": { 
+    "EMBR3": {
         "stock": "EMBR3",
         "name": "EMBRAER",
         "close": 43.939999,
@@ -900,9 +899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/embraer--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "MULT3": { 
+    "MULT3": {
         "stock": "MULT3",
         "name": "MULTIPLAN",
         "close": 27.309999,
@@ -912,9 +911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/multiplan-on-n2--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BBSE3": { 
+    "BBSE3": {
         "stock": "BBSE3",
         "name": "BBSEGURIDADEON",
         "close": 37.450001,
@@ -924,9 +923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "AURE3": { 
+    "AURE3": {
         "stock": "AURE3",
         "name": "AUREN",
         "close": 11.64,
@@ -936,9 +935,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BHIA3": { 
+    "BHIA3": {
         "stock": "BHIA3",
         "name": "CASAS BAHIA",
         "close": 5.1,
@@ -948,9 +947,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "VIVA3": { 
+    "VIVA3": {
         "stock": "VIVA3",
         "name": "VIVARA S.A.",
         "close": 27.1,
@@ -960,9 +959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vivara-sa-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN11": { 
+    "KLBN11": {
         "stock": "KLBN11",
         "name": "KLABIN S/A UNT ED",
         "close": 20.879999,
@@ -972,9 +971,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "fund",
-    }, 
+    },
 
-    "CCRO3": { 
+    "CCRO3": {
         "stock": "CCRO3",
         "name": "CCR SA",
         "close": 13.52,
@@ -984,9 +983,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ccr--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CPLE3": { 
+    "CPLE3": {
         "stock": "CPLE3",
         "name": "COPEL",
         "close": 9.53,
@@ -996,9 +995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "JFEN3": { 
+    "JFEN3": {
         "stock": "JFEN3",
         "name": "JOAO FORTES",
         "close": 0.25,
@@ -1008,9 +1007,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SEQL3": { 
+    "SEQL3": {
         "stock": "SEQL3",
         "name": "SEQUOIA LOG",
         "close": 6.1,
@@ -1020,9 +1019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sequoia-log-on-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "TRPL4": { 
+    "TRPL4": {
         "stock": "TRPL4",
         "name": "TRAN PAULISTPN",
         "close": 24.709999,
@@ -1032,9 +1031,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tran-paulistpn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "SBSP3": { 
+    "SBSP3": {
         "stock": "SBSP3",
         "name": "SABESP",
         "close": 99.459999,
@@ -1044,9 +1043,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sabesp--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CLSA3": { 
+    "CLSA3": {
         "stock": "CLSA3",
         "name": "CLEARSALE",
         "close": 6.95,
@@ -1056,9 +1055,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/clearsale-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "YDUQ3": { 
+    "YDUQ3": {
         "stock": "YDUQ3",
         "name": "YDUQS PART",
         "close": 10.02,
@@ -1068,9 +1067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/yduqs-part-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "HYPE3": { 
+    "HYPE3": {
         "stock": "HYPE3",
         "name": "HYPERA",
         "close": 31.65,
@@ -1080,9 +1079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hypera--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "AZEV4": { 
+    "AZEV4": {
         "stock": "AZEV4",
         "name": "AZEVEDO PN",
         "close": 1.4,
@@ -1092,9 +1091,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GFSA3": { 
+    "GFSA3": {
         "stock": "GFSA3",
         "name": "GAFISA ES",
         "close": 2.88,
@@ -1104,9 +1103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gafisa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SIMH3": { 
+    "SIMH3": {
         "stock": "SIMH3",
         "name": "SIMPAR",
         "close": 6.54,
@@ -1116,9 +1115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jsl--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "SMFT3": { 
+    "SMFT3": {
         "stock": "SMFT3",
         "name": "SMART FIT",
         "close": 23.35,
@@ -1128,9 +1127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/smart-fit-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "TEND3": { 
+    "TEND3": {
         "stock": "TEND3",
         "name": "TENDA",
         "close": 13.19,
@@ -1140,9 +1139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tenda--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PDGR3": { 
+    "PDGR3": {
         "stock": "PDGR3",
         "name": "PDG REALT",
         "close": 0.19,
@@ -1152,9 +1151,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pdg-realt--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "FLRY3": { 
+    "FLRY3": {
         "stock": "FLRY3",
         "name": "FLEURY",
         "close": 15.541978,
@@ -1164,9 +1163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fleury-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "IGTI11": { 
+    "IGTI11": {
         "stock": "IGTI11",
         "name": "IGUATEMI S.AUNT",
         "close": 23.530001,
@@ -1176,9 +1175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iguatemi-saon-n1--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "BRAP4": { 
+    "BRAP4": {
         "stock": "BRAP4",
         "name": "BRADESPAR PN",
         "close": 18.059999,
@@ -1188,9 +1187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradespar--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CYRE3": { 
+    "CYRE3": {
         "stock": "CYRE3",
         "name": "CYRELA REALTON",
         "close": 21.629999,
@@ -1200,9 +1199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cyrela-realton-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "TSLA34": { 
+    "TSLA34": {
         "stock": "TSLA34",
         "name": "TESLA INC DRN",
         "close": 34.459999,
@@ -1212,9 +1211,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tesla--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "TOTS3": { 
+    "TOTS3": {
         "stock": "TOTS3",
         "name": "TOTVS",
         "close": 29.66,
@@ -1224,9 +1223,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/totvs--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "CBAV3": { 
+    "CBAV3": {
         "stock": "CBAV3",
         "name": "CBA",
         "close": 4.62,
@@ -1236,9 +1235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cba-on-nm--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "JHSF3": { 
+    "JHSF3": {
         "stock": "JHSF3",
         "name": "JHSF PART",
         "close": 4.22,
@@ -1248,9 +1247,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jhsf-part-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SRNA3": { 
+    "SRNA3": {
         "stock": "SRNA3",
         "name": "SERENA",
         "close": 9.04,
@@ -1260,9 +1259,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ENJU3": { 
+    "ENJU3": {
         "stock": "ENJU3",
         "name": "ENJOEI",
         "close": 1.8,
@@ -1272,9 +1271,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "INBR32": { 
+    "INBR32": {
         "stock": "INBR32",
         "name": "INTER CO DR2",
         "close": 38.630001,
@@ -1284,9 +1283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/inter-and-co--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "SLCE3": { 
+    "SLCE3": {
         "stock": "SLCE3",
         "name": "SLC AGRICOLAON",
         "close": 18.200001,
@@ -1296,9 +1295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/slc-agricola--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "SMAL11": { 
+    "SMAL11": {
         "stock": "SMAL11",
         "name": "ISHARES SMALCI",
         "close": 103.5,
@@ -1308,9 +1307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "GOLL4": { 
+    "GOLL4": {
         "stock": "GOLL4",
         "name": "GOL PN",
         "close": 1.15,
@@ -1320,9 +1319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gol-linhas-aereas-inteligentes--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CEAB3": { 
+    "CEAB3": {
         "stock": "CEAB3",
         "name": "CEA MODAS",
         "close": 8.84,
@@ -1332,9 +1331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cea-modas-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "HBSA3": { 
+    "HBSA3": {
         "stock": "HBSA3",
         "name": "HIDROVIAS",
         "close": 3.7,
@@ -1344,9 +1343,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hidrovias-on-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "BRSR6": { 
+    "BRSR6": {
         "stock": "BRSR6",
         "name": "BANRISUL PNB",
         "close": 12.36,
@@ -1356,9 +1355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BOVV11": { 
+    "BOVV11": {
         "stock": "BOVV11",
         "name": "IT NOW IBOV CI",
         "close": 136.06,
@@ -1368,9 +1367,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SANB11": { 
+    "SANB11": {
         "stock": "SANB11",
         "name": "SANTANDER BRUNT",
         "close": 30.040001,
@@ -1380,9 +1379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "POSI3": { 
+    "POSI3": {
         "stock": "POSI3",
         "name": "POSITIVO TECON",
         "close": 7.18,
@@ -1392,9 +1391,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/positivo-tecon--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "VIVT3": { 
+    "VIVT3": {
         "stock": "VIVT3",
         "name": "TELEF BRASILON",
         "close": 51.619999,
@@ -1404,9 +1403,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telefonica--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "ECOR3": { 
+    "ECOR3": {
         "stock": "ECOR3",
         "name": "ECORODOVIAS",
         "close": 7.82,
@@ -1416,9 +1415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ecorodovias--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "QUAL3": { 
+    "QUAL3": {
         "stock": "QUAL3",
         "name": "QUALICORP",
         "close": 1.58,
@@ -1428,9 +1427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qualicorp-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "AZZA3": { 
+    "AZZA3": {
         "stock": "AZZA3",
         "name": "AZZAS 2154",
         "close": 55.16,
@@ -1440,9 +1439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/arezzo--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BRKM5": { 
+    "BRKM5": {
         "stock": "BRKM5",
         "name": "BRASKEM PNA",
         "close": 16.549999,
@@ -1452,9 +1451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/braskem--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "AESB3": { 
+    "AESB3": {
         "stock": "AESB3",
         "name": "AES BRASIL",
         "close": 11.4,
@@ -1464,9 +1463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aes-brasil--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "TAEE11": { 
+    "TAEE11": {
         "stock": "TAEE11",
         "name": "TAESA UNT",
         "close": 35.43,
@@ -1476,9 +1475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "fund",
-    }, 
+    },
 
-    "GMAT3": { 
+    "GMAT3": {
         "stock": "GMAT3",
         "name": "GRUPO MATEUSON",
         "close": 8.06,
@@ -1488,9 +1487,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupo-mateuson-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RECV3": { 
+    "RECV3": {
         "stock": "RECV3",
         "name": "PETRORECSA",
         "close": 21.799999,
@@ -1500,9 +1499,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petrorecsa-on-nm--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "DXCO3": { 
+    "DXCO3": {
         "stock": "DXCO3",
         "name": "DEXCO",
         "close": 7.65,
@@ -1512,9 +1511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexco-on-nm--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "RAPT4": { 
+    "RAPT4": {
         "stock": "RAPT4",
         "name": "RANDON PART PN",
         "close": 11.06,
@@ -1524,9 +1523,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/randon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TTEN3": { 
+    "TTEN3": {
         "stock": "TTEN3",
         "name": "3TENTOS",
         "close": 11.56,
@@ -1536,9 +1535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/3tentos-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "CXSE3": { 
+    "CXSE3": {
         "stock": "CXSE3",
         "name": "CAIXA SEGURION",
         "close": 14.41,
@@ -1548,9 +1547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/caixa-segurion--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PSSA3": { 
+    "PSSA3": {
         "stock": "PSSA3",
         "name": "PORTO SEGUROON",
         "close": 32.860001,
@@ -1560,9 +1559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/porto-seguro--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ALUP11": { 
+    "ALUP11": {
         "stock": "ALUP11",
         "name": "ALUPAR UNT",
         "close": 32.849998,
@@ -1572,9 +1571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "IRBR3": { 
+    "IRBR3": {
         "stock": "IRBR3",
         "name": "IRB(RE)",
         "close": 32.52,
@@ -1584,9 +1583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/irbbrasil-reon--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ELET6": { 
+    "ELET6": {
         "stock": "ELET6",
         "name": "ELETROBRAS PNB",
         "close": 44.639999,
@@ -1596,9 +1595,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/centrais-eletr-bras-sa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CPFE3": { 
+    "CPFE3": {
         "stock": "CPFE3",
         "name": "CPFL ENERGIAON",
         "close": 33.77,
@@ -1608,9 +1607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cpfl-energia--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN4": { 
+    "KLBN4": {
         "stock": "KLBN4",
         "name": "KLABIN S/A PN ED",
         "close": 4.18,
@@ -1620,9 +1619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "MXRF11": { 
+    "MXRF11": {
         "stock": "MXRF11",
         "name": "FII MAXI RENCI",
         "close": 10.02,
@@ -1632,9 +1631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "NASD11": { 
+    "NASD11": {
         "stock": "NASD11",
         "name": "TREND NASDAQCI",
         "close": 14.53,
@@ -1644,9 +1643,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BPAN4": { 
+    "BPAN4": {
         "stock": "BPAN4",
         "name": "BANCO PAN PN",
         "close": 9.76,
@@ -1656,9 +1655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-pan--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SMTO3": { 
+    "SMTO3": {
         "stock": "SMTO3",
         "name": "SAO MARTINHOON",
         "close": 29.879999,
@@ -1668,9 +1667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sao-martinhoon--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "XPBR31": { 
+    "XPBR31": {
         "stock": "XPBR31",
         "name": "XP INC DR1",
         "close": 108,
@@ -1680,9 +1679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/xp--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "EZTC3": { 
+    "EZTC3": {
         "stock": "EZTC3",
         "name": "EZTEC ED",
         "close": 13.97,
@@ -1692,9 +1691,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eztec--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ZAMP3": { 
+    "ZAMP3": {
         "stock": "ZAMP3",
         "name": "ZAMP S.A.",
         "close": 3.31,
@@ -1704,9 +1703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/burger-king--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "ABCB4": { 
+    "ABCB4": {
         "stock": "ABCB4",
         "name": "ABC BRASIL PN",
         "close": 22.690001,
@@ -1716,9 +1715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/abc-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HBOR3": { 
+    "HBOR3": {
         "stock": "HBOR3",
         "name": "HELBOR",
         "close": 2.17,
@@ -1728,9 +1727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/helbor--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SBFG3": { 
+    "SBFG3": {
         "stock": "SBFG3",
         "name": "GRUPO SBF",
         "close": 16.68,
@@ -1740,9 +1739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupo-sbf-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "EGIE3": { 
+    "EGIE3": {
         "stock": "EGIE3",
         "name": "ENGIE BRASILON",
         "close": 46.32,
@@ -1752,9 +1751,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/engie-brasilon-nm--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AMBP3": { 
+    "AMBP3": {
         "stock": "AMBP3",
         "name": "AMBIPAR",
         "close": 69.949997,
@@ -1764,9 +1763,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ambipar--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "DIRR3": { 
+    "DIRR3": {
         "stock": "DIRR3",
         "name": "DIRECIONAL",
         "close": 28.99,
@@ -1776,9 +1775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/direcional--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "TRIS3": { 
+    "TRIS3": {
         "stock": "TRIS3",
         "name": "TRISUL",
         "close": 4.71,
@@ -1788,9 +1787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/trisul--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "GUAR3": { 
+    "GUAR3": {
         "stock": "GUAR3",
         "name": "GUARARAPES",
         "close": 8.79,
@@ -1800,9 +1799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/guararapes--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "CASH3": { 
+    "CASH3": {
         "stock": "CASH3",
         "name": "MELIUZ",
         "close": 6.4,
@@ -1812,9 +1811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/meliuz--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GGPS3": { 
+    "GGPS3": {
         "stock": "GGPS3",
         "name": "GPS",
         "close": 17.85,
@@ -1824,9 +1823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gps-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "MILS3": { 
+    "MILS3": {
         "stock": "MILS3",
         "name": "MILLS",
         "close": 11.7,
@@ -1836,9 +1835,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mills--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ODPV3": { 
+    "ODPV3": {
         "stock": "ODPV3",
         "name": "ODONTOPREV",
         "close": 11.66,
@@ -1848,9 +1847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/odontoprev--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "TUPY3": { 
+    "TUPY3": {
         "stock": "TUPY3",
         "name": "TUPY",
         "close": 26.9,
@@ -1860,9 +1859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tupy--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SAPR4": { 
+    "SAPR4": {
         "stock": "SAPR4",
         "name": "SANEPAR PN",
         "close": 5.8,
@@ -1872,9 +1871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MEAL3": { 
+    "MEAL3": {
         "stock": "MEAL3",
         "name": "IMC S/A",
         "close": 1.65,
@@ -1884,9 +1883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/imc-s-a-on-nm--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CSMG3": { 
+    "CSMG3": {
         "stock": "CSMG3",
         "name": "COPASA",
         "close": 23.200001,
@@ -1896,9 +1895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/copasa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LIGT3": { 
+    "LIGT3": {
         "stock": "LIGT3",
         "name": "LIGHT S/A",
         "close": 4.85,
@@ -1908,9 +1907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/light--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MATD3": { 
+    "MATD3": {
         "stock": "MATD3",
         "name": "MATER DEI",
         "close": 4.44,
@@ -1920,9 +1919,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mater-dei-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "CURY3": { 
+    "CURY3": {
         "stock": "CURY3",
         "name": "CURY S/A",
         "close": 23.629999,
@@ -1932,9 +1931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cury-s-a-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "DASA3": { 
+    "DASA3": {
         "stock": "DASA3",
         "name": "DASA",
         "close": 2.8,
@@ -1944,9 +1943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dasa-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "NEOE3": { 
+    "NEOE3": {
         "stock": "NEOE3",
         "name": "NEOENERGIA",
         "close": 19.379999,
@@ -1956,9 +1955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/neoenergia--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CAML3": { 
+    "CAML3": {
         "stock": "CAML3",
         "name": "CAMIL",
         "close": 9.99,
@@ -1968,9 +1967,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/camil--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "OPCT3": { 
+    "OPCT3": {
         "stock": "OPCT3",
         "name": "OCEANPACT",
         "close": 6.55,
@@ -1980,9 +1979,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "ETER3": { 
+    "ETER3": {
         "stock": "ETER3",
         "name": "ETERNIT",
         "close": 6.06,
@@ -1992,9 +1991,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eternit--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "RANI3": { 
+    "RANI3": {
         "stock": "RANI3",
         "name": "IRANI ED",
         "close": 8.08,
@@ -2004,9 +2003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celul-irani--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "SAPR11": { 
+    "SAPR11": {
         "stock": "SAPR11",
         "name": "SANEPAR UNT",
         "close": 28.719999,
@@ -2016,9 +2015,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "PRNR3": { 
+    "PRNR3": {
         "stock": "PRNR3",
         "name": "PRINER",
         "close": 11.91,
@@ -2028,9 +2027,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GOLD11": { 
+    "GOLD11": {
         "stock": "GOLD11",
         "name": "TREND OURO CI",
         "close": 14.05,
@@ -2040,9 +2039,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EVEN3": { 
+    "EVEN3": {
         "stock": "EVEN3",
         "name": "EVEN",
         "close": 6.47,
@@ -2052,9 +2051,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/even--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "AERI3": { 
+    "AERI3": {
         "stock": "AERI3",
         "name": "AERIS",
         "close": 8.81,
@@ -2064,9 +2063,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aeris-on-nm--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "XINA11": { 
+    "XINA11": {
         "stock": "XINA11",
         "name": "TREND CHINA CI",
         "close": 5.71,
@@ -2076,9 +2075,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CSED3": { 
+    "CSED3": {
         "stock": "CSED3",
         "name": "CRUZEIRO EDUON",
         "close": 3.94,
@@ -2088,9 +2087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cruzeiro-eduon-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "INTB3": { 
+    "INTB3": {
         "stock": "INTB3",
         "name": "INTELBRAS",
         "close": 21.77,
@@ -2100,9 +2099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/intelbras-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "GRND3": { 
+    "GRND3": {
         "stock": "GRND3",
         "name": "GRENDENE",
         "close": 6.24,
@@ -2112,9 +2111,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grendene--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "LAVV3": { 
+    "LAVV3": {
         "stock": "LAVV3",
         "name": "LAVVI",
         "close": 8.83,
@@ -2124,9 +2123,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lavvi-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MDIA3": { 
+    "MDIA3": {
         "stock": "MDIA3",
         "name": "M.DIASBRANCOON",
         "close": 28.950001,
@@ -2136,9 +2135,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/m-diasbranco--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "EURP11": { 
+    "EURP11": {
         "stock": "EURP11",
         "name": "TREND EUROPACI",
         "close": 12.2,
@@ -2148,9 +2147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PLPL3": { 
+    "PLPL3": {
         "stock": "PLPL3",
         "name": "PLANOEPLANO",
         "close": 12.2,
@@ -2160,9 +2159,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SOJA3": { 
+    "SOJA3": {
         "stock": "SOJA3",
         "name": "BOA SAFRA",
         "close": 13.87,
@@ -2172,9 +2171,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/boa-safra-on-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BMGB4": { 
+    "BMGB4": {
         "stock": "BMGB4",
         "name": "BANCO BMG PN",
         "close": 3.65,
@@ -2184,9 +2183,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "FESA4": { 
+    "FESA4": {
         "stock": "FESA4",
         "name": "FERBASA PN",
         "close": 8.08,
@@ -2196,9 +2195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ferbasa--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "CPTS11": { 
+    "CPTS11": {
         "stock": "CPTS11",
         "name": "FII CAPI SECCI",
         "close": 8.13,
@@ -2208,9 +2207,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "VLID3": { 
+    "VLID3": {
         "stock": "VLID3",
         "name": "VALID",
         "close": 20.83,
@@ -2220,9 +2219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/valid--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GOGL34": { 
+    "GOGL34": {
         "stock": "GOGL34",
         "name": "ALPHABET DRN A",
         "close": 73.010002,
@@ -2232,9 +2231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alphabet--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "KRSA3": { 
+    "KRSA3": {
         "stock": "KRSA3",
         "name": "KORA SAUDE",
         "close": 0.6,
@@ -2244,9 +2243,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kora-saude-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "JALL3": { 
+    "JALL3": {
         "stock": "JALL3",
         "name": "JALLESMACHADON",
         "close": 6.79,
@@ -2256,9 +2255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jallesmachadon-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "MTRE3": { 
+    "MTRE3": {
         "stock": "MTRE3",
         "name": "MITRE REALTYON",
         "close": 3.9,
@@ -2268,9 +2267,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "KEPL3": { 
+    "KEPL3": {
         "stock": "KEPL3",
         "name": "KEPLER WEBERON",
         "close": 11.41,
@@ -2280,9 +2279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kepler-weberon-eb--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "AZEV3": { 
+    "AZEV3": {
         "stock": "AZEV3",
         "name": "AZEVEDO",
         "close": 1.41,
@@ -2292,9 +2291,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "SEER3": { 
+    "SEER3": {
         "stock": "SEER3",
         "name": "SER EDUCA",
         "close": 5.51,
@@ -2304,9 +2303,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ser-educa--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "MYPK3": { 
+    "MYPK3": {
         "stock": "MYPK3",
         "name": "IOCHP-MAXIONON",
         "close": 11.51,
@@ -2316,9 +2315,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iochp-maxionon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "AVGO34": { 
+    "AVGO34": {
         "stock": "AVGO34",
         "name": "BROADCOM INCDRN",
         "close": 12.2,
@@ -2328,9 +2327,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/broadcom--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BRIT3": { 
+    "BRIT3": {
         "stock": "BRIT3",
         "name": "BRISANET",
         "close": 3.94,
@@ -2340,9 +2339,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brisanet-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "BRBI11": { 
+    "BRBI11": {
         "stock": "BRBI11",
         "name": "BR PARTNERS UNT ED",
         "close": 15,
@@ -2352,9 +2351,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/br-partners-unt-n2--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "LOGG3": { 
+    "LOGG3": {
         "stock": "LOGG3",
         "name": "LOG COM PROPON",
         "close": 24.120001,
@@ -2364,9 +2363,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/log-commercial-properties--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "PNVL3": { 
+    "PNVL3": {
         "stock": "PNVL3",
         "name": "DIMED",
         "close": 10.91,
@@ -2376,9 +2375,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dimed--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "VULC3": { 
+    "VULC3": {
         "stock": "VULC3",
         "name": "VULCABRAS",
         "close": 17.870001,
@@ -2388,9 +2387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vulcabras--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "AMAR3": { 
+    "AMAR3": {
         "stock": "AMAR3",
         "name": "LOJAS MARISAON",
         "close": 1.3,
@@ -2400,9 +2399,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lojas-marisaon-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "SHOW3": { 
+    "SHOW3": {
         "stock": "SHOW3",
         "name": "TIME FOR FUNON",
         "close": 1.29,
@@ -2412,9 +2411,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/time-for-fun--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "TASA4": { 
+    "TASA4": {
         "stock": "TASA4",
         "name": "TAURUS ARMASPN",
         "close": 11.01,
@@ -2424,9 +2423,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taurus-armas--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "ITUB3": { 
+    "ITUB3": {
         "stock": "ITUB3",
         "name": "ITAUUNIBANCOON",
         "close": 31.309999,
@@ -2436,9 +2435,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "GARE11": { 
+    "GARE11": {
         "stock": "GARE11",
         "name": "FII GUARDIANCI",
         "close": 9.08,
@@ -2448,9 +2447,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "VITT3": { 
+    "VITT3": {
         "stock": "VITT3",
         "name": "VITTIA",
         "close": 5.99,
@@ -2460,9 +2459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vittia-on-ed-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "MDNE3": { 
+    "MDNE3": {
         "stock": "MDNE3",
         "name": "MOURA DUBEUXON",
         "close": 14.64,
@@ -2472,9 +2471,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CMIG3": { 
+    "CMIG3": {
         "stock": "CMIG3",
         "name": "CEMIG",
         "close": 13.79,
@@ -2484,9 +2483,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cemig--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "TECN3": { 
+    "TECN3": {
         "stock": "TECN3",
         "name": "TECHNOS",
         "close": 5.88,
@@ -2496,9 +2495,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupotechnos--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "PINE4": { 
+    "PINE4": {
         "stock": "PINE4",
         "name": "PINE PN",
         "close": 4.67,
@@ -2508,9 +2507,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ARML3": { 
+    "ARML3": {
         "stock": "ARML3",
         "name": "ARMAC",
         "close": 9.020001,
@@ -2520,9 +2519,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/armac-on-ed-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MELK3": { 
+    "MELK3": {
         "stock": "MELK3",
         "name": "MELNICK",
         "close": 3.6,
@@ -2532,9 +2531,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "NGRD3": { 
+    "NGRD3": {
         "stock": "NGRD3",
         "name": "NEOGRID",
         "close": 1.21,
@@ -2544,9 +2543,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/neogrid--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "MELI34": { 
+    "MELI34": {
         "stock": "MELI34",
         "name": "MERCADOLIBREDRN",
         "close": 86.239998,
@@ -2556,9 +2555,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mercadolibre--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "VALE3F": { 
+    "VALE3F": {
         "stock": "VALE3F",
         "name": "VALE",
         "close": 56,
@@ -2568,9 +2567,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vale--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "USIM3": { 
+    "USIM3": {
         "stock": "USIM3",
         "name": "USIMINAS",
         "close": 5.94,
@@ -2580,9 +2579,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/usiminas-pna-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "DISB34": { 
+    "DISB34": {
         "stock": "DISB34",
         "name": "WALT DISNEY DRN",
         "close": 31.280001,
@@ -2592,9 +2591,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/walt-disney--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "PGMN3": { 
+    "PGMN3": {
         "stock": "PGMN3",
         "name": "PAGUE MENOS",
         "close": 2.94,
@@ -2604,9 +2603,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pague-menos-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "PTBL3": { 
+    "PTBL3": {
         "stock": "PTBL3",
         "name": "PORTOBELLO",
         "close": 4.68,
@@ -2616,9 +2615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/portobello--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TGMA3": { 
+    "TGMA3": {
         "stock": "TGMA3",
         "name": "TEGMA EDJ",
         "close": 25.559999,
@@ -2628,9 +2627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tegma--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "HASH11": { 
+    "HASH11": {
         "stock": "HASH11",
         "name": "HASHDEX NCI CI",
         "close": 47.849998,
@@ -2640,9 +2639,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MBLY3": { 
+    "MBLY3": {
         "stock": "MBLY3",
         "name": "MOBLY",
         "close": 2.76,
@@ -2652,9 +2651,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "RURA11": { 
+    "RURA11": {
         "stock": "RURA11",
         "name": "FIAGRO RURA CI",
         "close": 9.78,
@@ -2664,9 +2663,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "JCIN11": { 
+    "JCIN11": {
         "stock": "JCIN11",
         "name": "FII JCIN CI",
         "close": 150.66,
@@ -2676,9 +2675,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LEVE3": { 
+    "LEVE3": {
         "stock": "LEVE3",
         "name": "METAL LEVE",
         "close": 33.689999,
@@ -2688,9 +2687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/metal-leve--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BCFF11": { 
+    "BCFF11": {
         "stock": "BCFF11",
         "name": "FII BC FFII CI ER",
         "close": 8.14,
@@ -2700,9 +2699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AMZO34": { 
+    "AMZO34": {
         "stock": "AMZO34",
         "name": "AMAZON DRN",
         "close": 46.540001,
@@ -2712,9 +2711,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/amazon--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "WIZC3": { 
+    "WIZC3": {
         "stock": "WIZC3",
         "name": "WIZ CO",
         "close": 6,
@@ -2724,9 +2723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wiz-s-a--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "JSLG3": { 
+    "JSLG3": {
         "stock": "JSLG3",
         "name": "JSL",
         "close": 9.25,
@@ -2736,9 +2735,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jsl--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN3": { 
+    "KLBN3": {
         "stock": "KLBN3",
         "name": "KLABIN S/A ED",
         "close": 4.2,
@@ -2748,9 +2747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "ESPA3": { 
+    "ESPA3": {
         "stock": "ESPA3",
         "name": "ESPACOLASER",
         "close": 1.02,
@@ -2760,9 +2759,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/espacolaser-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "TFCO4": { 
+    "TFCO4": {
         "stock": "TFCO4",
         "name": "TRACK FIELD PN",
         "close": 12.25,
@@ -2772,9 +2771,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/track-field-pn-n2--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "ORVR3": { 
+    "ORVR3": {
         "stock": "ORVR3",
         "name": "ORIZON",
         "close": 46.169998,
@@ -2784,9 +2783,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/orizon-on-nm--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "FIQE3": { 
+    "FIQE3": {
         "stock": "FIQE3",
         "name": "UNIFIQUE",
         "close": 3.79,
@@ -2796,9 +2795,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unifique-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "FRAS3": { 
+    "FRAS3": {
         "stock": "FRAS3",
         "name": "FRAS-LE",
         "close": 18.48,
@@ -2808,9 +2807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fras-le-on-n1--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "MSFT34": { 
+    "MSFT34": {
         "stock": "MSFT34",
         "name": "MICROSOFT DRN",
         "close": 94.800003,
@@ -2820,9 +2819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/microsoft--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BOVX11": { 
+    "BOVX11": {
         "stock": "BOVX11",
         "name": "TREND IBOVX CI",
         "close": 13.51,
@@ -2832,9 +2831,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MCHY11": { 
+    "MCHY11": {
         "stock": "MCHY11",
         "name": "FII MAUA HY CI",
         "close": 9.43,
@@ -2844,9 +2843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "QBTC11": { 
+    "QBTC11": {
         "stock": "QBTC11",
         "name": "QR BITCOIN CI",
         "close": 19.879999,
@@ -2856,9 +2855,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qr-bitcoin-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TAEE4": { 
+    "TAEE4": {
         "stock": "TAEE4",
         "name": "TAESA PN",
         "close": 11.85,
@@ -2868,9 +2867,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "HBRE3": { 
+    "HBRE3": {
         "stock": "HBRE3",
         "name": "HBR REALTY",
         "close": 5.2,
@@ -2880,9 +2879,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VGHF11": { 
+    "VGHF11": {
         "stock": "VGHF11",
         "name": "FII VALOR HECI",
         "close": 8.770001,
@@ -2892,9 +2891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-valreiiici--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SHUL4": { 
+    "SHUL4": {
         "stock": "SHUL4",
         "name": "SCHULZ PN",
         "close": 6.54,
@@ -2904,9 +2903,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/schulz--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "OIBR3": { 
+    "OIBR3": {
         "stock": "OIBR3",
         "name": "OI",
         "close": 4.3,
@@ -2916,9 +2915,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oi--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "VGIR11": { 
+    "VGIR11": {
         "stock": "VGIR11",
         "name": "FII VALREIIICI",
         "close": 9.82,
@@ -2928,9 +2927,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-valreiiici--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "KNSC11": { 
+    "KNSC11": {
         "stock": "KNSC11",
         "name": "FII KINEA SCCI",
         "close": 9.19,
@@ -2940,9 +2939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "DIVO11": { 
+    "DIVO11": {
         "stock": "DIVO11",
         "name": "IT NOW IDIV CI",
         "close": 94.550003,
@@ -2952,9 +2951,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "M1TA34": { 
+    "M1TA34": {
         "stock": "M1TA34",
         "name": "META PLAT DRN",
         "close": 102.78,
@@ -2964,9 +2963,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/meta-platforms--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "PORT3": { 
+    "PORT3": {
         "stock": "PORT3",
         "name": "WILSON SONS",
         "close": 16.719999,
@@ -2976,9 +2975,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wilson-sons-on-eb-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "AGXY3": { 
+    "AGXY3": {
         "stock": "AGXY3",
         "name": "AGROGALAXY",
         "close": 1.48,
@@ -2988,9 +2987,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/agrogalaxy-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "BMOB3": { 
+    "BMOB3": {
         "stock": "BMOB3",
         "name": "BEMOBI TECH",
         "close": 16.1,
@@ -3000,9 +2999,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bemobi-tech-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "UNIP6": { 
+    "UNIP6": {
         "stock": "UNIP6",
         "name": "UNIPAR PNB",
         "close": 49.060001,
@@ -3012,9 +3011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "SAPR3": { 
+    "SAPR3": {
         "stock": "SAPR3",
         "name": "SANEPAR",
         "close": 5.42,
@@ -3024,9 +3023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AGRO3": { 
+    "AGRO3": {
         "stock": "AGRO3",
         "name": "BRASILAGRO",
         "close": 26.35,
@@ -3036,9 +3035,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasilagro--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "AMER3F": { 
+    "AMER3F": {
         "stock": "AMER3F",
         "name": "AMERICANAS",
         "close": 0.34,
@@ -3048,9 +3047,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/americanas--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RCSL4": { 
+    "RCSL4": {
         "stock": "RCSL4",
         "name": "RECRUSUL PN",
         "close": 0.85,
@@ -3060,9 +3059,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/recrusul--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "RBRF11": { 
+    "RBRF11": {
         "stock": "RBRF11",
         "name": "FII RBRALPHACI ER",
         "close": 7.51,
@@ -3072,9 +3071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "M2ST34": { 
+    "M2ST34": {
         "stock": "M2ST34",
         "name": "MICROSTRATEGDRN EB",
         "close": 10.3,
@@ -3084,9 +3083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/microstrategy--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "RNEW4": { 
+    "RNEW4": {
         "stock": "RNEW4",
         "name": "RENOVA PN",
         "close": 0.89,
@@ -3096,9 +3095,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LUPA3F": { 
+    "LUPA3F": {
         "stock": "LUPA3F",
         "name": "LUPATECH",
         "close": 1.63,
@@ -3108,9 +3107,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "ITSA3": { 
+    "ITSA3": {
         "stock": "ITSA3",
         "name": "ITAUSA",
         "close": 10.82,
@@ -3120,9 +3119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itausa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HREC11": { 
+    "HREC11": {
         "stock": "HREC11",
         "name": "FII HEDGERECCI",
         "close": 8.59,
@@ -3132,9 +3131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VGIA11": { 
+    "VGIA11": {
         "stock": "VGIA11",
         "name": "FIAGRO VGIA CI",
         "close": 8.17,
@@ -3144,9 +3143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "RZAG11": { 
+    "RZAG11": {
         "stock": "RZAG11",
         "name": "FIAGRO RIZA CI",
         "close": 8.4,
@@ -3156,9 +3155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "POMO3": { 
+    "POMO3": {
         "stock": "POMO3",
         "name": "MARCOPOLO",
         "close": 5.48,
@@ -3168,9 +3167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marcopolo--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BBAS3F": { 
+    "BBAS3F": {
         "stock": "BBAS3F",
         "name": "BRASIL",
         "close": 27.950001,
@@ -3180,9 +3179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ELMD3": { 
+    "ELMD3": {
         "stock": "ELMD3",
         "name": "ELETROMIDIA",
         "close": 18.799999,
@@ -3192,9 +3191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eletromidia-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "PFIN11": { 
+    "PFIN11": {
         "stock": "PFIN11",
         "name": "FIP PERFIN CI",
         "close": 75.800003,
@@ -3204,9 +3203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LPSB3": { 
+    "LPSB3": {
         "stock": "LPSB3",
         "name": "LOPES BRASILON",
         "close": 1.78,
@@ -3216,9 +3215,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lopes--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "SANB4": { 
+    "SANB4": {
         "stock": "SANB4",
         "name": "SANTANDER BRPN",
         "close": 15.85,
@@ -3228,9 +3227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SANB3": { 
+    "SANB3": {
         "stock": "SANB3",
         "name": "SANTANDER BRON",
         "close": 14.12,
@@ -3240,9 +3239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VERZ34": { 
+    "VERZ34": {
         "stock": "VERZ34",
         "name": "VERIZON DRN",
         "close": 37.09,
@@ -3252,9 +3251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/verizon--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "BBOV11": { 
+    "BBOV11": {
         "stock": "BBOV11",
         "name": "BB ETF IBOV CI",
         "close": 69.339996,
@@ -3264,9 +3263,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "DESK3": { 
+    "DESK3": {
         "stock": "DESK3",
         "name": "DESKTOP",
         "close": 16.35,
@@ -3276,9 +3275,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/desktop-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "STOC31": { 
+    "STOC31": {
         "stock": "STOC31",
         "name": "STONE CO DR1",
         "close": 73.559998,
@@ -3288,9 +3287,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/stoneco--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BLAU3": { 
+    "BLAU3": {
         "stock": "BLAU3",
         "name": "BLAU",
         "close": 11.93,
@@ -3300,9 +3299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/blau-on-nm--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "SNAG11": { 
+    "SNAG11": {
         "stock": "SNAG11",
         "name": "FIAGRO SUNO CI ES",
         "close": 10.2,
@@ -3312,9 +3311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PYPL34": { 
+    "PYPL34": {
         "stock": "PYPL34",
         "name": "PAYPAL HOLD DRN",
         "close": 17.99,
@@ -3324,9 +3323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/paypal--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "TORD11": { 
+    "TORD11": {
         "stock": "TORD11",
         "name": "FII TORDE EICI",
         "close": 1.38,
@@ -3336,9 +3335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-urca-renci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VINO11": { 
+    "VINO11": {
         "stock": "VINO11",
         "name": "FII VINCI OFCI",
         "close": 6.04,
@@ -3348,9 +3347,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vinci-iuci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RCSL3": { 
+    "RCSL3": {
         "stock": "RCSL3",
         "name": "RECRUSUL",
         "close": 2.91,
@@ -3360,9 +3359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/recrusul--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "GGRC11": { 
+    "GGRC11": {
         "stock": "GGRC11",
         "name": "FII GGRCOVEPCI",
         "close": 10.8,
@@ -3372,9 +3371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PFRM3": { 
+    "PFRM3": {
         "stock": "PFRM3",
         "name": "PROFARMA",
         "close": 5.77,
@@ -3384,9 +3383,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/profarma--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "BABA34": { 
+    "BABA34": {
         "stock": "BABA34",
         "name": "ALIBABAGR DRN",
         "close": 15.56,
@@ -3396,9 +3395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alibaba--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "BTCI11": { 
+    "BTCI11": {
         "stock": "BTCI11",
         "name": "FII BTG CRI CI ER",
         "close": 9.87,
@@ -3408,9 +3407,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AAPL34": { 
+    "AAPL34": {
         "stock": "AAPL34",
         "name": "APPLE DRN ED",
         "close": 60.639999,
@@ -3420,9 +3419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/apple--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "ROMI3": { 
+    "ROMI3": {
         "stock": "ROMI3",
         "name": "ROMI",
         "close": 10.9,
@@ -3432,9 +3431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/industrias-romi--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TAEE3": { 
+    "TAEE3": {
         "stock": "TAEE3",
         "name": "TAESA",
         "close": 11.76,
@@ -3444,9 +3443,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BERK34": { 
+    "BERK34": {
         "stock": "BERK34",
         "name": "BERKSHIRE DRN",
         "close": 119.62,
@@ -3456,9 +3455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/berkshire-hathaway--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "PETR4F": { 
+    "PETR4F": {
         "stock": "PETR4F",
         "name": "PETROBRAS PN",
         "close": 37.700001,
@@ -3468,9 +3467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasileiro-petrobras--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "NFLX34": { 
+    "NFLX34": {
         "stock": "NFLX34",
         "name": "NETFLIX DRN",
         "close": 71.989998,
@@ -3480,9 +3479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/netflix--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CMIG4F": { 
+    "CMIG4F": {
         "stock": "CMIG4F",
         "name": "CEMIG PN",
         "close": 11.99,
@@ -3492,9 +3491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cemig--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "WALM34": { 
+    "WALM34": {
         "stock": "WALM34",
         "name": "WAL MART DRN",
         "close": 23.34540803,
@@ -3504,9 +3503,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/walmart--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "PAGS34": { 
+    "PAGS34": {
         "stock": "PAGS34",
         "name": "PAGSEGURO DRN",
         "close": 14.45,
@@ -3516,9 +3515,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pagseguro-digital--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "XPCA11": { 
+    "XPCA11": {
         "stock": "XPCA11",
         "name": "FIAGRO XP CACI",
         "close": 8.25,
@@ -3528,9 +3527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "INEP3F": { 
+    "INEP3F": {
         "stock": "INEP3F",
         "name": "INEPAR",
         "close": 1.96,
@@ -3540,9 +3539,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BRAP3": { 
+    "BRAP3": {
         "stock": "BRAP3",
         "name": "BRADESPAR",
         "close": 17.57,
@@ -3552,9 +3551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradespar--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "DEXP3": { 
+    "DEXP3": {
         "stock": "DEXP3",
         "name": "DEXXOS PAR",
         "close": 9.65,
@@ -3564,9 +3563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexxos-par--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "QCOM34": { 
+    "QCOM34": {
         "stock": "QCOM34",
         "name": "QUALCOMM DRN",
         "close": 76.089996,
@@ -3576,9 +3575,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qualcomm--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "GOAU3": { 
+    "GOAU3": {
         "stock": "GOAU3",
         "name": "GERDAU MET ED",
         "close": 10.25,
@@ -3588,9 +3587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BODB11": { 
+    "BODB11": {
         "stock": "BODB11",
         "name": "FIC FI BCNA CI",
         "close": 9.270001,
@@ -3600,9 +3599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fic-fi-bcna-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "WHGR11": { 
+    "WHGR11": {
         "stock": "WHGR11",
         "name": "FII WHG REALCI",
         "close": 9.7,
@@ -3612,9 +3611,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-whg-realci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "IBOV11": { 
+    "IBOV11": {
         "stock": "IBOV11",
         "name": "IBOVESPA IBO",
         "close": 133510,
@@ -3624,9 +3623,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/b3-on-nm--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RPMG3F": { 
+    "RPMG3F": {
         "stock": "RPMG3F",
         "name": "PET MANGUINHON",
         "close": 2.66,
@@ -3636,9 +3635,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "XPML11": { 
+    "XPML11": {
         "stock": "XPML11",
         "name": "FII XP MALLSCI",
         "close": 112.99,
@@ -3648,9 +3647,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "VTRU3": { 
+    "VTRU3": {
         "stock": "VTRU3",
         "name": "VITRUEDUCA",
         "close": 10.99,
@@ -3660,9 +3659,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "AJFI11": { 
+    "AJFI11": {
         "stock": "AJFI11",
         "name": "FII AJ MALLSCI ER",
         "close": 8.28,
@@ -3672,9 +3671,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TCSA3": { 
+    "TCSA3": {
         "stock": "TCSA3",
         "name": "TECNISA",
         "close": 2.06,
@@ -3684,9 +3683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tecnisa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RBRX11": { 
+    "RBRX11": {
         "stock": "RBRX11",
         "name": "FII RBR MULTCI",
         "close": 9.19,
@@ -3696,9 +3695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BIOM3": { 
+    "BIOM3": {
         "stock": "BIOM3",
         "name": "BIOMM MA",
         "close": 8.69,
@@ -3708,9 +3707,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "CPSH11": { 
+    "CPSH11": {
         "stock": "CPSH11",
         "name": "FII CPSH CI",
         "close": 10.58,
@@ -3720,9 +3719,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "KNCR11": { 
+    "KNCR11": {
         "stock": "KNCR11",
         "name": "FII KINEA RICI",
         "close": 103.99,
@@ -3732,9 +3731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "LILY34": { 
+    "LILY34": {
         "stock": "LILY34",
         "name": "LILLY DRN",
         "close": 169.67,
@@ -3744,9 +3743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eli-lilly--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "RENT3F": { 
+    "RENT3F": {
         "stock": "RENT3F",
         "name": "LOCALIZA",
         "close": 40.040001,
@@ -3756,9 +3755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/localiza--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ITSA4F": { 
+    "ITSA4F": {
         "stock": "ITSA4F",
         "name": "ITAUSA PN",
         "close": 10.9,
@@ -3768,9 +3767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itausa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "KCRE11": { 
+    "KCRE11": {
         "stock": "KCRE11",
         "name": "FII KINEA CRCI",
         "close": 9.51,
@@ -3780,9 +3779,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "FGAA11": { 
+    "FGAA11": {
         "stock": "FGAA11",
         "name": "FIAGRO FGA CI ER",
         "close": 8.58,
@@ -3792,9 +3791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PMAM3": { 
+    "PMAM3": {
         "stock": "PMAM3",
         "name": "PARANAPANEMAON",
         "close": 2.06,
@@ -3804,9 +3803,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BUSR39": { 
+    "BUSR39": {
         "stock": "BUSR39",
         "name": "CORE US REITDRE",
         "close": 53.099998,
@@ -3816,9 +3815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CSUD3": { 
+    "CSUD3": {
         "stock": "CSUD3",
         "name": "CSU DIGITAL",
         "close": 18.85,
@@ -3828,9 +3827,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "XPSF11": { 
+    "XPSF11": {
         "stock": "XPSF11",
         "name": "FII XP SELECCI",
         "close": 7.41,
@@ -3840,9 +3839,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PORD11": { 
+    "PORD11": {
         "stock": "PORD11",
         "name": "FII POLO CRICI",
         "close": 8.94,
@@ -3852,9 +3851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LUPA3": { 
+    "LUPA3": {
         "stock": "LUPA3",
         "name": "LUPATECH",
         "close": 1.63,
@@ -3864,9 +3863,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN4F": { 
+    "KLBN4F": {
         "stock": "KLBN4F",
         "name": "KLABIN S/A PN ED",
         "close": 4.2,
@@ -3876,9 +3875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "IVVB11": { 
+    "IVVB11": {
         "stock": "IVVB11",
         "name": "ISHARE SP500CI",
         "close": 332.48999,
@@ -3888,9 +3887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "IFCM3F": { 
+    "IFCM3F": {
         "stock": "IFCM3F",
         "name": "INFRACOMM",
         "close": 0.29,
@@ -3900,9 +3899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/infracomm-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "GGBR3": { 
+    "GGBR3": {
         "stock": "GGBR3",
         "name": "GERDAU ED",
         "close": 15.48,
@@ -3912,9 +3911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "KISU11": { 
+    "KISU11": {
         "stock": "KISU11",
         "name": "FII KILIMA CI",
         "close": 8.1,
@@ -3924,9 +3923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "AAZQ11": { 
+    "AAZQ11": {
         "stock": "AAZQ11",
         "name": "FIAGRO AAZQ CI",
         "close": 7.73,
@@ -3936,9 +3935,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "INEP3": { 
+    "INEP3": {
         "stock": "INEP3",
         "name": "INEPAR",
         "close": 1.93,
@@ -3948,9 +3947,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "EXCO32": { 
+    "EXCO32": {
         "stock": "EXCO32",
         "name": "EXITO DR2",
         "close": 12.21,
@@ -3960,9 +3959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/almacenes-exito-sa--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "ALPK3": { 
+    "ALPK3": {
         "stock": "ALPK3",
         "name": "ESTAPAR",
         "close": 3.94,
@@ -3972,9 +3971,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "DEXP4": { 
+    "DEXP4": {
         "stock": "DEXP4",
         "name": "DEXXOS PAR PN",
         "close": 9.19,
@@ -3984,9 +3983,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexxos-par--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "VIUR11": { 
+    "VIUR11": {
         "stock": "VIUR11",
         "name": "FII VINCI IUCI",
         "close": 6.5,
@@ -3996,9 +3995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vinci-iuci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BTLG11": { 
+    "BTLG11": {
         "stock": "BTLG11",
         "name": "FII BTLG CI",
         "close": 101.89,
@@ -4008,9 +4007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "A1MD34": { 
+    "A1MD34": {
         "stock": "A1MD34",
         "name": "ADVANCED MICDRN",
         "close": 95.32,
@@ -4020,9 +4019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/advanced-micro-devices--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BBSE3F": { 
+    "BBSE3F": {
         "stock": "BBSE3F",
         "name": "BBSEGURIDADEON",
         "close": 37.5,
@@ -4032,9 +4031,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CMIN3F": { 
+    "CMIN3F": {
         "stock": "CMIN3F",
         "name": "CSNMINERACAOON",
         "close": 5.01,
@@ -4044,9 +4043,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/csn-mineracao--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "TPIS3": { 
+    "TPIS3": {
         "stock": "TPIS3",
         "name": "TRIUNFO PARTON",
         "close": 4.3,
@@ -4056,9 +4055,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/triunfo-parton-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CPTR11": { 
+    "CPTR11": {
         "stock": "CPTR11",
         "name": "FIAGRO CPTR CI",
         "close": 8.07,
@@ -4068,9 +4067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CTSA4": { 
+    "CTSA4": {
         "stock": "CTSA4",
         "name": "SANTANENSE PN",
         "close": 1.35,
@@ -4080,9 +4079,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "USAL11": { 
+    "USAL11": {
         "stock": "USAL11",
         "name": "TREND US LRGCI",
         "close": 12.63,
@@ -4092,9 +4091,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TRAD3": { 
+    "TRAD3": {
         "stock": "TRAD3",
         "name": "TC",
         "close": 3.7,
@@ -4104,9 +4103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tc-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "TRXF11": { 
+    "TRXF11": {
         "stock": "TRXF11",
         "name": "FII TRX REALCI",
         "close": 105.85,
@@ -4116,9 +4115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-trxe-corci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VIVR3": { 
+    "VIVR3": {
         "stock": "VIVR3",
         "name": "VIVER",
         "close": 2.53,
@@ -4128,9 +4127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/viver-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BITH11": { 
+    "BITH11": {
         "stock": "BITH11",
         "name": "BITCOIN HASHCI",
         "close": 74.529999,
@@ -4140,9 +4139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SNEL11": { 
+    "SNEL11": {
         "stock": "SNEL11",
         "name": "FII SUNO EL CI",
         "close": 9.33,
@@ -4152,9 +4151,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SYNE3": { 
+    "SYNE3": {
         "stock": "SYNE3",
         "name": "SYN PROP TECON",
         "close": 10.57,
@@ -4164,9 +4163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/syn-prop-tecon-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VSLH11": { 
+    "VSLH11": {
         "stock": "VSLH11",
         "name": "FII VERS CRICI ER",
         "close": 3.37,
@@ -4176,9 +4175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BBDC4F": { 
+    "BBDC4F": {
         "stock": "BBDC4F",
         "name": "BRADESCO PN",
         "close": 15,
@@ -4188,9 +4187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradesco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "FIND11": { 
+    "FIND11": {
         "stock": "FIND11",
         "name": "IT NOW IFNC CI",
         "close": 134.2,
@@ -4200,9 +4199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AURA33": { 
+    "AURA33": {
         "stock": "AURA33",
         "name": "AURA 360 DR3",
         "close": 16.799999,
@@ -4212,9 +4211,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aura-360-dr3--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "KNHY11": { 
+    "KNHY11": {
         "stock": "KNHY11",
         "name": "FII KINEA HYCI",
         "close": 105.73,
@@ -4224,9 +4223,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MANA11": { 
+    "MANA11": {
         "stock": "MANA11",
         "name": "FII MANATI CI",
         "close": 9.34,
@@ -4236,9 +4235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TGAR11": { 
+    "TGAR11": {
         "stock": "TGAR11",
         "name": "FII TG ATIVOCI",
         "close": 117.71,
@@ -4248,9 +4247,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-tg-ativoci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "B3SA3F": { 
+    "B3SA3F": {
         "stock": "B3SA3F",
         "name": "B3",
         "close": 12.75,
@@ -4260,9 +4259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/b3-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "IRDM11": { 
+    "IRDM11": {
         "stock": "IRDM11",
         "name": "FII IRIDIUM CI ER",
         "close": 71.010002,
@@ -4272,9 +4271,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CAMB3": { 
+    "CAMB3": {
         "stock": "CAMB3",
         "name": "CAMBUCI",
         "close": 12.25,
@@ -4284,9 +4283,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ALLD3": { 
+    "ALLD3": {
         "stock": "ALLD3",
         "name": "ALLIED",
         "close": 7.56,
@@ -4296,9 +4295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/allied-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "C2OI34": { 
+    "C2OI34": {
         "stock": "C2OI34",
         "name": "COINBASEGLOBDRN",
         "close": 42.98,
@@ -4308,9 +4307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coinbase--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "ENGI4": { 
+    "ENGI4": {
         "stock": "ENGI4",
         "name": "ENERGISA PN",
         "close": 8.45,
@@ -4320,9 +4319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "IBIT39": { 
+    "IBIT39": {
         "stock": "IBIT39",
         "name": "ISHARES BITCOIN TRUST BDR",
         "close": 61.400002,
@@ -4332,9 +4331,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "RSID3F": { 
+    "RSID3F": {
         "stock": "RSID3F",
         "name": "ROSSI RESID",
         "close": 3.65,
@@ -4344,9 +4343,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "KNIP11": { 
+    "KNIP11": {
         "stock": "KNIP11",
         "name": "FII KINEA IPCI",
         "close": 95.339996,
@@ -4356,9 +4355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ITUB4F": { 
+    "ITUB4F": {
         "stock": "ITUB4F",
         "name": "ITAUUNIBANCOPN",
         "close": 36.529999,
@@ -4368,9 +4367,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BBIG11": { 
+    "BBIG11": {
         "stock": "BBIG11",
         "name": "FII BBIG CI",
         "close": 9.45,
@@ -4380,9 +4379,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JSRE11": { 
+    "JSRE11": {
         "stock": "JSRE11",
         "name": "FII JS REAL CI",
         "close": 63.950001,
@@ -4392,9 +4391,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "QETH11": { 
+    "QETH11": {
         "stock": "QETH11",
         "name": "QR ETHER CI",
         "close": 10.44,
@@ -4404,9 +4403,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qr-bitcoin-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ASML34": { 
+    "ASML34": {
         "stock": "ASML34",
         "name": "ASML HOLD DRN",
         "close": 87.660004,
@@ -4416,9 +4415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/asml--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "MGLU3F": { 
+    "MGLU3F": {
         "stock": "MGLU3F",
         "name": "MAGAZINE LUIZA",
         "close": 12.77,
@@ -4428,9 +4427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/magaz-luiza-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "TAEE11F": { 
+    "TAEE11F": {
         "stock": "TAEE11F",
         "name": "TAESA UNT",
         "close": 35.439999,
@@ -4440,9 +4439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "fund",
-    }, 
+    },
 
-    "JURO11": { 
+    "JURO11": {
         "stock": "JURO11",
         "name": "SPARTA INFRACI",
         "close": 107.39,
@@ -4452,9 +4451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sparta-infrafidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DEBB11": { 
+    "DEBB11": {
         "stock": "DEBB11",
         "name": "BTG DEB DI F11",
         "close": 13.1,
@@ -4464,9 +4463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pactual-ibovci--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CXSE3F": { 
+    "CXSE3F": {
         "stock": "CXSE3F",
         "name": "CAIXA SEGURION",
         "close": 14.39,
@@ -4476,9 +4475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/caixa-segurion--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RNEW3": { 
+    "RNEW3": {
         "stock": "RNEW3",
         "name": "RENOVA",
         "close": 0.88,
@@ -4488,9 +4487,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "RAIZ4F": { 
+    "RAIZ4F": {
         "stock": "RAIZ4F",
         "name": "RAIZEN PN ED",
         "close": 3.3,
@@ -4500,9 +4499,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/raizen--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "DMVF3": { 
+    "DMVF3": {
         "stock": "DMVF3",
         "name": "D1000VFARMA",
         "close": 7.35,
@@ -4512,9 +4511,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "EUCA4": { 
+    "EUCA4": {
         "stock": "EUCA4",
         "name": "EUCATEX PN",
         "close": 15.26,
@@ -4524,9 +4523,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eucatex-pn-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BDIF11": { 
+    "BDIF11": {
         "stock": "BDIF11",
         "name": "FIC INFR BTGCI",
         "close": 85.889999,
@@ -4536,9 +4535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fic-fi-bcna-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "AZUL4F": { 
+    "AZUL4F": {
         "stock": "AZUL4F",
         "name": "AZUL PN",
         "close": 7.74,
@@ -4548,9 +4547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/azul--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CDII11": { 
+    "CDII11": {
         "stock": "CDII11",
         "name": "SPARTA CDII CI",
         "close": 116.09,
@@ -4560,9 +4559,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IGTI3": { 
+    "IGTI3": {
         "stock": "IGTI3",
         "name": "IGUATEMI S.AON",
         "close": 2.96,
@@ -4572,9 +4571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iguatemi-saon-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "TASA3": { 
+    "TASA3": {
         "stock": "TASA3",
         "name": "TAURUS ARMASON",
         "close": 11.17,
@@ -4584,9 +4583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taurus-armas--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "LFTS11": { 
+    "LFTS11": {
         "stock": "LFTS11",
         "name": "INVESTO LFTSF11",
         "close": 122.48,
@@ -4596,9 +4595,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TSMC34": { 
+    "TSMC34": {
         "stock": "TSMC34",
         "name": "TAIWANSMFAC DRN",
         "close": 115.75,
@@ -4608,9 +4607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taiwan-semiconductor--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "JSAF11": { 
+    "JSAF11": {
         "stock": "JSAF11",
         "name": "FII JS A FINCI",
         "close": 98.989998,
@@ -4620,9 +4619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VGRI11": { 
+    "VGRI11": {
         "stock": "VGRI11",
         "name": "FII VGRI CI",
         "close": 9.09,
@@ -4632,9 +4631,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "G2DI33": { 
+    "G2DI33": {
         "stock": "G2DI33",
         "name": "G2D INVEST DR3",
         "close": 2.1,
@@ -4644,9 +4643,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "SAPR4F": { 
+    "SAPR4F": {
         "stock": "SAPR4F",
         "name": "SANEPAR PN",
         "close": 5.82,
@@ -4656,9 +4655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ITLC34": { 
+    "ITLC34": {
         "stock": "ITLC34",
         "name": "INTEL DRN ED",
         "close": 18.190001,
@@ -4668,9 +4667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/intel--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "A1MT34": { 
+    "A1MT34": {
         "stock": "A1MT34",
         "name": "APPLIED MATEDRN",
         "close": 110.35,
@@ -4680,9 +4679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/applied-materials--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "C2RW34": { 
+    "C2RW34": {
         "stock": "C2RW34",
         "name": "CROWDSTRIKE DRN",
         "close": 63.650002,
@@ -4692,9 +4691,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/crowdstrike--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ETHE11": { 
+    "ETHE11": {
         "stock": "ETHE11",
         "name": "ETHER HASH CI",
         "close": 43.040001,
@@ -4704,9 +4703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RZAK11": { 
+    "RZAK11": {
         "stock": "RZAK11",
         "name": "FII RIZA AKNCI",
         "close": 83.5,
@@ -4716,9 +4715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RECR11": { 
+    "RECR11": {
         "stock": "RECR11",
         "name": "FII REC RECECI ER",
         "close": 83.349998,
@@ -4728,9 +4727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "XPLG11": { 
+    "XPLG11": {
         "stock": "XPLG11",
         "name": "FII XP LOG CI",
         "close": 102.33,
@@ -4740,9 +4739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "JBSS3F": { 
+    "JBSS3F": {
         "stock": "JBSS3F",
         "name": "JBS",
         "close": 37.240002,
@@ -4752,9 +4751,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jbs-s-a--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "LAND3": { 
+    "LAND3": {
         "stock": "LAND3",
         "name": "TERRASANTAPAON",
         "close": 13.2,
@@ -4764,9 +4763,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/terrasantapaon-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RZTR11": { 
+    "RZTR11": {
         "stock": "RZTR11",
         "name": "FII RIZA TX CI",
         "close": 94.099998,
@@ -4776,9 +4775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VISC11": { 
+    "VISC11": {
         "stock": "VISC11",
         "name": "FII VINCI SCCI",
         "close": 112.91,
@@ -4788,9 +4787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vinci--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CPLE6F": { 
+    "CPLE6F": {
         "stock": "CPLE6F",
         "name": "COPEL PNB",
         "close": 10.58,
@@ -4800,9 +4799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CNES11": { 
+    "CNES11": {
         "stock": "CNES11",
         "name": "FII CENESP CI",
         "close": 1.51,
@@ -4812,9 +4811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HCTR11": { 
+    "HCTR11": {
         "stock": "HCTR11",
         "name": "FII HECTARE CI ER",
         "close": 28.92,
@@ -4824,9 +4823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AMBP3F": { 
+    "AMBP3F": {
         "stock": "AMBP3F",
         "name": "AMBIPAR",
         "close": 70,
@@ -4836,9 +4835,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ambipar--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "TRPL4F": { 
+    "TRPL4F": {
         "stock": "TRPL4F",
         "name": "TRAN PAULISTPN",
         "close": 24.790001,
@@ -4848,9 +4847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tran-paulistpn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "GOAU4F": { 
+    "GOAU4F": {
         "stock": "GOAU4F",
         "name": "GERDAU MET PN ED",
         "close": 10.14,
@@ -4860,9 +4859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "ACWI11": { 
+    "ACWI11": {
         "stock": "ACWI11",
         "name": "TREND ACWI CI",
         "close": 12.81,
@@ -4872,9 +4871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CPTI11": { 
+    "CPTI11": {
         "stock": "CPTI11",
         "name": "FIC IE CAP CI",
         "close": 96.080002,
@@ -4884,9 +4883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fic-fi-bcna-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "AALR3": { 
+    "AALR3": {
         "stock": "AALR3",
         "name": "ALLIAR",
         "close": 10.44,
@@ -4896,9 +4895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alliar--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "UCAS3": { 
+    "UCAS3": {
         "stock": "UCAS3",
         "name": "UNICASA",
         "close": 2.28,
@@ -4908,9 +4907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unicasa-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "KNUQ11": { 
+    "KNUQ11": {
         "stock": "KNUQ11",
         "name": "FII KINEA UNCI",
         "close": 104.29,
@@ -4920,9 +4919,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBRY11": { 
+    "RBRY11": {
         "stock": "RBRY11",
         "name": "FII RBR PCRICI ER",
         "close": 95,
@@ -4932,9 +4931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "HGLG11": { 
+    "HGLG11": {
         "stock": "HGLG11",
         "name": "FII HGLG PAXCI",
         "close": 160.97,
@@ -4944,9 +4943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ORCL34": { 
+    "ORCL34": {
         "stock": "ORCL34",
         "name": "ORACLE DRN",
         "close": 123.49,
@@ -4956,9 +4955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oracle--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "AURE3F": { 
+    "AURE3F": {
         "stock": "AURE3F",
         "name": "AUREN",
         "close": 11.68,
@@ -4968,9 +4967,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CLSC4": { 
+    "CLSC4": {
         "stock": "CLSC4",
         "name": "CELESC PN",
         "close": 74.660004,
@@ -4980,9 +4979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celesc-on-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BRAP4F": { 
+    "BRAP4F": {
         "stock": "BRAP4F",
         "name": "BRADESPAR PN",
         "close": 18.25,
@@ -4992,9 +4991,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradespar--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BRFS3F": { 
+    "BRFS3F": {
         "stock": "BRFS3F",
         "name": "BRF SA",
         "close": 23.6,
@@ -5004,9 +5003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brf-sa--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CSAN3F": { 
+    "CSAN3F": {
         "stock": "CSAN3F",
         "name": "COSAN",
         "close": 13.55,
@@ -5016,9 +5015,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosan--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "WEGE3F": { 
+    "WEGE3F": {
         "stock": "WEGE3F",
         "name": "WEG ED",
         "close": 51.75,
@@ -5028,9 +5027,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/weg--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "HSML11": { 
+    "HSML11": {
         "stock": "HSML11",
         "name": "FII HSI MALLCI",
         "close": 94.260002,
@@ -5040,9 +5039,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RSID3": { 
+    "RSID3": {
         "stock": "RSID3",
         "name": "ROSSI RESID",
         "close": 3.68,
@@ -5052,9 +5051,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SPXS11": { 
+    "SPXS11": {
         "stock": "SPXS11",
         "name": "FII SPX SYN CI ER",
         "close": 9.29,
@@ -5064,9 +5063,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PRIO3F": { 
+    "PRIO3F": {
         "stock": "PRIO3F",
         "name": "PETRORIO",
         "close": 49.669998,
@@ -5076,9 +5075,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petrorio-on-nm--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "GENB11": { 
+    "GENB11": {
         "stock": "GENB11",
         "name": "ETF BTG GENBCI",
         "close": 14.84,
@@ -5088,9 +5087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SEQL3F": { 
+    "SEQL3F": {
         "stock": "SEQL3F",
         "name": "SEQUOIA LOG",
         "close": 6.14,
@@ -5100,9 +5099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sequoia-log-on-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "TAEE4F": { 
+    "TAEE4F": {
         "stock": "TAEE4F",
         "name": "TAESA PN",
         "close": 11.91,
@@ -5112,9 +5111,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "RPMG3": { 
+    "RPMG3": {
         "stock": "RPMG3",
         "name": "PET MANGUINHON",
         "close": 2.64,
@@ -5124,9 +5123,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "XPIE11": { 
+    "XPIE11": {
         "stock": "XPIE11",
         "name": "FIP XP INFRACI",
         "close": 76.650002,
@@ -5136,9 +5135,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "USIM5F": { 
+    "USIM5F": {
         "stock": "USIM5F",
         "name": "USIMINAS PNA",
         "close": 6.12,
@@ -5148,9 +5147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/usiminas-pna-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "PVBI11": { 
+    "PVBI11": {
         "stock": "PVBI11",
         "name": "FII VBI PRI CI",
         "close": 93.739998,
@@ -5160,9 +5159,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LVBI11": { 
+    "LVBI11": {
         "stock": "LVBI11",
         "name": "FII VBI LOG CI",
         "close": 112.44,
@@ -5172,9 +5171,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "SCAR3": { 
+    "SCAR3": {
         "stock": "SCAR3",
         "name": "SAO CARLOS",
         "close": 23.41,
@@ -5184,9 +5183,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sao-carlos-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CSCO34": { 
+    "CSCO34": {
         "stock": "CSCO34",
         "name": "CISCO DRN",
         "close": 49.860001,
@@ -5196,9 +5195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cisco--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "PMIS11": { 
+    "PMIS11": {
         "stock": "PMIS11",
         "name": "FII PMIS CI ES",
         "close": 9.45,
@@ -5208,9 +5207,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PSSA3F": { 
+    "PSSA3F": {
         "stock": "PSSA3F",
         "name": "PORTO SEGUROON",
         "close": 32.700001,
@@ -5220,9 +5219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/porto-seguro--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ESGU11": { 
+    "ESGU11": {
         "stock": "ESGU11",
         "name": "TREND ESG USCI",
         "close": 11.21,
@@ -5232,9 +5231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "OIAG11": { 
+    "OIAG11": {
         "stock": "OIAG11",
         "name": "FIAGRO INNOVCI ER",
         "close": 7.89,
@@ -5244,9 +5243,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "DEVA11": { 
+    "DEVA11": {
         "stock": "DEVA11",
         "name": "FII DEVANT CI ER",
         "close": 37.849998,
@@ -5256,9 +5255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IMAB11": { 
+    "IMAB11": {
         "stock": "IMAB11",
         "name": "IT NOW IMA-BF11",
         "close": 101.73,
@@ -5268,9 +5267,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/i-mab-biopharma--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BBDC3F": { 
+    "BBDC3F": {
         "stock": "BBDC3F",
         "name": "BRADESCO",
         "close": 13.42,
@@ -5280,9 +5279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradesco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "KNRI11": { 
+    "KNRI11": {
         "stock": "KNRI11",
         "name": "FII KINEA CI",
         "close": 154.83,
@@ -5292,9 +5291,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CSNA3F": { 
+    "CSNA3F": {
         "stock": "CSNA3F",
         "name": "SID NACIONALON",
         "close": 11.8,
@@ -5304,9 +5303,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/companhia-siderurgica-nacional--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "CSED3F": { 
+    "CSED3F": {
         "stock": "CSED3F",
         "name": "CRUZEIRO EDUON",
         "close": 3.97,
@@ -5316,9 +5315,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cruzeiro-eduon-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN11F": { 
+    "KLBN11F": {
         "stock": "KLBN11F",
         "name": "KLABIN S/A UNT ED",
         "close": 21.030001,
@@ -5328,9 +5327,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "fund",
-    }, 
+    },
 
-    "CSMG3F": { 
+    "CSMG3F": {
         "stock": "CSMG3F",
         "name": "COPASA",
         "close": 23.299999,
@@ -5340,9 +5339,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/copasa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AGRX11": { 
+    "AGRX11": {
         "stock": "AGRX11",
         "name": "FIAGRO AGRX CI ER",
         "close": 9.73,
@@ -5352,9 +5351,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "Z2IT34": { 
+    "Z2IT34": {
         "stock": "Z2IT34",
         "name": "ZOOMINFO TC DRN",
         "close": 6.11,
@@ -5364,9 +5363,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/zoominfo--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "COGN3F": { 
+    "COGN3F": {
         "stock": "COGN3F",
         "name": "COGNA",
         "close": 1.39,
@@ -5376,9 +5375,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cogna--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BRCR11": { 
+    "BRCR11": {
         "stock": "BRCR11",
         "name": "FII BC FUND CI ER",
         "close": 50.549999,
@@ -5388,9 +5387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "RANI3F": { 
+    "RANI3F": {
         "stock": "RANI3F",
         "name": "IRANI ED",
         "close": 8.16,
@@ -5400,9 +5399,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celul-irani--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "ALUP4": { 
+    "ALUP4": {
         "stock": "ALUP4",
         "name": "ALUPAR PN",
         "close": 10.74,
@@ -5412,9 +5411,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "KNHF11": { 
+    "KNHF11": {
         "stock": "KNHF11",
         "name": "FII KINEA HFCI",
         "close": 96.25,
@@ -5424,9 +5423,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HSHY34": { 
+    "HSHY34": {
         "stock": "HSHY34",
         "name": "HERSHEY CO DRN",
         "close": 219.4116474,
@@ -5436,9 +5435,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hershey--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "GGBR4F": { 
+    "GGBR4F": {
         "stock": "GGBR4F",
         "name": "GERDAU PN ED",
         "close": 17.440001,
@@ -5448,9 +5447,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "VIFI11": { 
+    "VIFI11": {
         "stock": "VIFI11",
         "name": "FII VINCI IFCI",
         "close": 8.05,
@@ -5460,9 +5459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vinci-iuci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TASA4F": { 
+    "TASA4F": {
         "stock": "TASA4F",
         "name": "TAURUS ARMASPN",
         "close": 11.14,
@@ -5472,9 +5471,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taurus-armas--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "IFRA11": { 
+    "IFRA11": {
         "stock": "IFRA11",
         "name": "FI ITA INFRA",
         "close": 109.86,
@@ -5484,9 +5483,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LIFE11": { 
+    "LIFE11": {
         "stock": "LIFE11",
         "name": "FII LIFE CI",
         "close": 10.55,
@@ -5496,9 +5495,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BRSR6F": { 
+    "BRSR6F": {
         "stock": "BRSR6F",
         "name": "BANRISUL PNB",
         "close": 12.42,
@@ -5508,9 +5507,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MLAS3F": { 
+    "MLAS3F": {
         "stock": "MLAS3F",
         "name": "MULTILASER",
         "close": 1.93,
@@ -5520,9 +5519,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/multilaser-on-ed-nm--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "ALZM11": { 
+    "ALZM11": {
         "stock": "ALZM11",
         "name": "FII ALIANZMECI",
         "close": 7.85,
@@ -5532,9 +5531,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "NUTR3": { 
+    "NUTR3": {
         "stock": "NUTR3",
         "name": "NUTRIPLANT MA",
         "close": 5.26,
@@ -5544,9 +5543,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "KLBN3F": { 
+    "KLBN3F": {
         "stock": "KLBN3F",
         "name": "KLABIN S/A ED",
         "close": 4.21,
@@ -5556,9 +5555,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/klabin--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "CYCR11": { 
+    "CYCR11": {
         "stock": "CYCR11",
         "name": "FII CYRELA CI",
         "close": 9.78,
@@ -5568,9 +5567,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ARRI11": { 
+    "ARRI11": {
         "stock": "ARRI11",
         "name": "FII ATRIO CI",
         "close": 9.04,
@@ -5580,9 +5579,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FHER3": { 
+    "FHER3": {
         "stock": "FHER3",
         "name": "FER HERINGERON",
         "close": 4.27,
@@ -5592,9 +5591,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fer-heringeron-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "HAPV3F": { 
+    "HAPV3F": {
         "stock": "HAPV3F",
         "name": "HAPVIDA",
         "close": 4.5,
@@ -5604,9 +5603,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hapvida--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "WEST3": { 
+    "WEST3": {
         "stock": "WEST3",
         "name": "WESTWING",
         "close": 0.93,
@@ -5616,9 +5615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/westwing-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "MCCI11": { 
+    "MCCI11": {
         "stock": "MCCI11",
         "name": "FII MAUA CI",
         "close": 88.300003,
@@ -5628,9 +5627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LVTC3": { 
+    "LVTC3": {
         "stock": "LVTC3",
         "name": "WDC NETWORKSON",
         "close": 3.85,
@@ -5640,9 +5639,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "ABEV3F": { 
+    "ABEV3F": {
         "stock": "ABEV3F",
         "name": "AMBEV S/A",
         "close": 12.55,
@@ -5652,9 +5651,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ambev--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "DMVF3F": { 
+    "DMVF3F": {
         "stock": "DMVF3F",
         "name": "D1000VFARMA",
         "close": 7.46,
@@ -5664,9 +5663,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "SMAC11": { 
+    "SMAC11": {
         "stock": "SMAC11",
         "name": "IT NOW SMALLCI",
         "close": 54.279999,
@@ -5676,9 +5675,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "L1MN34": { 
+    "L1MN34": {
         "stock": "L1MN34",
         "name": "LUMEN TECH DRN",
         "close": 31.290001,
@@ -5688,9 +5687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lumen--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "IRBR3F": { 
+    "IRBR3F": {
         "stock": "IRBR3F",
         "name": "IRBBRASIL",
         "close": 32.880001,
@@ -5700,9 +5699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/irbbrasil-reon--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MRFG3F": { 
+    "MRFG3F": {
         "stock": "MRFG3F",
         "name": "MARFRIG",
         "close": 12.92,
@@ -5712,9 +5711,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marfrig-on-nm--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "KDIF11": { 
+    "KDIF11": {
         "stock": "KDIF11",
         "name": "KINEA INFRAFCI",
         "close": 136.83,
@@ -5724,9 +5723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kinea-infraffidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ELET3F": { 
+    "ELET3F": {
         "stock": "ELET3F",
         "name": "ELETROBRAS",
         "close": 40.200001,
@@ -5736,9 +5735,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/centrais-eletr-bras-sa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BRKM3": { 
+    "BRKM3": {
         "stock": "BRKM3",
         "name": "BRASKEM",
         "close": 16.870001,
@@ -5748,9 +5747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/braskem--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "VIGT11": { 
+    "VIGT11": {
         "stock": "VIGT11",
         "name": "FIP VINCI IECI",
         "close": 64.690002,
@@ -5760,9 +5759,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FLRY3F": { 
+    "FLRY3F": {
         "stock": "FLRY3F",
         "name": "FLEURY",
         "close": 15.54472604,
@@ -5772,9 +5771,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fleury-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "XPPR11": { 
+    "XPPR11": {
         "stock": "XPPR11",
         "name": "FII XP PROP CI",
         "close": 18.49,
@@ -5784,9 +5783,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VGIP11": { 
+    "VGIP11": {
         "stock": "VGIP11",
         "name": "FII VALORAIPCI",
         "close": 88.349998,
@@ -5796,9 +5795,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-valreiiici--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RDOR3F": { 
+    "RDOR3F": {
         "stock": "RDOR3F",
         "name": "REDE D OR",
         "close": 30.82,
@@ -5808,9 +5807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rede-d-or--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "B2HI34": { 
+    "B2HI34": {
         "stock": "B2HI34",
         "name": "BILL HOLD DRN",
         "close": 1.42,
@@ -5820,9 +5819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bill-com--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "HGRU11": { 
+    "HGRU11": {
         "stock": "HGRU11",
         "name": "FII HGRU PAXCI",
         "close": 127.35,
@@ -5832,9 +5831,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BRCO11": { 
+    "BRCO11": {
         "stock": "BRCO11",
         "name": "FII BRESCO CI",
         "close": 117.02,
@@ -5844,9 +5843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "KNCA11": { 
+    "KNCA11": {
         "stock": "KNCA11",
         "name": "FIAGRO KINEACI",
         "close": 103.59,
@@ -5856,9 +5855,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CRAA11": { 
+    "CRAA11": {
         "stock": "CRAA11",
         "name": "FIAGRO CRAA CI ER",
         "close": 103.9,
@@ -5868,9 +5867,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BMEB4": { 
+    "BMEB4": {
         "stock": "BMEB4",
         "name": "MERCANTIL PN",
         "close": 37.110001,
@@ -5880,9 +5879,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/merc-brasil-pn-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "B5MB11": { 
+    "B5MB11": {
         "stock": "B5MB11",
         "name": "BRAD IMA-B5MF11",
         "close": 122.32,
@@ -5892,9 +5891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brad-ima-b-f11--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EVBI11": { 
+    "EVBI11": {
         "stock": "EVBI11",
         "name": "FII VBI CON CI",
         "close": 10.02,
@@ -5904,9 +5903,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DOLA11": { 
+    "DOLA11": {
         "stock": "DOLA11",
         "name": "BB ETF DOLARCI",
         "close": 9.88,
@@ -5916,9 +5915,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BMGB4F": { 
+    "BMGB4F": {
         "stock": "BMGB4F",
         "name": "BANCO BMG PN",
         "close": 3.68,
@@ -5928,9 +5927,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CACR11": { 
+    "CACR11": {
         "stock": "CACR11",
         "name": "CARTESIA FIICI",
         "close": 104.46,
@@ -5940,9 +5939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cartesia-fiici--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SUZB3F": { 
+    "SUZB3F": {
         "stock": "SUZB3F",
         "name": "SUZANO S.A.",
         "close": 54.900002,
@@ -5952,9 +5951,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/suzano--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "COPH34": { 
+    "COPH34": {
         "stock": "COPH34",
         "name": "COPHILLIPS DRN ED",
         "close": 50.009998,
@@ -5964,9 +5963,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/conocophillips--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "VILG11": { 
+    "VILG11": {
         "stock": "VILG11",
         "name": "FII VINCI LGCI",
         "close": 88.650002,
@@ -5976,9 +5975,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vinci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ENGI3": { 
+    "ENGI3": {
         "stock": "ENGI3",
         "name": "ENERGISA",
         "close": 14.55,
@@ -5988,9 +5987,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MALL11": { 
+    "MALL11": {
         "stock": "MALL11",
         "name": "FII MALLS BPCI",
         "close": 108.33,
@@ -6000,9 +5999,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CIEL3F": { 
+    "CIEL3F": {
         "stock": "CIEL3F",
         "name": "CIELO",
         "close": 5.79,
@@ -6012,9 +6011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cielo--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "UTEC11": { 
+    "UTEC11": {
         "stock": "UTEC11",
         "name": "TREND US TECCI",
         "close": 18.049999,
@@ -6024,9 +6023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AVLL3": { 
+    "AVLL3": {
         "stock": "AVLL3",
         "name": "ALPHAVILLE",
         "close": 4.2,
@@ -6036,9 +6035,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CCME11": { 
+    "CCME11": {
         "stock": "CCME11",
         "name": "FII CANUMA CI ER",
         "close": 10.53,
@@ -6048,9 +6047,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "VIVT3F": { 
+    "VIVT3F": {
         "stock": "VIVT3F",
         "name": "TELEF BRASILON",
         "close": 51.459999,
@@ -6060,9 +6059,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telefonica--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "S2NW34": { 
+    "S2NW34": {
         "stock": "S2NW34",
         "name": "SNOWFLAKE DRN",
         "close": 17.120001,
@@ -6072,9 +6071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/snowflake--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "EGIE3F": { 
+    "EGIE3F": {
         "stock": "EGIE3F",
         "name": "ENGIE BRASILON",
         "close": 46.130001,
@@ -6084,9 +6083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/engie-brasilon-nm--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BEEF3F": { 
+    "BEEF3F": {
         "stock": "BEEF3F",
         "name": "MINERVA",
         "close": 7.65,
@@ -6096,9 +6095,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/minerva-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "URPR11": { 
+    "URPR11": {
         "stock": "URPR11",
         "name": "FII URCA RENCI",
         "close": 81.279999,
@@ -6108,9 +6107,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-urca-renci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBRR11": { 
+    "RBRR11": {
         "stock": "RBRR11",
         "name": "FII RBRHGRADCI ER",
         "close": 90.169998,
@@ -6120,9 +6119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "S2EA34": { 
+    "S2EA34": {
         "stock": "S2EA34",
         "name": "SEA LTD DRN",
         "close": 16.82,
@@ -6132,9 +6131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sea-limited--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "FNOR11": { 
+    "FNOR11": {
         "stock": "FNOR11",
         "name": "FINOR CI *",
         "close": 0.97,
@@ -6144,9 +6143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/finor-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JHSF3F": { 
+    "JHSF3F": {
         "stock": "JHSF3F",
         "name": "JHSF PART",
         "close": 4.23,
@@ -6156,9 +6155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jhsf-part-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "S2QU34": { 
+    "S2QU34": {
         "stock": "S2QU34",
         "name": "BLOCK INC. DRN",
         "close": 13.65,
@@ -6168,9 +6167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/block--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "POSI3F": { 
+    "POSI3F": {
         "stock": "POSI3F",
         "name": "POSITIVO TECON",
         "close": 7.35,
@@ -6180,9 +6179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/positivo-tecon--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "BPAC11F": { 
+    "BPAC11F": {
         "stock": "BPAC11F",
         "name": "BTGP BANCO UNT",
         "close": 35.130001,
@@ -6192,9 +6191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "NTCO3F": { 
+    "NTCO3F": {
         "stock": "NTCO3F",
         "name": "GRUPO NATURAON",
         "close": 14.8,
@@ -6204,9 +6203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/natura-and-co--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "KORE11": { 
+    "KORE11": {
         "stock": "KORE11",
         "name": "FII KORE CI",
         "close": 102.17,
@@ -6216,9 +6215,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EXXO34": { 
+    "EXXO34": {
         "stock": "EXXO34",
         "name": "EXXON MOBIL DRN",
         "close": 81.160004,
@@ -6228,9 +6227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/exxon--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "MRVE3F": { 
+    "MRVE3F": {
         "stock": "MRVE3F",
         "name": "MRV",
         "close": 7.35,
@@ -6240,9 +6239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mrv--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VBBR3F": { 
+    "VBBR3F": {
         "stock": "VBBR3F",
         "name": "VIBRA",
         "close": 25.48,
@@ -6252,9 +6251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vibra-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "TIMS3F": { 
+    "TIMS3F": {
         "stock": "TIMS3F",
         "name": "TIM",
         "close": 18.23,
@@ -6264,9 +6263,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tim-participacoes--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "HOFC11": { 
+    "HOFC11": {
         "stock": "HOFC11",
         "name": "FII HOFFICEICI",
         "close": 30,
@@ -6276,9 +6275,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VRTA11": { 
+    "VRTA11": {
         "stock": "VRTA11",
         "name": "FII FATOR VECI",
         "close": 88.709999,
@@ -6288,9 +6287,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-fator-veci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EUCA4F": { 
+    "EUCA4F": {
         "stock": "EUCA4F",
         "name": "EUCATEX PN",
         "close": 15.19,
@@ -6300,9 +6299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eucatex-pn-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "SBSP3F": { 
+    "SBSP3F": {
         "stock": "SBSP3F",
         "name": "SABESP",
         "close": 99.199997,
@@ -6312,9 +6311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sabesp--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LREN3F": { 
+    "LREN3F": {
         "stock": "LREN3F",
         "name": "LOJAS RENNERON",
         "close": 16.200001,
@@ -6324,9 +6323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lojas-renner--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CPFE3F": { 
+    "CPFE3F": {
         "stock": "CPFE3F",
         "name": "CPFL ENERGIAON",
         "close": 33.799999,
@@ -6336,9 +6335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cpfl-energia--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "UNIP6F": { 
+    "UNIP6F": {
         "stock": "UNIP6F",
         "name": "UNIPAR PNB",
         "close": 49.200001,
@@ -6348,9 +6347,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "TAEE3F": { 
+    "TAEE3F": {
         "stock": "TAEE3F",
         "name": "TAESA",
         "close": 11.75,
@@ -6360,9 +6359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taesa--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "SANB11F": { 
+    "SANB11F": {
         "stock": "SANB11F",
         "name": "SANTANDER BRUNT",
         "close": 29.950001,
@@ -6372,9 +6371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "VCJR11": { 
+    "VCJR11": {
         "stock": "VCJR11",
         "name": "FII VECTIS CI",
         "close": 91.010002,
@@ -6384,9 +6383,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vect-renci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "B5P211": { 
+    "B5P211": {
         "stock": "B5P211",
         "name": "IT NOW B5P2 F11",
         "close": 90.580002,
@@ -6396,9 +6395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CVCB3F": { 
+    "CVCB3F": {
         "stock": "CVCB3F",
         "name": "CVC BRASIL",
         "close": 1.94,
@@ -6408,9 +6407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cvc-brasil-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "LEVE3F": { 
+    "LEVE3F": {
         "stock": "LEVE3F",
         "name": "METAL LEVE",
         "close": 33.939999,
@@ -6420,9 +6419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/metal-leve--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "EPAR3": { 
+    "EPAR3": {
         "stock": "EPAR3",
         "name": "EMBPAR S/A",
         "close": 5.76,
@@ -6432,9 +6431,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BHIA3F": { 
+    "BHIA3F": {
         "stock": "BHIA3F",
         "name": "CASAS BAHIA",
         "close": 5.09,
@@ -6444,9 +6443,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "BOBR4": { 
+    "BOBR4": {
         "stock": "BOBR4",
         "name": "BOMBRIL PN",
         "close": 1.98,
@@ -6456,9 +6455,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SARE11": { 
+    "SARE11": {
         "stock": "SARE11",
         "name": "FII SANT RENCI",
         "close": 40.130001,
@@ -6468,9 +6467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ALUP11F": { 
+    "ALUP11F": {
         "stock": "ALUP11F",
         "name": "ALUPAR UNT",
         "close": 32.549999,
@@ -6480,9 +6479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "NIKE34": { 
+    "NIKE34": {
         "stock": "NIKE34",
         "name": "NIKE DRN",
         "close": 42.959999,
@@ -6492,9 +6491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nike--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "BPAC3": { 
+    "BPAC3": {
         "stock": "BPAC3",
         "name": "BTGP BANCO",
         "close": 16.41,
@@ -6504,9 +6503,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RBRP11": { 
+    "RBRP11": {
         "stock": "RBRP11",
         "name": "FII RBR PROPCI ER",
         "close": 56.759998,
@@ -6516,9 +6515,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "C1MG34": { 
+    "C1MG34": {
         "stock": "C1MG34",
         "name": "CHIPOTLE MEXDRN",
         "close": 14.1,
@@ -6528,9 +6527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/chipotle-mexican-grill--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "SEED11": { 
+    "SEED11": {
         "stock": "SEED11",
         "name": "FII HEDGE SDCI",
         "close": 100,
@@ -6540,9 +6539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PETR3F": { 
+    "PETR3F": {
         "stock": "PETR3F",
         "name": "PETROBRAS",
         "close": 40.919998,
@@ -6552,9 +6551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasileiro-petrobras--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "PETZ3F": { 
+    "PETZ3F": {
         "stock": "PETZ3F",
         "name": "PETZ",
         "close": 3.83,
@@ -6564,9 +6563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petz--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "EQTL3F": { 
+    "EQTL3F": {
         "stock": "EQTL3F",
         "name": "EQUATORIAL",
         "close": 35.580002,
@@ -6576,9 +6575,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equatorial--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "HGCR11": { 
+    "HGCR11": {
         "stock": "HGCR11",
         "name": "FII HGCR PAXCI",
         "close": 103.14,
@@ -6588,9 +6587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EMBR3F": { 
+    "EMBR3F": {
         "stock": "EMBR3F",
         "name": "EMBRAER",
         "close": 44.139999,
@@ -6600,9 +6599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/embraer--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "MATB11": { 
+    "MATB11": {
         "stock": "MATB11",
         "name": "IT NOW IMAT CI",
         "close": 52.700001,
@@ -6612,9 +6611,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PDTC3": { 
+    "PDTC3": {
         "stock": "PDTC3",
         "name": "PADTEC",
         "close": 1.81,
@@ -6624,9 +6623,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "HFOF11": { 
+    "HFOF11": {
         "stock": "HFOF11",
         "name": "FII HTOPFOF3CI",
         "close": 70,
@@ -6636,9 +6635,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BRSR3": { 
+    "BRSR3": {
         "stock": "BRSR3",
         "name": "BANRISUL",
         "close": 12.81,
@@ -6648,9 +6647,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RRRP3F": { 
+    "RRRP3F": {
         "stock": "RRRP3F",
         "name": "3R PETROLEUMON",
         "close": 29.690001,
@@ -6660,9 +6659,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/3r-petroleum--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "VIVA3F": { 
+    "VIVA3F": {
         "stock": "VIVA3F",
         "name": "VIVARA S.A.",
         "close": 26.950001,
@@ -6672,9 +6671,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vivara-sa-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "PFIZ34": { 
+    "PFIZ34": {
         "stock": "PFIZ34",
         "name": "PFIZER DRN",
         "close": 39.41,
@@ -6684,9 +6683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pfizer--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "TRAD3F": { 
+    "TRAD3F": {
         "stock": "TRAD3F",
         "name": "TC",
         "close": 3.65,
@@ -6696,9 +6695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tc-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "SAPR11F": { 
+    "SAPR11F": {
         "stock": "SAPR11F",
         "name": "SANEPAR UNT",
         "close": 28.49,
@@ -6708,9 +6707,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "BOEF39": { 
+    "BOEF39": {
         "stock": "BOEF39",
         "name": "BKR SP100 DRE",
         "close": 71.889999,
@@ -6720,9 +6719,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "RVBI11": { 
+    "RVBI11": {
         "stock": "RVBI11",
         "name": "FII VBI REITCI ER",
         "close": 73.82,
@@ -6732,9 +6731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "T1AL34": { 
+    "T1AL34": {
         "stock": "T1AL34",
         "name": "TAL EDUCATIODRN",
         "close": 5.03,
@@ -6744,9 +6743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tal-education--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "XPCI11": { 
+    "XPCI11": {
         "stock": "XPCI11",
         "name": "FII XP CRED CI",
         "close": 86.449997,
@@ -6756,9 +6755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ONCO3F": { 
+    "ONCO3F": {
         "stock": "ONCO3F",
         "name": "ONCOCLINICASON",
         "close": 6.42,
@@ -6768,9 +6767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oncoclinicason-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "ALZR11": { 
+    "ALZR11": {
         "stock": "ALZR11",
         "name": "FII ALIANZA CI",
         "close": 108.11,
@@ -6780,9 +6779,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CMIG3F": { 
+    "CMIG3F": {
         "stock": "CMIG3F",
         "name": "CEMIG",
         "close": 13.8,
@@ -6792,9 +6791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cemig--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "DOTZ3": { 
+    "DOTZ3": {
         "stock": "DOTZ3",
         "name": "DOTZ SA",
         "close": 5.51,
@@ -6804,9 +6803,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "LOGN3": { 
+    "LOGN3": {
         "stock": "LOGN3",
         "name": "LOG-IN",
         "close": 35.82,
@@ -6816,9 +6815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/log-in--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "BIWM39": { 
+    "BIWM39": {
         "stock": "BIWM39",
         "name": "RUSSELL 2000DRE",
         "close": 56.669998,
@@ -6828,9 +6827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CEBR6": { 
+    "CEBR6": {
         "stock": "CEBR6",
         "name": "CEB PNB",
         "close": 17.51,
@@ -6840,9 +6839,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CBAV3F": { 
+    "CBAV3F": {
         "stock": "CBAV3F",
         "name": "CBA",
         "close": 4.63,
@@ -6852,9 +6851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cba-on-nm--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "AGRO3F": { 
+    "AGRO3F": {
         "stock": "AGRO3F",
         "name": "BRASILAGRO",
         "close": 26.190001,
@@ -6864,9 +6863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brasilagro--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "NCRA11": { 
+    "NCRA11": {
         "stock": "NCRA11",
         "name": "FIAGRO NCH CI",
         "close": 8.65,
@@ -6876,9 +6875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SPYI11": { 
+    "SPYI11": {
         "stock": "SPYI11",
         "name": "ETF BV SPYI CI",
         "close": 110.35,
@@ -6888,9 +6887,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ASAI3F": { 
+    "ASAI3F": {
         "stock": "ASAI3F",
         "name": "ASSAI",
         "close": 10.76,
@@ -6900,9 +6899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/assai-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "UGPA3F": { 
+    "UGPA3F": {
         "stock": "UGPA3F",
         "name": "ULTRAPAR",
         "close": 23.57,
@@ -6912,9 +6911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ultrapar-participacoes--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RECT11": { 
+    "RECT11": {
         "stock": "RECT11",
         "name": "FII REC RENDCI ER",
         "close": 34.200001,
@@ -6924,9 +6923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "STBP3F": { 
+    "STBP3F": {
         "stock": "STBP3F",
         "name": "SANTOS BRP",
         "close": 14.31,
@@ -6936,9 +6935,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santos-brp--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "ITSA3F": { 
+    "ITSA3F": {
         "stock": "ITSA3F",
         "name": "ITAUSA",
         "close": 10.87,
@@ -6948,9 +6947,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itausa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VVEO3F": { 
+    "VVEO3F": {
         "stock": "VVEO3F",
         "name": "VIVEO",
         "close": 2.28,
@@ -6960,9 +6959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/viveo-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "ALOS3F": { 
+    "ALOS3F": {
         "stock": "ALOS3F",
         "name": "ALLOS",
         "close": 23.76,
@@ -6972,9 +6971,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RENV11": { 
+    "RENV11": {
         "stock": "RENV11",
         "name": "FII RENV CI",
         "close": 10.3,
@@ -6984,9 +6983,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "AERI3F": { 
+    "AERI3F": {
         "stock": "AERI3F",
         "name": "AERIS",
         "close": 8.73,
@@ -6996,9 +6995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aeris-on-nm--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "KEPL3F": { 
+    "KEPL3F": {
         "stock": "KEPL3F",
         "name": "KEPLER WEBERON",
         "close": 11.5,
@@ -7008,9 +7007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kepler-weberon-eb--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TRIG11": { 
+    "TRIG11": {
         "stock": "TRIG11",
         "name": "TRG SMIC CAPCI",
         "close": 38.029999,
@@ -7020,9 +7019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/trg-smic-capci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GZIT11": { 
+    "GZIT11": {
         "stock": "GZIT11",
         "name": "FII GAZIT CI",
         "close": 56.279999,
@@ -7032,9 +7031,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "KFOF11": { 
+    "KFOF11": {
         "stock": "KFOF11",
         "name": "FII KINEAFOFCI",
         "close": 89.669998,
@@ -7044,9 +7043,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HGRE11": { 
+    "HGRE11": {
         "stock": "HGRE11",
         "name": "FII HGRE PAXCI",
         "close": 113.69,
@@ -7056,9 +7055,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BURT39": { 
+    "BURT39": {
         "stock": "BURT39",
         "name": "BKR MS WLD DRE",
         "close": 54.060001,
@@ -7068,9 +7067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CSRN3": { 
+    "CSRN3": {
         "stock": "CSRN3",
         "name": "COSERN",
         "close": 15.46,
@@ -7080,9 +7079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosern-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "DIVD11": { 
+    "DIVD11": {
         "stock": "DIVD11",
         "name": "IT NOW DIVD CI ER",
         "close": 54.299999,
@@ -7092,9 +7091,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VIVR3F": { 
+    "VIVR3F": {
         "stock": "VIVR3F",
         "name": "VIVER",
         "close": 2.56,
@@ -7104,9 +7103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/viver-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "UCAS3F": { 
+    "UCAS3F": {
         "stock": "UCAS3F",
         "name": "UNICASA",
         "close": 2.28,
@@ -7116,9 +7115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unicasa-on-nm--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SOJA3F": { 
+    "SOJA3F": {
         "stock": "SOJA3F",
         "name": "BOA SAFRA",
         "close": 13.65,
@@ -7128,9 +7127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/boa-safra-on-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "OUJP11": { 
+    "OUJP11": {
         "stock": "OUJP11",
         "name": "FII OURI JPPCI",
         "close": 80.190002,
@@ -7140,9 +7139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "HSLG11": { 
+    "HSLG11": {
         "stock": "HSLG11",
         "name": "FII HSI LOG CI",
         "close": 85.32,
@@ -7152,9 +7151,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BNDA39": { 
+    "BNDA39": {
         "stock": "BNDA39",
         "name": "MSCI INDIA DRE",
         "close": 75.889999,
@@ -7164,9 +7163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "AESB3F": { 
+    "AESB3F": {
         "stock": "AESB3F",
         "name": "AES BRASIL",
         "close": 11.35,
@@ -7176,9 +7175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aes-brasil--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "RECV3F": { 
+    "RECV3F": {
         "stock": "RECV3F",
         "name": "PETRORECSA",
         "close": 22.040001,
@@ -7188,9 +7187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/petrorecsa-on-nm--big.svg",
         "sector": "Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BACW39": { 
+    "BACW39": {
         "stock": "BACW39",
         "name": "MSCI ACWI DRE",
         "close": 61.720001,
@@ -7200,9 +7199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "EALT4": { 
+    "EALT4": {
         "stock": "EALT4",
         "name": "ACO ALTONA PN",
         "close": 14.14,
@@ -7212,9 +7211,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TECN3F": { 
+    "TECN3F": {
         "stock": "TECN3F",
         "name": "TECHNOS",
         "close": 5.92,
@@ -7224,9 +7223,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupotechnos--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SLCE3F": { 
+    "SLCE3F": {
         "stock": "SLCE3F",
         "name": "SLC AGRICOLAON",
         "close": 18.389999,
@@ -7236,9 +7235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/slc-agricola--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "QDFI11": { 
+    "QDFI11": {
         "stock": "QDFI11",
         "name": "QR DEFI CI",
         "close": 3.23,
@@ -7248,9 +7247,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qr-bitcoin-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ANIM3F": { 
+    "ANIM3F": {
         "stock": "ANIM3F",
         "name": "ANIMA",
         "close": 3.33,
@@ -7260,9 +7259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/anima--big.svg",
         "sector": "Miscellaneous",
         "type": "stock",
-    }, 
+    },
 
-    "JALL3F": { 
+    "JALL3F": {
         "stock": "JALL3F",
         "name": "JALLESMACHADON",
         "close": 6.79,
@@ -7272,9 +7271,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jallesmachadon-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "ITUB3F": { 
+    "ITUB3F": {
         "stock": "ITUB3F",
         "name": "ITAUUNIBANCOON",
         "close": 31.450001,
@@ -7284,9 +7283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "FESA4F": { 
+    "FESA4F": {
         "stock": "FESA4F",
         "name": "FERBASA PN",
         "close": 8.15,
@@ -7296,9 +7295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ferbasa--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BIVB39": { 
+    "BIVB39": {
         "stock": "BIVB39",
         "name": "CORE SP 500 DRE",
         "close": 74.910004,
@@ -7308,9 +7307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "VAMO3F": { 
+    "VAMO3F": {
         "stock": "VAMO3F",
         "name": "VAMOS",
         "close": 8.3,
@@ -7320,9 +7319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vamos-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CASH3F": { 
+    "CASH3F": {
         "stock": "CASH3F",
         "name": "MELIUZ",
         "close": 6.43,
@@ -7332,9 +7331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/meliuz--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GFSA3F": { 
+    "GFSA3F": {
         "stock": "GFSA3F",
         "name": "GAFISA ES",
         "close": 2.9,
@@ -7344,9 +7343,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gafisa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ESGD11": { 
+    "ESGD11": {
         "stock": "ESGD11",
         "name": "TREND ESG D CI",
         "close": 10.19,
@@ -7356,9 +7355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "WFCO34": { 
+    "WFCO34": {
         "stock": "WFCO34",
         "name": "WELLS FARGO DRN ED",
         "close": 73.610001,
@@ -7368,9 +7367,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wells-fargo--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "CYRE3F": { 
+    "CYRE3F": {
         "stock": "CYRE3F",
         "name": "CYRELA REALTON",
         "close": 21.549999,
@@ -7380,9 +7379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cyrela-realton-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "S2GM34": { 
+    "S2GM34": {
         "stock": "S2GM34",
         "name": "SIGMA LITHM DRN",
         "close": 16.200001,
@@ -7392,9 +7391,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sigma-lithium--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "SAPI11": { 
+    "SAPI11": {
         "stock": "SAPI11",
         "name": "FII SAPI CI",
         "close": 90.269997,
@@ -7404,9 +7403,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HABT11": { 
+    "HABT11": {
         "stock": "HABT11",
         "name": "FII HABIT IICI",
         "close": 87.989998,
@@ -7416,9 +7415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CPLE3F": { 
+    "CPLE3F": {
         "stock": "CPLE3F",
         "name": "COPEL",
         "close": 9.54,
@@ -7428,9 +7427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ALUP3": { 
+    "ALUP3": {
         "stock": "ALUP3",
         "name": "ALUPAR",
         "close": 11.3,
@@ -7440,9 +7439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "NEOE3F": { 
+    "NEOE3F": {
         "stock": "NEOE3F",
         "name": "NEOENERGIA",
         "close": 19.280001,
@@ -7452,9 +7451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/neoenergia--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BIME11": { 
+    "BIME11": {
         "stock": "BIME11",
         "name": "FII BRIO ME CI ER",
         "close": 7.21,
@@ -7464,9 +7463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TUPY3F": { 
+    "TUPY3F": {
         "stock": "TUPY3F",
         "name": "TUPY",
         "close": 27.02,
@@ -7476,9 +7475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tupy--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SGPS3": { 
+    "SGPS3": {
         "stock": "SGPS3",
         "name": "SPRINGS",
         "close": 1.75,
@@ -7488,9 +7487,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CVBI11": { 
+    "CVBI11": {
         "stock": "CVBI11",
         "name": "FII VBI CRI CI ER",
         "close": 93.730003,
@@ -7500,9 +7499,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BLMG11": { 
+    "BLMG11": {
         "stock": "BLMG11",
         "name": "FII BLUE LOGCI ER",
         "close": 39.110001,
@@ -7512,9 +7511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VISA34": { 
+    "VISA34": {
         "stock": "VISA34",
         "name": "VISA INC DRN ED",
         "close": 71.360001,
@@ -7524,9 +7523,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/visa--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BEES3": { 
+    "BEES3": {
         "stock": "BEES3",
         "name": "BANESTES",
         "close": 8.93,
@@ -7536,9 +7535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banestes-on-ed--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SIMH3F": { 
+    "SIMH3F": {
         "stock": "SIMH3F",
         "name": "SIMPAR",
         "close": 6.56,
@@ -7548,9 +7547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jsl--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "DCRA11": { 
+    "DCRA11": {
         "stock": "DCRA11",
         "name": "FIAGRO DEVANCI ER",
         "close": 8.32,
@@ -7560,9 +7559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BPML11": { 
+    "BPML11": {
         "stock": "BPML11",
         "name": "FII BTG SHOPCI",
         "close": 87.169998,
@@ -7572,9 +7571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PCAR3F": { 
+    "PCAR3F": {
         "stock": "PCAR3F",
         "name": "P.ACUCAR-CBDON",
         "close": 3.25,
@@ -7584,9 +7583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-brasileira-distr-pao-de-acucar--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "AZIN11": { 
+    "AZIN11": {
         "stock": "AZIN11",
         "name": "AZQ INFRA IICI",
         "close": 100.39,
@@ -7596,9 +7595,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ELET6F": { 
+    "ELET6F": {
         "stock": "ELET6F",
         "name": "ELETROBRAS PNB",
         "close": 44.529999,
@@ -7608,9 +7607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/centrais-eletr-bras-sa--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AZZA3F": { 
+    "AZZA3F": {
         "stock": "AZZA3F",
         "name": "AZZAS 2154",
         "close": 54.880001,
@@ -7620,9 +7619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/arezzo--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BTLT39": { 
+    "BTLT39": {
         "stock": "BTLT39",
         "name": "BKR 20YR TRSDRE",
         "close": 35.779999,
@@ -7632,9 +7631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "IFRI11": { 
+    "IFRI11": {
         "stock": "IFRI11",
         "name": "FI ITAU IFRICI",
         "close": 104.7,
@@ -7644,9 +7643,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "WIZC3F": { 
+    "WIZC3F": {
         "stock": "WIZC3F",
         "name": "WIZ CO",
         "close": 6.05,
@@ -7656,9 +7655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wiz-s-a--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RAPT3": { 
+    "RAPT3": {
         "stock": "RAPT3",
         "name": "RANDON PART",
         "close": 9.020001,
@@ -7668,9 +7667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/randon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BSLV39": { 
+    "BSLV39": {
         "stock": "BSLV39",
         "name": "SILVER TRUSTDRE",
         "close": 45.900002,
@@ -7680,9 +7679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "POMO4F": { 
+    "POMO4F": {
         "stock": "POMO4F",
         "name": "MARCOPOLO PN",
         "close": 6.94,
@@ -7692,9 +7691,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marcopolo--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "VCRI11": { 
+    "VCRI11": {
         "stock": "VCRI11",
         "name": "FII VINCI CRCI",
         "close": 8.53,
@@ -7704,9 +7703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vinci-iuci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IGTI11F": { 
+    "IGTI11F": {
         "stock": "IGTI11F",
         "name": "IGUATEMI S.AUNT",
         "close": 23.360001,
@@ -7716,9 +7715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iguatemi-saon-n1--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "AFHI11": { 
+    "AFHI11": {
         "stock": "AFHI11",
         "name": "FII AFHI CRICI",
         "close": 97.190002,
@@ -7728,9 +7727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HYPE3F": { 
+    "HYPE3F": {
         "stock": "HYPE3F",
         "name": "HYPERA",
         "close": 31.65,
@@ -7740,9 +7739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hypera--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "GRND3F": { 
+    "GRND3F": {
         "stock": "GRND3F",
         "name": "GRENDENE",
         "close": 6.26,
@@ -7752,9 +7751,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grendene--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "LWSA3F": { 
+    "LWSA3F": {
         "stock": "LWSA3F",
         "name": "LWSA",
         "close": 4.7,
@@ -7764,9 +7763,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/locaweb--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "COCE5": { 
+    "COCE5": {
         "stock": "COCE5",
         "name": "COELCE PNA",
         "close": 31.5,
@@ -7776,9 +7775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coelce-pna--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ALPA4F": { 
+    "ALPA4F": {
         "stock": "ALPA4F",
         "name": "ALPARGATAS PN",
         "close": 7.95,
@@ -7788,9 +7787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alpargatas--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "HGBS11": { 
+    "HGBS11": {
         "stock": "HGBS11",
         "name": "FII HEDGEBS CI",
         "close": 213.06,
@@ -7800,9 +7799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "JPMC34": { 
+    "JPMC34": {
         "stock": "JPMC34",
         "name": "JPMORGAN DRN",
         "close": 115.46,
@@ -7812,9 +7811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jpmorgan-chase--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "MTRE3F": { 
+    "MTRE3F": {
         "stock": "MTRE3F",
         "name": "MITRE REALTYON",
         "close": 3.98,
@@ -7824,9 +7823,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "YDUQ3F": { 
+    "YDUQ3F": {
         "stock": "YDUQ3F",
         "name": "YDUQS PART",
         "close": 10.11,
@@ -7836,9 +7835,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/yduqs-part-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "AIEC11": { 
+    "AIEC11": {
         "stock": "AIEC11",
         "name": "FII AUTONOMYCI",
         "close": 54.540001,
@@ -7848,9 +7847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SPXI11": { 
+    "SPXI11": {
         "stock": "SPXI11",
         "name": "IT NOW SPXI CI",
         "close": 323.72,
@@ -7860,9 +7859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "SAPR3F": { 
+    "SAPR3F": {
         "stock": "SAPR3F",
         "name": "SANEPAR",
         "close": 5.42,
@@ -7872,9 +7871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sanepar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ITRI11": { 
+    "ITRI11": {
         "stock": "ITRI11",
         "name": "FII ITRI CI",
         "close": 92.099998,
@@ -7884,9 +7883,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SMTO3F": { 
+    "SMTO3F": {
         "stock": "SMTO3F",
         "name": "SAO MARTINHOON",
         "close": 29.610001,
@@ -7896,9 +7895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sao-martinhoon--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "RADL3F": { 
+    "RADL3F": {
         "stock": "RADL3F",
         "name": "RAIADROGASILON",
         "close": 30.08,
@@ -7908,9 +7907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/raiadrogasilon--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "AZEV4F": { 
+    "AZEV4F": {
         "stock": "AZEV4F",
         "name": "AZEVEDO PN",
         "close": 1.41,
@@ -7920,9 +7919,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "GOLL4F": { 
+    "GOLL4F": {
         "stock": "GOLL4F",
         "name": "GOL PN",
         "close": 1.16,
@@ -7932,9 +7931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gol-linhas-aereas-inteligentes--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "ALPA3": { 
+    "ALPA3": {
         "stock": "ALPA3",
         "name": "ALPARGATAS",
         "close": 7.86,
@@ -7944,9 +7943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alpargatas--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "TECK11": { 
+    "TECK11": {
         "stock": "TECK11",
         "name": "IT NOW TECK CI",
         "close": 77.830002,
@@ -7956,9 +7955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MOVI3F": { 
+    "MOVI3F": {
         "stock": "MOVI3F",
         "name": "MOVIDA",
         "close": 7.44,
@@ -7968,9 +7967,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/movida-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BIDU34": { 
+    "BIDU34": {
         "stock": "BIDU34",
         "name": "BAIDU INC DRN",
         "close": 32.759998,
@@ -7980,9 +7979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/baidu--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "VVRI11": { 
+    "VVRI11": {
         "stock": "VVRI11",
         "name": "FII V2 RENDACI",
         "close": 100,
@@ -7992,9 +7991,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BAIQ39": { 
+    "BAIQ39": {
         "stock": "BAIQ39",
         "name": "GX AI TECH DRE",
         "close": 62.16,
@@ -8004,9 +8003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "WRLD11": { 
+    "WRLD11": {
         "stock": "WRLD11",
         "name": "INVESTO WRLDCI",
         "close": 109.8,
@@ -8016,9 +8015,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IAAG11": { 
+    "IAAG11": {
         "stock": "IAAG11",
         "name": "FIAGRO IAAG CI",
         "close": 10.85,
@@ -8028,9 +8027,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "OIBR3F": { 
+    "OIBR3F": {
         "stock": "OIBR3F",
         "name": "OI",
         "close": 4.3,
@@ -8040,9 +8039,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oi--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "VCRA11": { 
+    "VCRA11": {
         "stock": "VCRA11",
         "name": "FIAGRO VCRA CI",
         "close": 77.099998,
@@ -8052,9 +8051,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vect-renci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ABCB4F": { 
+    "ABCB4F": {
         "stock": "ABCB4F",
         "name": "ABC BRASIL PN",
         "close": 22.84,
@@ -8064,9 +8063,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/abc-brasil--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SANB3F": { 
+    "SANB3F": {
         "stock": "SANB3F",
         "name": "SANTANDER BRON",
         "close": 14.32,
@@ -8076,9 +8075,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "TRIS3F": { 
+    "TRIS3F": {
         "stock": "TRIS3F",
         "name": "TRISUL",
         "close": 4.75,
@@ -8088,9 +8087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/trisul--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BRKM5F": { 
+    "BRKM5F": {
         "stock": "BRKM5F",
         "name": "BRASKEM PNA",
         "close": 16.6,
@@ -8100,9 +8099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/braskem--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "PINE4F": { 
+    "PINE4F": {
         "stock": "PINE4F",
         "name": "PINE PN",
         "close": 4.63,
@@ -8112,9 +8111,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ATOM3": { 
+    "ATOM3": {
         "stock": "ATOM3",
         "name": "ATOMPAR",
         "close": 1.99,
@@ -8124,9 +8123,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "RBVA11": { 
+    "RBVA11": {
         "stock": "RBVA11",
         "name": "FII RIOB VA CI",
         "close": 104.94,
@@ -8136,9 +8135,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "EQIR11": { 
+    "EQIR11": {
         "stock": "EQIR11",
         "name": "FII EQI RECECI",
         "close": 9.020001,
@@ -8148,9 +8147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VLID3F": { 
+    "VLID3F": {
         "stock": "VLID3F",
         "name": "VALID",
         "close": 20.93,
@@ -8160,9 +8159,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/valid--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "ETER3F": { 
+    "ETER3F": {
         "stock": "ETER3F",
         "name": "ETERNIT",
         "close": 6.12,
@@ -8172,9 +8171,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eternit--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "IAGR11": { 
+    "IAGR11": {
         "stock": "IAGR11",
         "name": "FIAGRO SFI CI",
         "close": 3.13,
@@ -8184,9 +8183,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FATN11": { 
+    "FATN11": {
         "stock": "FATN11",
         "name": "FII ATHENA ICI ER",
         "close": 91.650002,
@@ -8196,9 +8195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "NCHB11": { 
+    "NCHB11": {
         "stock": "NCHB11",
         "name": "FII NCH BR CI ER",
         "close": 9.29,
@@ -8208,9 +8207,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CAML3F": { 
+    "CAML3F": {
         "stock": "CAML3F",
         "name": "CAMIL",
         "close": 10.01,
@@ -8220,9 +8219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/camil--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "SANB4F": { 
+    "SANB4F": {
         "stock": "SANB4F",
         "name": "SANTANDER BRPN",
         "close": 15.75,
@@ -8232,9 +8231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "TVRI11": { 
+    "TVRI11": {
         "stock": "TVRI11",
         "name": "FII TIVIO RICI",
         "close": 101.82,
@@ -8244,9 +8243,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "XPIN11": { 
+    "XPIN11": {
         "stock": "XPIN11",
         "name": "FII XP INDL CI ER",
         "close": 77.07,
@@ -8256,9 +8255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BMEB4F": { 
+    "BMEB4F": {
         "stock": "BMEB4F",
         "name": "MERCANTIL PN",
         "close": 37.200001,
@@ -8268,9 +8267,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/merc-brasil-pn-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BRAP3F": { 
+    "BRAP3F": {
         "stock": "BRAP3F",
         "name": "BRADESPAR",
         "close": 17.26,
@@ -8280,9 +8279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bradespar--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "GTWR11": { 
+    "GTWR11": {
         "stock": "GTWR11",
         "name": "FII G TOWERSCI",
         "close": 82.300003,
@@ -8292,9 +8291,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "COCA34": { 
+    "COCA34": {
         "stock": "COCA34",
         "name": "COCA COLA DRN",
         "close": 62.59,
@@ -8304,9 +8303,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coca-cola--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "ENEV3F": { 
+    "ENEV3F": {
         "stock": "ENEV3F",
         "name": "ENEVA",
         "close": 13.41,
@@ -8316,9 +8315,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eneva--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LJQQ3F": { 
+    "LJQQ3F": {
         "stock": "LJQQ3F",
         "name": "QUERO-QUERO",
         "close": 4.24,
@@ -8328,9 +8327,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/quero-quero-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RBVO11": { 
+    "RBVO11": {
         "stock": "RBVO11",
         "name": "FII RIOBCRI2CI",
         "close": 16.719999,
@@ -8340,9 +8339,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PATL11": { 
+    "PATL11": {
         "stock": "PATL11",
         "name": "FII PATLOGISCI",
         "close": 60.23,
@@ -8352,9 +8351,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ESGE11": { 
+    "ESGE11": {
         "stock": "ESGE11",
         "name": "TREND ESG E CI",
         "close": 8.26,
@@ -8364,9 +8363,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MULT3F": { 
+    "MULT3F": {
         "stock": "MULT3F",
         "name": "MULTIPLAN",
         "close": 27.450001,
@@ -8376,9 +8375,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/multiplan-on-n2--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ROMI3F": { 
+    "ROMI3F": {
         "stock": "ROMI3F",
         "name": "ROMI",
         "close": 10.9,
@@ -8388,9 +8387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/industrias-romi--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BROF11": { 
+    "BROF11": {
         "stock": "BROF11",
         "name": "FII BROF CI",
         "close": 47.110001,
@@ -8400,9 +8399,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ODPV3F": { 
+    "ODPV3F": {
         "stock": "ODPV3F",
         "name": "ODONTOPREV",
         "close": 11.72,
@@ -8412,9 +8411,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/odontoprev--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "TPIS3F": { 
+    "TPIS3F": {
         "stock": "TPIS3F",
         "name": "TRIUNFO PARTON",
         "close": 4.34,
@@ -8424,9 +8423,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/triunfo-parton-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CEAB3F": { 
+    "CEAB3F": {
         "stock": "CEAB3F",
         "name": "CEA MODAS",
         "close": 8.88,
@@ -8436,9 +8435,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cea-modas-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "TTEN3F": { 
+    "TTEN3F": {
         "stock": "TTEN3F",
         "name": "3TENTOS",
         "close": 11.7,
@@ -8448,9 +8447,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/3tentos-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "QAGR11": { 
+    "QAGR11": {
         "stock": "QAGR11",
         "name": "FII QUASAR ACI",
         "close": 46.599998,
@@ -8460,9 +8459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GDXB39": { 
+    "GDXB39": {
         "stock": "GDXB39",
         "name": "VE GOLD ETF DRE",
         "close": 67.059998,
@@ -8472,9 +8471,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vaneck--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CRFB3F": { 
+    "CRFB3F": {
         "stock": "CRFB3F",
         "name": "CARREFOUR BRON",
         "close": 9.84,
@@ -8484,9 +8483,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/carrefour--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "RAPT4F": { 
+    "RAPT4F": {
         "stock": "RAPT4F",
         "name": "RANDON PART PN",
         "close": 11,
@@ -8496,9 +8495,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/randon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TOTS3F": { 
+    "TOTS3F": {
         "stock": "TOTS3F",
         "name": "TOTVS",
         "close": 29.85,
@@ -8508,9 +8507,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/totvs--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "CGRA4": { 
+    "CGRA4": {
         "stock": "CGRA4",
         "name": "GRAZZIOTIN PN",
         "close": 25.209999,
@@ -8520,9 +8519,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CURY3F": { 
+    "CURY3F": {
         "stock": "CURY3F",
         "name": "CURY S/A",
         "close": 23.639999,
@@ -8532,9 +8531,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cury-s-a-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CLIN11": { 
+    "CLIN11": {
         "stock": "CLIN11",
         "name": "FII CLAVE INCI ER",
         "close": 94.870003,
@@ -8544,9 +8543,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EZTC3F": { 
+    "EZTC3F": {
         "stock": "EZTC3F",
         "name": "EZTEC ED",
         "close": 14.11,
@@ -8556,9 +8555,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eztec--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RNEW11": { 
+    "RNEW11": {
         "stock": "RNEW11",
         "name": "RENOVA UNT",
         "close": 2.69,
@@ -8568,9 +8567,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "BOAC34": { 
+    "BOAC34": {
         "stock": "BOAC34",
         "name": "BANK AMERICADRN",
         "close": 52.900002,
@@ -8580,9 +8579,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bank-of-america--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "JFEN3F": { 
+    "JFEN3F": {
         "stock": "JFEN3F",
         "name": "JOAO FORTES",
         "close": 0.25,
@@ -8592,9 +8591,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CGRA3": { 
+    "CGRA3": {
         "stock": "CGRA3",
         "name": "GRAZZIOTIN",
         "close": 24.799999,
@@ -8604,9 +8603,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RAIL3F": { 
+    "RAIL3F": {
         "stock": "RAIL3F",
         "name": "RUMO S.A.",
         "close": 23.440001,
@@ -8616,9 +8615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rumo-s-a--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "QUAL3F": { 
+    "QUAL3F": {
         "stock": "QUAL3F",
         "name": "QUALICORP",
         "close": 1.61,
@@ -8628,9 +8627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/qualicorp-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "S2HO34": { 
+    "S2HO34": {
         "stock": "S2HO34",
         "name": "SHOPIFY INC DRN",
         "close": 3.25,
@@ -8640,9 +8639,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/shopify--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "UNIP3": { 
+    "UNIP3": {
         "stock": "UNIP3",
         "name": "UNIPAR",
         "close": 49,
@@ -8652,9 +8651,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BARI11": { 
+    "BARI11": {
         "stock": "BARI11",
         "name": "FII BARIGUI CI",
         "close": 79,
@@ -8664,9 +8663,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "URET11": { 
+    "URET11": {
         "stock": "URET11",
         "name": "TREND U REITCI",
         "close": 10.7,
@@ -8676,9 +8675,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EGAF11": { 
+    "EGAF11": {
         "stock": "EGAF11",
         "name": "FIAGRO ECO CI ER",
         "close": 91.529999,
@@ -8688,9 +8687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MDIA3F": { 
+    "MDIA3F": {
         "stock": "MDIA3F",
         "name": "M.DIASBRANCOON",
         "close": 28.9,
@@ -8700,9 +8699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/m-diasbranco--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "VANG11": { 
+    "VANG11": {
         "stock": "VANG11",
         "name": "VANG INFRA CI",
         "close": 102.45,
@@ -8712,9 +8711,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "S1PO34": { 
+    "S1PO34": {
         "stock": "S1PO34",
         "name": "SPOTIFY TECHDRN",
         "close": 456.39999,
@@ -8724,9 +8723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/spotify-technology--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "NINJ3": { 
+    "NINJ3": {
         "stock": "NINJ3",
         "name": "GETNINJAS",
         "close": 4.72,
@@ -8736,9 +8735,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BEES4": { 
+    "BEES4": {
         "stock": "BEES4",
         "name": "BANESTES PN",
         "close": 9.93,
@@ -8748,9 +8747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banestes-on-ed--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PTNT4": { 
+    "PTNT4": {
         "stock": "PTNT4",
         "name": "PETTENATI PN",
         "close": 6.03,
@@ -8760,9 +8759,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BPAN4F": { 
+    "BPAN4F": {
         "stock": "BPAN4F",
         "name": "BANCO PAN PN",
         "close": 9.85,
@@ -8772,9 +8771,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-pan--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MFII11": { 
+    "MFII11": {
         "stock": "MFII11",
         "name": "FII MERITO ICI",
         "close": 100.89,
@@ -8784,9 +8783,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BCRI11": { 
+    "BCRI11": {
         "stock": "BCRI11",
         "name": "FII BEES CRICI",
         "close": 67.400002,
@@ -8796,9 +8795,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JGPX11": { 
+    "JGPX11": {
         "stock": "JGPX11",
         "name": "FIAGRO JGP CI",
         "close": 81.510002,
@@ -8808,9 +8807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "LIGT3F": { 
+    "LIGT3F": {
         "stock": "LIGT3F",
         "name": "LIGHT S/A",
         "close": 4.86,
@@ -8820,9 +8819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/light--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "TRBL11": { 
+    "TRBL11": {
         "stock": "TRBL11",
         "name": "FII SDI LOG CI",
         "close": 96.43,
@@ -8832,9 +8831,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BCIA11": { 
+    "BCIA11": {
         "stock": "BCIA11",
         "name": "FII BCIA CI",
         "close": 103.49,
@@ -8844,9 +8843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PATC11": { 
+    "PATC11": {
         "stock": "PATC11",
         "name": "FII PATRIA CI",
         "close": 35.02,
@@ -8856,9 +8855,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LGCP11": { 
+    "LGCP11": {
         "stock": "LGCP11",
         "name": "FII LGCP INTCI",
         "close": 85.370003,
@@ -8868,9 +8867,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FIGS11": { 
+    "FIGS11": {
         "stock": "FIGS11",
         "name": "FII GEN SHOPCI",
         "close": 54.77,
@@ -8880,9 +8879,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ECOR3F": { 
+    "ECOR3F": {
         "stock": "ECOR3F",
         "name": "ECORODOVIAS",
         "close": 7.8,
@@ -8892,9 +8891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ecorodovias--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "RZAT11": { 
+    "RZAT11": {
         "stock": "RZAT11",
         "name": "FII ARCTIUM CI",
         "close": 98.900002,
@@ -8904,9 +8903,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ENGI11F": { 
+    "ENGI11F": {
         "stock": "ENGI11F",
         "name": "ENERGISA UNT ED",
         "close": 48.290001,
@@ -8916,9 +8915,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "GMAT3F": { 
+    "GMAT3F": {
         "stock": "GMAT3F",
         "name": "GRUPO MATEUSON",
         "close": 8,
@@ -8928,9 +8927,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupo-mateuson-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "FIQE3F": { 
+    "FIQE3F": {
         "stock": "FIQE3F",
         "name": "UNIFIQUE",
         "close": 3.83,
@@ -8940,9 +8939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unifique-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "OULG11": { 
+    "OULG11": {
         "stock": "OULG11",
         "name": "FII OURILOG CI",
         "close": 30,
@@ -8952,9 +8951,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CEBR5": { 
+    "CEBR5": {
         "stock": "CEBR5",
         "name": "CEB PNA",
         "close": 16.83,
@@ -8964,9 +8963,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "INEP4": { 
+    "INEP4": {
         "stock": "INEP4",
         "name": "INEPAR PN",
         "close": 1.88,
@@ -8976,9 +8975,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "NORD3": { 
+    "NORD3": {
         "stock": "NORD3",
         "name": "NORDON MET",
         "close": 10.37,
@@ -8988,9 +8987,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "GCRA11": { 
+    "GCRA11": {
         "stock": "GCRA11",
         "name": "FIAGRO GLPG CI ER",
         "close": 58.939999,
@@ -9000,9 +8999,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BPFF11": { 
+    "BPFF11": {
         "stock": "BPFF11",
         "name": "FII ABSOLUTOCI",
         "close": 68.309998,
@@ -9012,9 +9011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TASA3F": { 
+    "TASA3F": {
         "stock": "TASA3F",
         "name": "TAURUS ARMASON",
         "close": 11.22,
@@ -9024,9 +9023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/taurus-armas--big.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "VULC3F": { 
+    "VULC3F": {
         "stock": "VULC3F",
         "name": "VULCABRAS ED",
         "close": 18.01,
@@ -9036,9 +9035,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vulcabras--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "NFTS11": { 
+    "NFTS11": {
         "stock": "NFTS11",
         "name": "INVESTO NFTSCI",
         "close": 6.05,
@@ -9048,9 +9047,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MYPK3F": { 
+    "MYPK3F": {
         "stock": "MYPK3F",
         "name": "IOCHP-MAXIONON",
         "close": 11.52,
@@ -9060,9 +9059,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iochp-maxionon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "DXCO3F": { 
+    "DXCO3F": {
         "stock": "DXCO3F",
         "name": "DEXCO",
         "close": 7.81,
@@ -9072,9 +9071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexco-on-nm--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "MILS3F": { 
+    "MILS3F": {
         "stock": "MILS3F",
         "name": "MILLS",
         "close": 11.9,
@@ -9084,9 +9083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mills--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "XFIX11": { 
+    "XFIX11": {
         "stock": "XFIX11",
         "name": "TREND IFIX-LCI",
         "close": 11.92,
@@ -9096,9 +9095,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "USDB11": { 
+    "USDB11": {
         "stock": "USDB11",
         "name": "INVESTO USDBCI",
         "close": 103.2,
@@ -9108,9 +9107,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BDIV11": { 
+    "BDIV11": {
         "stock": "BDIV11",
         "name": "FIP BTGDV IECI",
         "close": 122.6,
@@ -9120,9 +9119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GUAR3F": { 
+    "GUAR3F": {
         "stock": "GUAR3F",
         "name": "GUARARAPES",
         "close": 8.99,
@@ -9132,9 +9131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/guararapes--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "RCRB11": { 
+    "RCRB11": {
         "stock": "RCRB11",
         "name": "FII RIOB RC CI ER",
         "close": 132.64999,
@@ -9144,9 +9143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "GGBR3F": { 
+    "GGBR3F": {
         "stock": "GGBR3F",
         "name": "GERDAU ED",
         "close": 15.44,
@@ -9156,9 +9155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BRBI11F": { 
+    "BRBI11F": {
         "stock": "BRBI11F",
         "name": "BR PARTNERS UNT",
         "close": 15.15,
@@ -9168,9 +9167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/br-partners-unt-n2--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "GPIV33": { 
+    "GPIV33": {
         "stock": "GPIV33",
         "name": "GP INVEST DR3",
         "close": 3.76,
@@ -9180,9 +9179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gpinvest-class-a--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "RDNI3": { 
+    "RDNI3": {
         "stock": "RDNI3",
         "name": "RNI",
         "close": 3.14,
@@ -9192,9 +9191,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "MGHT11": { 
+    "MGHT11": {
         "stock": "MGHT11",
         "name": "FII MOGNO HTCI",
         "close": 19.01,
@@ -9204,9 +9203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PULV11": { 
+    "PULV11": {
         "stock": "PULV11",
         "name": "FII PULV CI",
         "close": 9.84,
@@ -9216,9 +9215,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TELB4": { 
+    "TELB4": {
         "stock": "TELB4",
         "name": "TELEBRAS PN",
         "close": 9.46,
@@ -9228,9 +9227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telebras-pn--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "GAME11": { 
+    "GAME11": {
         "stock": "GAME11",
         "name": "FII GUARD MUCI ER",
         "close": 9.09,
@@ -9240,9 +9239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FCFL11": { 
+    "FCFL11": {
         "stock": "FCFL11",
         "name": "FII CAMPUSFLCI",
         "close": 116.5,
@@ -9252,9 +9251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "RBFF11": { 
+    "RBFF11": {
         "stock": "RBFF11",
         "name": "FII RIOB FF CI",
         "close": 61.400002,
@@ -9264,9 +9263,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BAZA3": { 
+    "BAZA3": {
         "stock": "BAZA3",
         "name": "AMAZONIA",
         "close": 96.010002,
@@ -9276,9 +9275,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/amazonia-on-es--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "OGIN11": { 
+    "OGIN11": {
         "stock": "OGIN11",
         "name": "NIKOS INFRA CI",
         "close": 9.95,
@@ -9288,9 +9287,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BTAL11": { 
+    "BTAL11": {
         "stock": "BTAL11",
         "name": "FII BTG AGROCI",
         "close": 78.029999,
@@ -9300,9 +9299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EVEN3F": { 
+    "EVEN3F": {
         "stock": "EVEN3F",
         "name": "EVEN",
         "close": 6.64,
@@ -9312,9 +9311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/even--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BPAC5": { 
+    "BPAC5": {
         "stock": "BPAC5",
         "name": "BTGP BANCO PNA",
         "close": 9.28,
@@ -9324,9 +9323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CCRO3F": { 
+    "CCRO3F": {
         "stock": "CCRO3F",
         "name": "CCR SA",
         "close": 13.6,
@@ -9336,9 +9335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ccr--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "CEDO4": { 
+    "CEDO4": {
         "stock": "CEDO4",
         "name": "CEDRO PN",
         "close": 23.790001,
@@ -9348,9 +9347,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "CLSA3F": { 
+    "CLSA3F": {
         "stock": "CLSA3F",
         "name": "CLEARSALE",
         "close": 7.16,
@@ -9360,9 +9359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/clearsale-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "SHOW3F": { 
+    "SHOW3F": {
         "stock": "SHOW3F",
         "name": "TIME FOR FUNON",
         "close": 1.29,
@@ -9372,9 +9371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/time-for-fun--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "KIVO11": { 
+    "KIVO11": {
         "stock": "KIVO11",
         "name": "FII KIVO CI",
         "close": 80.199997,
@@ -9384,9 +9383,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "XPID11": { 
+    "XPID11": {
         "stock": "XPID11",
         "name": "FIRF XP IE CI",
         "close": 68.949997,
@@ -9396,9 +9395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/firf-xp-ie-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "U2ST34": { 
+    "U2ST34": {
         "stock": "U2ST34",
         "name": "UNITY SOFTWRDRN",
         "close": 4.33,
@@ -9408,9 +9407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unity--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "USIM3F": { 
+    "USIM3F": {
         "stock": "USIM3F",
         "name": "USIMINAS",
         "close": 6.07,
@@ -9420,9 +9419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/usiminas-pna-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "DIRR3F": { 
+    "DIRR3F": {
         "stock": "DIRR3F",
         "name": "DIRECIONAL",
         "close": 29.08,
@@ -9432,9 +9431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/direcional--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "ICRI11": { 
+    "ICRI11": {
         "stock": "ICRI11",
         "name": "FII CI IPCA CI",
         "close": 97.290001,
@@ -9444,9 +9443,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PGMN3F": { 
+    "PGMN3F": {
         "stock": "PGMN3F",
         "name": "PAGUE MENOS",
         "close": 2.98,
@@ -9456,9 +9455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pague-menos-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "JFLL11": { 
+    "JFLL11": {
         "stock": "JFLL11",
         "name": "FII JFL LIV CI",
         "close": 70.120003,
@@ -9468,9 +9467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DEOP34": { 
+    "DEOP34": {
         "stock": "DEOP34",
         "name": "DIAGEO PL DRN",
         "close": 38.919998,
@@ -9480,9 +9479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/diageo--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "SMFT3F": { 
+    "SMFT3F": {
         "stock": "SMFT3F",
         "name": "SMART FIT",
         "close": 23.280001,
@@ -9492,9 +9491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/smart-fit-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "AROA11": { 
+    "AROA11": {
         "stock": "AROA11",
         "name": "FII AROA CI",
         "close": 0.99,
@@ -9504,9 +9503,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "NDIV11": { 
+    "NDIV11": {
         "stock": "NDIV11",
         "name": "NU REND IBOVCI ER",
         "close": 112.9,
@@ -9516,9 +9515,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PIBB11": { 
+    "PIBB11": {
         "stock": "PIBB11",
         "name": "IT NOW PIBB CI",
         "close": 234.72,
@@ -9528,9 +9527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BTRA11": { 
+    "BTRA11": {
         "stock": "BTRA11",
         "name": "FII BTG TAGRCI",
         "close": 48.290001,
@@ -9540,9 +9539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CGAS5": { 
+    "CGAS5": {
         "stock": "CGAS5",
         "name": "COMGAS PNA",
         "close": 113.59,
@@ -9552,9 +9551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/comgas-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "SBFG3F": { 
+    "SBFG3F": {
         "stock": "SBFG3F",
         "name": "GRUPO SBF",
         "close": 16.85,
@@ -9564,9 +9563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/grupo-sbf-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "SNME11": { 
+    "SNME11": {
         "stock": "SNME11",
         "name": "FII SNME CI",
         "close": 9.75,
@@ -9576,9 +9575,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TEND3F": { 
+    "TEND3F": {
         "stock": "TEND3F",
         "name": "TENDA",
         "close": 13.25,
@@ -9588,9 +9587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tenda--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PDGR3F": { 
+    "PDGR3F": {
         "stock": "PDGR3F",
         "name": "PDG REALT",
         "close": 0.21,
@@ -9600,9 +9599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pdg-realt--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HSAF11": { 
+    "HSAF11": {
         "stock": "HSAF11",
         "name": "FII HSI CRI CI",
         "close": 83.720001,
@@ -9612,9 +9611,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TRPL3": { 
+    "TRPL3": {
         "stock": "TRPL3",
         "name": "TRAN PAULISTON",
         "close": 32,
@@ -9624,9 +9623,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tran-paulistpn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MGEL4": { 
+    "MGEL4": {
         "stock": "MGEL4",
         "name": "MANGELS INDLPN",
         "close": 12.2,
@@ -9636,9 +9635,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "K2CG34": { 
+    "K2CG34": {
         "stock": "K2CG34",
         "name": "KINGSOFT CHLDRN",
         "close": 2.15,
@@ -9648,9 +9647,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kingsoft-cloud--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MELK3F": { 
+    "MELK3F": {
         "stock": "MELK3F",
         "name": "MELNICK",
         "close": 3.62,
@@ -9660,9 +9659,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BURA39": { 
+    "BURA39": {
         "stock": "BURA39",
         "name": "GX URANIUM DRE",
         "close": 45.950001,
@@ -9672,9 +9671,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BLAU3F": { 
+    "BLAU3F": {
         "stock": "BLAU3F",
         "name": "BLAU",
         "close": 12.06,
@@ -9684,9 +9683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/blau-on-nm--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "P2LT34": { 
+    "P2LT34": {
         "stock": "P2LT34",
         "name": "PALANTIRTECHDRN",
         "close": 55.189999,
@@ -9696,9 +9695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/palantir--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ITIT11": { 
+    "ITIT11": {
         "stock": "ITIT11",
         "name": "FII INTER ITCI",
         "close": 75,
@@ -9708,9 +9707,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TEPP11": { 
+    "TEPP11": {
         "stock": "TEPP11",
         "name": "FII TEL PROPCI",
         "close": 89.050003,
@@ -9720,9 +9719,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-tel-propci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SNFF11": { 
+    "SNFF11": {
         "stock": "SNFF11",
         "name": "FII SUNOFOFICI",
         "close": 89.040001,
@@ -9732,9 +9731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-sunofofici--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CPFF11": { 
+    "CPFF11": {
         "stock": "CPFF11",
         "name": "FII CAP REITCI",
         "close": 71.040001,
@@ -9744,9 +9743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BOVB11": { 
+    "BOVB11": {
         "stock": "BOVB11",
         "name": "ETF BRA IBOVCI",
         "close": 135.25,
@@ -9756,9 +9755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brad-ima-b-f11--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "T2TD34": { 
+    "T2TD34": {
         "stock": "T2TD34",
         "name": "TRADE DESK DRN",
         "close": 5.39,
@@ -9768,9 +9767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/the-trade-desk--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BEES3F": { 
+    "BEES3F": {
         "stock": "BEES3F",
         "name": "BANESTES",
         "close": 8.95,
@@ -9780,9 +9779,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banestes-on-ed--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BBGO11": { 
+    "BBGO11": {
         "stock": "BBGO11",
         "name": "FIAGRO BBGO CI",
         "close": 81.599998,
@@ -9792,9 +9791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ALLD3F": { 
+    "ALLD3F": {
         "stock": "ALLD3F",
         "name": "ALLIED",
         "close": 7.5,
@@ -9804,9 +9803,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/allied-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "RELG11": { 
+    "RELG11": {
         "stock": "RELG11",
         "name": "FII REC LOG CI ER",
         "close": 58.869999,
@@ -9816,9 +9815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HTMX11": { 
+    "HTMX11": {
         "stock": "HTMX11",
         "name": "FII HOTEL MXCI",
         "close": 179,
@@ -9828,9 +9827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AZEV3F": { 
+    "AZEV3F": {
         "stock": "AZEV3F",
         "name": "AZEVEDO",
         "close": 1.44,
@@ -9840,9 +9839,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "IRFM11": { 
+    "IRFM11": {
         "stock": "IRFM11",
         "name": "IT NOW IRF-MF11",
         "close": 84.5,
@@ -9852,9 +9851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "M1SC34": { 
+    "M1SC34": {
         "stock": "M1SC34",
         "name": "MSCI INC DRN",
         "close": 68.6946127,
@@ -9864,9 +9863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/msci--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "TMCO34": { 
+    "TMCO34": {
         "stock": "TMCO34",
         "name": "TOYOTAMO DRN",
         "close": 60.669998,
@@ -9876,9 +9875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/toyota--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "JNJB34": { 
+    "JNJB34": {
         "stock": "JNJB34",
         "name": "JOHNSON DRN",
         "close": 57.720001,
@@ -9888,9 +9887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/johnson-and-johnson--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "GOAU3F": { 
+    "GOAU3F": {
         "stock": "GOAU3F",
         "name": "GERDAU MET ED",
         "close": 10.28,
@@ -9900,9 +9899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gerdau--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "HGPO11": { 
+    "HGPO11": {
         "stock": "HGPO11",
         "name": "FII HGPO PAXCI",
         "close": 302.23001,
@@ -9912,9 +9911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BTAG11": { 
+    "BTAG11": {
         "stock": "BTAG11",
         "name": "FIAGRO BTAG CI",
         "close": 86.32,
@@ -9924,9 +9923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "SHUL4F": { 
+    "SHUL4F": {
         "stock": "SHUL4F",
         "name": "SCHULZ PN",
         "close": 6.55,
@@ -9936,9 +9935,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/schulz--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "RINV11": { 
+    "RINV11": {
         "stock": "RINV11",
         "name": "FII REAL INVCI",
         "close": 109.25,
@@ -9948,9 +9947,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "K1LA34": { 
+    "K1LA34": {
         "stock": "K1LA34",
         "name": "KLA CORP DRN",
         "close": 1088.3,
@@ -9960,9 +9959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kla-tencor--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "MUTC34": { 
+    "MUTC34": {
         "stock": "MUTC34",
         "name": "MICRON TECHNDRN",
         "close": 91.629997,
@@ -9972,9 +9971,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/micron-technology--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "PMAM3F": { 
+    "PMAM3F": {
         "stock": "PMAM3F",
         "name": "PARANAPANEMAON",
         "close": 2.06,
@@ -9984,9 +9983,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "BBOI11": { 
+    "BBOI11": {
         "stock": "BBOI11",
         "name": "BB ETF BOI GCI",
         "close": 7.51,
@@ -9996,9 +9995,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "OXYP34": { 
+    "OXYP34": {
         "stock": "OXYP34",
         "name": "OCCIDENT PTRDRN",
         "close": 51.98,
@@ -10008,9 +10007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/occidental-petroleum--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "ENJU3F": { 
+    "ENJU3F": {
         "stock": "ENJU3F",
         "name": "ENJOEI",
         "close": 1.79,
@@ -10020,9 +10019,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "HGBL11": { 
+    "HGBL11": {
         "stock": "HGBL11",
         "name": "FII HGBL CI",
         "close": 10.18,
@@ -10032,9 +10031,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HAGA3": { 
+    "HAGA3": {
         "stock": "HAGA3",
         "name": "HAGA S/A",
         "close": 2.39,
@@ -10044,9 +10043,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "HAGA4": { 
+    "HAGA4": {
         "stock": "HAGA4",
         "name": "HAGA S/A PN",
         "close": 1.17,
@@ -10056,9 +10055,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "INTB3F": { 
+    "INTB3F": {
         "stock": "INTB3F",
         "name": "INTELBRAS",
         "close": 21.5,
@@ -10068,9 +10067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/intelbras-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "BIAU39": { 
+    "BIAU39": {
         "stock": "BIAU39",
         "name": "GOLD TRUST DRE",
         "close": 63.189999,
@@ -10080,9 +10079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "ORVR3F": { 
+    "ORVR3F": {
         "stock": "ORVR3F",
         "name": "ORIZON",
         "close": 46,
@@ -10092,9 +10091,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/orizon-on-nm--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "LAVV3F": { 
+    "LAVV3F": {
         "stock": "LAVV3F",
         "name": "LAVVI",
         "close": 8.98,
@@ -10104,9 +10103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lavvi-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BIDB11": { 
+    "BIDB11": {
         "stock": "BIDB11",
         "name": "FIC INTER CI",
         "close": 90.900002,
@@ -10116,9 +10115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fic-fi-bcna-fidc--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BRZP11": { 
+    "BRZP11": {
         "stock": "BRZP11",
         "name": "FIP BRZ IE CI",
         "close": 108.17,
@@ -10128,9 +10127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "Z1TS34": { 
+    "Z1TS34": {
         "stock": "Z1TS34",
         "name": "ZOETIS INC DRN",
         "close": 62.799999,
@@ -10140,9 +10139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/zoetis--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "RPRI11": { 
+    "RPRI11": {
         "stock": "RPRI11",
         "name": "FII RBR PR CI",
         "close": 92.75,
@@ -10152,9 +10151,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EQPA3": { 
+    "EQPA3": {
         "stock": "EQPA3",
         "name": "EQTL PARA",
         "close": 6.95,
@@ -10164,9 +10163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eqtl-para-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "DEXP3F": { 
+    "DEXP3F": {
         "stock": "DEXP3F",
         "name": "DEXXOS PAR",
         "close": 9.75,
@@ -10176,9 +10175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexxos-par--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "MEAL3F": { 
+    "MEAL3F": {
         "stock": "MEAL3F",
         "name": "IMC S/A",
         "close": 1.64,
@@ -10188,9 +10187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/imc-s-a-on-nm--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "PTBL3F": { 
+    "PTBL3F": {
         "stock": "PTBL3F",
         "name": "PORTOBELLO",
         "close": 4.8,
@@ -10200,9 +10199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/portobello--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SNCI11": { 
+    "SNCI11": {
         "stock": "SNCI11",
         "name": "FII SUNO CRICI",
         "close": 97.269997,
@@ -10212,9 +10211,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-sunofofici--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "BRIT3F": { 
+    "BRIT3F": {
         "stock": "BRIT3F",
         "name": "BRISANET",
         "close": 3.97,
@@ -10224,9 +10223,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brisanet-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "BMOB3F": { 
+    "BMOB3F": {
         "stock": "BMOB3F",
         "name": "BEMOBI TECH",
         "close": 16,
@@ -10236,9 +10235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bemobi-tech-on-nm--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "QQQI11": { 
+    "QQQI11": {
         "stock": "QQQI11",
         "name": "ETF BV QQQI CI",
         "close": 95.919998,
@@ -10248,9 +10247,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "NEWL11": { 
+    "NEWL11": {
         "stock": "NEWL11",
         "name": "FII NEWPORT CI",
         "close": 114.5,
@@ -10260,9 +10259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MDNE3F": { 
+    "MDNE3F": {
         "stock": "MDNE3F",
         "name": "MOURA DUBEUXON",
         "close": 14.82,
@@ -10272,9 +10271,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "DOHL4": { 
+    "DOHL4": {
         "stock": "DOHL4",
         "name": "DOHLER PN",
         "close": 4.19,
@@ -10284,9 +10283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dohler-pn-ed--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "EMAE4": { 
+    "EMAE4": {
         "stock": "EMAE4",
         "name": "EMAE PN",
         "close": 41,
@@ -10296,9 +10295,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "PRNR3F": { 
+    "PRNR3F": {
         "stock": "PRNR3F",
         "name": "PRINER",
         "close": 11.74,
@@ -10308,9 +10307,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "ALUG11": { 
+    "ALUG11": {
         "stock": "ALUG11",
         "name": "INVESTO ALUGCI",
         "close": 41.110001,
@@ -10320,9 +10319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "POMO3F": { 
+    "POMO3F": {
         "stock": "POMO3F",
         "name": "MARCOPOLO",
         "close": 5.41,
@@ -10332,9 +10331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marcopolo--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SNID11": { 
+    "SNID11": {
         "stock": "SNID11",
         "name": "SUNO FIC FI CI",
         "close": 104,
@@ -10344,9 +10343,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BBFO11": { 
+    "BBFO11": {
         "stock": "BBFO11",
         "name": "FII BB FOF CI",
         "close": 72.900002,
@@ -10356,9 +10355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PNVL3F": { 
+    "PNVL3F": {
         "stock": "PNVL3F",
         "name": "DIMED",
         "close": 10.95,
@@ -10368,9 +10367,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dimed--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "AMAR3F": { 
+    "AMAR3F": {
         "stock": "AMAR3F",
         "name": "LOJAS MARISAON",
         "close": 1.3,
@@ -10380,9 +10379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lojas-marisaon-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CARE11": { 
+    "CARE11": {
         "stock": "CARE11",
         "name": "FII DEA CARECI",
         "close": 1.61,
@@ -10392,9 +10391,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "WGBA34": { 
+    "WGBA34": {
         "stock": "WGBA34",
         "name": "WALGREENS DRN",
         "close": 28.99,
@@ -10404,9 +10403,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/walgreens-boots-alliance--big.svg",
         "sector": "Distribution Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BTHI11": { 
+    "BTHI11": {
         "stock": "BTHI11",
         "name": "BTG HOTEL FICI ER",
         "close": 41.799999,
@@ -10416,9 +10415,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "U2PS34": { 
+    "U2PS34": {
         "stock": "U2PS34",
         "name": "UPSTART HOLDDRN",
         "close": 9.96,
@@ -10428,9 +10427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/upstart--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "A1LB34": { 
+    "A1LB34": {
         "stock": "A1LB34",
         "name": "ALBEMARLE CODRN",
         "close": 16.6,
@@ -10440,9 +10439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/albemarle--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "LASC11": { 
+    "LASC11": {
         "stock": "LASC11",
         "name": "FII LEGATUS CI",
         "close": 112.99,
@@ -10452,9 +10451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BKNG34": { 
+    "BKNG34": {
         "stock": "BKNG34",
         "name": "BOOKING DRN",
         "close": 112.33,
@@ -10464,9 +10463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/booking--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "PLPL3F": { 
+    "PLPL3F": {
         "stock": "PLPL3F",
         "name": "PLANOEPLANO",
         "close": 12.25,
@@ -10476,9 +10475,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VSTE3": { 
+    "VSTE3": {
         "stock": "VSTE3",
         "name": "VESTE",
         "close": 13.09,
@@ -10488,9 +10487,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/le-lis-blanc--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "GLOG11": { 
+    "GLOG11": {
         "stock": "GLOG11",
         "name": "FII PLURAL LCI",
         "close": 62.41,
@@ -10500,9 +10499,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HBOR3F": { 
+    "HBOR3F": {
         "stock": "HBOR3F",
         "name": "HELBOR",
         "close": 2.21,
@@ -10512,9 +10511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/helbor--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SRNA3F": { 
+    "SRNA3F": {
         "stock": "SRNA3F",
         "name": "SERENA",
         "close": 9.24,
@@ -10524,9 +10523,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BRAX11": { 
+    "BRAX11": {
         "stock": "BRAX11",
         "name": "ISHARES BRAXCI",
         "close": 111.35,
@@ -10536,9 +10535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BGOV39": { 
+    "BGOV39": {
         "stock": "BGOV39",
         "name": "BKR US TREASDRE",
         "close": 42.599998,
@@ -10548,9 +10547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "B1IL34": { 
+    "B1IL34": {
         "stock": "B1IL34",
         "name": "BILIBILI INCDRN",
         "close": 14.36,
@@ -10560,9 +10559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bilibili--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BRSR3F": { 
+    "BRSR3F": {
         "stock": "BRSR3F",
         "name": "BANRISUL",
         "close": 12.62,
@@ -10572,9 +10571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "WHRL4": { 
+    "WHRL4": {
         "stock": "WHRL4",
         "name": "WHIRLPOOL PN",
         "close": 4.46,
@@ -10584,9 +10583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/whirlpool-on--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CTNM4": { 
+    "CTNM4": {
         "stock": "CTNM4",
         "name": "COTEMINAS PN",
         "close": 0.88,
@@ -10596,9 +10595,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CSUD3F": { 
+    "CSUD3F": {
         "stock": "CSUD3F",
         "name": "CSU DIGITAL",
         "close": 18.75,
@@ -10608,9 +10607,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "TGMA3F": { 
+    "TGMA3F": {
         "stock": "TGMA3F",
         "name": "TEGMA EDJ",
         "close": 25.780001,
@@ -10620,9 +10619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tegma--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "L2AZ34": { 
+    "L2AZ34": {
         "stock": "L2AZ34",
         "name": "LUMINAR TECHDRN",
         "close": 2.51,
@@ -10632,9 +10631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/luminar--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "KRSA3F": { 
+    "KRSA3F": {
         "stock": "KRSA3F",
         "name": "KORA SAUDE",
         "close": 0.61,
@@ -10644,9 +10643,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kora-saude-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "AGXY3F": { 
+    "AGXY3F": {
         "stock": "AGXY3F",
         "name": "AGROGALAXY",
         "close": 1.5,
@@ -10656,9 +10655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/agrogalaxy-on-nm--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "DEFI11": { 
+    "DEFI11": {
         "stock": "DEFI11",
         "name": "DEFI HASH CI",
         "close": 23.379999,
@@ -10668,9 +10667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HGFF11": { 
+    "HGFF11": {
         "stock": "HGFF11",
         "name": "FII HGFF PAXCI",
         "close": 83.849998,
@@ -10680,9 +10679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RNEW3F": { 
+    "RNEW3F": {
         "stock": "RNEW3F",
         "name": "RENOVA",
         "close": 0.88,
@@ -10692,9 +10691,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "MTSA4": { 
+    "MTSA4": {
         "stock": "MTSA4",
         "name": "METISA PN",
         "close": 44.389999,
@@ -10704,9 +10703,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "HPQB34": { 
+    "HPQB34": {
         "stock": "HPQB34",
         "name": "HP COMPANY DRN",
         "close": 190.83,
@@ -10716,9 +10715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hp--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "M1RN34": { 
+    "M1RN34": {
         "stock": "M1RN34",
         "name": "MODERNA INC DRN",
         "close": 22.549999,
@@ -10728,9 +10727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/moderna--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "YDRO11": { 
+    "YDRO11": {
         "stock": "YDRO11",
         "name": "IT NOW HYDROCI",
         "close": 33.630001,
@@ -10740,9 +10739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CEBR3": { 
+    "CEBR3": {
         "stock": "CEBR3",
         "name": "CEB",
         "close": 19.450001,
@@ -10752,9 +10751,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "UNHH34": { 
+    "UNHH34": {
         "stock": "UNHH34",
         "name": "UNITEDHEALTHDRN",
         "close": 45.18,
@@ -10764,9 +10763,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unitedhealth--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "REDE3": { 
+    "REDE3": {
         "stock": "REDE3",
         "name": "REDE ENERGIAON",
         "close": 7,
@@ -10776,9 +10775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rede-energiaon--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "HCHG11": { 
+    "HCHG11": {
         "stock": "HCHG11",
         "name": "FII HECT CRICI",
         "close": 69.099998,
@@ -10788,9 +10787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ABBV34": { 
+    "ABBV34": {
         "stock": "ABBV34",
         "name": "ABBVIE DRN",
         "close": 66.169998,
@@ -10800,9 +10799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/abbvie--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "CTSA3": { 
+    "CTSA3": {
         "stock": "CTSA3",
         "name": "SANTANENSE",
         "close": 2.85,
@@ -10812,9 +10811,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "VTLT11": { 
+    "VTLT11": {
         "stock": "VTLT11",
         "name": "FII VOT LOG CI",
         "close": 95,
@@ -10824,9 +10823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vot-log-ci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MATD3F": { 
+    "MATD3F": {
         "stock": "MATD3F",
         "name": "MATER DEI",
         "close": 4.5,
@@ -10836,9 +10835,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mater-dei-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "RBHG11": { 
+    "RBHG11": {
         "stock": "RBHG11",
         "name": "FII RBCRI IVCI",
         "close": 84.300003,
@@ -10848,9 +10847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "XPCM11": { 
+    "XPCM11": {
         "stock": "XPCM11",
         "name": "FII XP MACAECI",
         "close": 8.08,
@@ -10860,9 +10859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "FRAS3F": { 
+    "FRAS3F": {
         "stock": "FRAS3F",
         "name": "FRAS-LE",
         "close": 18.65,
@@ -10872,9 +10871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fras-le-on-n1--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "NGRD3F": { 
+    "NGRD3F": {
         "stock": "NGRD3F",
         "name": "NEOGRID",
         "close": 1.19,
@@ -10884,9 +10883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/neogrid--big.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "MAXR11": { 
+    "MAXR11": {
         "stock": "MAXR11",
         "name": "FII MAX RET CI ER",
         "close": 78,
@@ -10896,9 +10895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "N1VO34": { 
+    "N1VO34": {
         "stock": "N1VO34",
         "name": "NOVO NORDISKDRN",
         "close": 92.519997,
@@ -10908,9 +10907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/novo-nordisk--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "SPXB11": { 
+    "SPXB11": {
         "stock": "SPXB11",
         "name": "BTG S&P 500 CI",
         "close": 12.98,
@@ -10920,9 +10919,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PFRM3F": { 
+    "PFRM3F": {
         "stock": "PFRM3F",
         "name": "PROFARMA",
         "close": 5.82,
@@ -10932,9 +10931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/profarma--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "WHRL3": { 
+    "WHRL3": {
         "stock": "WHRL3",
         "name": "WHIRLPOOL",
         "close": 4.19,
@@ -10944,9 +10943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/whirlpool-on--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ALUP4F": { 
+    "ALUP4F": {
         "stock": "ALUP4F",
         "name": "ALUPAR PN",
         "close": 10.59,
@@ -10956,9 +10955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "HSRE11": { 
+    "HSRE11": {
         "stock": "HSRE11",
         "name": "FII HSIRENDACI",
         "close": 99.989998,
@@ -10968,9 +10967,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBRL11": { 
+    "RBRL11": {
         "stock": "RBRL11",
         "name": "FII RBR LOG CI ER",
         "close": 79.010002,
@@ -10980,9 +10979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "I1TW34": { 
+    "I1TW34": {
         "stock": "I1TW34",
         "name": "ILLINOIS TOODRN",
         "close": 325,
@@ -10992,9 +10991,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/illinois-tool-works--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "RNGO11": { 
+    "RNGO11": {
         "stock": "RNGO11",
         "name": "FII RIONEGROCI",
         "close": 46.290001,
@@ -11004,9 +11003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "NTNS11": { 
+    "NTNS11": {
         "stock": "NTNS11",
         "name": "INVESTO NTNSF11",
         "close": 55.07,
@@ -11016,9 +11015,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ENGI4F": { 
+    "ENGI4F": {
         "stock": "ENGI4F",
         "name": "ENERGISA PN",
         "close": 8.33,
@@ -11028,9 +11027,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "DASA3F": { 
+    "DASA3F": {
         "stock": "DASA3F",
         "name": "DASA",
         "close": 2.88,
@@ -11040,9 +11039,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dasa-on-nm--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "B1TI34": { 
+    "B1TI34": {
         "stock": "B1TI34",
         "name": "BRITISH AMERDRN",
         "close": 39.73,
@@ -11052,9 +11051,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/british-american-tobacco--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "SVAL11": { 
+    "SVAL11": {
         "stock": "SVAL11",
         "name": "INVESTO SVALCI",
         "close": 120.13,
@@ -11064,9 +11063,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "R1KU34": { 
+    "R1KU34": {
         "stock": "R1KU34",
         "name": "ROKU INC DRN",
         "close": 15.36,
@@ -11076,9 +11075,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/roku--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "BNDX11": { 
+    "BNDX11": {
         "stock": "BNDX11",
         "name": "INVESTO BNDXCI",
         "close": 103.76,
@@ -11088,9 +11087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "UNIP3F": { 
+    "UNIP3F": {
         "stock": "UNIP3F",
         "name": "UNIPAR",
         "close": 49.139999,
@@ -11100,9 +11099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "USTK11": { 
+    "USTK11": {
         "stock": "USTK11",
         "name": "INVESTO USTKCI",
         "close": 13.73,
@@ -11112,9 +11111,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PLCR11": { 
+    "PLCR11": {
         "stock": "PLCR11",
         "name": "FII PLURAL RCI",
         "close": 85.849998,
@@ -11124,9 +11123,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MBLY3F": { 
+    "MBLY3F": {
         "stock": "MBLY3F",
         "name": "MOBLY",
         "close": 2.78,
@@ -11136,9 +11135,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "LOGG3F": { 
+    "LOGG3F": {
         "stock": "LOGG3F",
         "name": "LOG COM PROPON",
         "close": 24.15,
@@ -11148,9 +11147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/log-commercial-properties--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "CAMB3F": { 
+    "CAMB3F": {
         "stock": "CAMB3F",
         "name": "CAMBUCI",
         "close": 12.22,
@@ -11160,9 +11159,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ZAMP3F": { 
+    "ZAMP3F": {
         "stock": "ZAMP3F",
         "name": "ZAMP S.A.",
         "close": 3.4,
@@ -11172,9 +11171,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/burger-king--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "EPAR3F": { 
+    "EPAR3F": {
         "stock": "EPAR3F",
         "name": "EMBPAR S/A",
         "close": 5.85,
@@ -11184,9 +11183,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "U1BE34": { 
+    "U1BE34": {
         "stock": "U1BE34",
         "name": "UBER TECH INDRN",
         "close": 98.300003,
@@ -11196,9 +11195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/uber--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "RBRD11": { 
+    "RBRD11": {
         "stock": "RBRD11",
         "name": "FII RB II CI",
         "close": 40,
@@ -11208,9 +11207,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "SSFO34": { 
+    "SSFO34": {
         "stock": "SSFO34",
         "name": "SALESFOR INCDRN",
         "close": 63.470001,
@@ -11220,9 +11219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/salesforce--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "GGPS3F": { 
+    "GGPS3F": {
         "stock": "GGPS3F",
         "name": "GPS",
         "close": 18.110001,
@@ -11232,9 +11231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gps-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "RBED11": { 
+    "RBED11": {
         "stock": "RBED11",
         "name": "FII RIOB ED CI",
         "close": 136,
@@ -11244,9 +11243,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "LPSB3F": { 
+    "LPSB3F": {
         "stock": "LPSB3F",
         "name": "LOPES BRASILON",
         "close": 1.78,
@@ -11256,9 +11255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lopes--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "ARML3F": { 
+    "ARML3F": {
         "stock": "ARML3F",
         "name": "ARMAC",
         "close": 9.13,
@@ -11268,9 +11267,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/armac-on-ed-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HBSA3F": { 
+    "HBSA3F": {
         "stock": "HBSA3F",
         "name": "HIDROVIAS",
         "close": 3.71,
@@ -11280,9 +11279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hidrovias-on-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "BMEB3": { 
+    "BMEB3": {
         "stock": "BMEB3",
         "name": "MERCANTIL",
         "close": 34.799999,
@@ -11292,9 +11291,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/merc-brasil-pn-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VVMR11": { 
+    "VVMR11": {
         "stock": "VVMR11",
         "name": "FII MULT RENCI",
         "close": 89.980003,
@@ -11304,9 +11303,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JSCR11": { 
+    "JSCR11": {
         "stock": "JSCR11",
         "name": "FII JSCR CI",
         "close": 99,
@@ -11316,9 +11315,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "M1LC34": { 
+    "M1LC34": {
         "stock": "M1LC34",
         "name": "MELCO RESORTDRN",
         "close": 13.68,
@@ -11328,9 +11327,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/melco--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MNPR3": { 
+    "MNPR3": {
         "stock": "MNPR3",
         "name": "MINUPAR",
         "close": 16.4,
@@ -11340,9 +11339,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "JSLG3F": { 
+    "JSLG3F": {
         "stock": "JSLG3F",
         "name": "JSL",
         "close": 9.38,
@@ -11352,9 +11351,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jsl--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "BIJR39": { 
+    "BIJR39": {
         "stock": "BIJR39",
         "name": "CORESMALLCAPDRE",
         "close": 75.279999,
@@ -11364,9 +11363,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "SEER3F": { 
+    "SEER3F": {
         "stock": "SEER3F",
         "name": "SER EDUCA",
         "close": 5.42,
@@ -11376,9 +11375,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ser-educa--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "KNOX11": { 
+    "KNOX11": {
         "stock": "KNOX11",
         "name": "FIP IE KNOX CI",
         "close": 105,
@@ -11388,9 +11387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PORT3F": { 
+    "PORT3F": {
         "stock": "PORT3F",
         "name": "WILSON SONS",
         "close": 16.75,
@@ -11400,9 +11399,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wilson-sons-on-eb-nm--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "FSRF11F": { 
+    "FSRF11F": {
         "stock": "FSRF11F",
         "name": "FISET FL REFCI",
         "close": 0.17,
@@ -11412,9 +11411,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fiset-fl-refci--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AALL34": { 
+    "AALL34": {
         "stock": "AALL34",
         "name": "AMERICAN AIRDRN",
         "close": 53.630001,
@@ -11424,9 +11423,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/american-airlines-group--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BMLC11": { 
+    "BMLC11": {
         "stock": "BMLC11",
         "name": "FII BMBRC LCCI ER",
         "close": 95.07,
@@ -11436,9 +11435,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IBOB11": { 
+    "IBOB11": {
         "stock": "IBOB11",
         "name": "PACTUAL IBOVCI",
         "close": 108.68,
@@ -11448,9 +11447,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pactual-ibovci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DESK3F": { 
+    "DESK3F": {
         "stock": "DESK3F",
         "name": "DESKTOP",
         "close": 16.440001,
@@ -11460,9 +11459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/desktop-on-nm--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "T2ND34": { 
+    "T2ND34": {
         "stock": "T2ND34",
         "name": "TAND DIABETEDRN",
         "close": 15.18,
@@ -11472,9 +11471,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tandem-diabetes-care--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "OPCT3F": { 
+    "OPCT3F": {
         "stock": "OPCT3F",
         "name": "OCEANPACT",
         "close": 6.54,
@@ -11484,9 +11483,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "SPTW11": { 
+    "SPTW11": {
         "stock": "SPTW11",
         "name": "FII SP DOWNTCI",
         "close": 40.66,
@@ -11496,9 +11495,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-sp-downtci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "D1EL34": { 
+    "D1EL34": {
         "stock": "D1EL34",
         "name": "DELL TECHNOLDRN",
         "close": 567.47998,
@@ -11508,9 +11507,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dell--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BCHI39": { 
+    "BCHI39": {
         "stock": "BCHI39",
         "name": "MSCI CHINA DRE",
         "close": 28.290001,
@@ -11520,9 +11519,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "RCSL4F": { 
+    "RCSL4F": {
         "stock": "RCSL4F",
         "name": "RECRUSUL PN",
         "close": 0.86,
@@ -11532,9 +11531,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/recrusul--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BITI11": { 
+    "BITI11": {
         "stock": "BITI11",
         "name": "ETF GALAXY BCI",
         "close": 88.419998,
@@ -11544,9 +11543,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ZAVI11": { 
+    "ZAVI11": {
         "stock": "ZAVI11",
         "name": "FII ZAVIT R CI",
         "close": 109.5,
@@ -11556,9 +11555,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GSFI11": { 
+    "GSFI11": {
         "stock": "GSFI11",
         "name": "FII GENERAL CI",
         "close": 8.020001,
@@ -11568,9 +11567,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CORN11": { 
+    "CORN11": {
         "stock": "CORN11",
         "name": "BB ETF MILHOCI",
         "close": 6.05,
@@ -11580,9 +11579,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CRPG5": { 
+    "CRPG5": {
         "stock": "CRPG5",
         "name": "CRISTAL PNA",
         "close": 28.799999,
@@ -11592,9 +11591,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cristal-pna--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "KNRE11": { 
+    "KNRE11": {
         "stock": "KNRE11",
         "name": "FII KII REALCI",
         "close": 0.4,
@@ -11604,9 +11603,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FAED11": { 
+    "FAED11": {
         "stock": "FAED11",
         "name": "FII ANH EDUCCI ER",
         "close": 151,
@@ -11616,9 +11615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "IBCR11": { 
+    "IBCR11": {
         "stock": "IBCR11",
         "name": "FII BREI CI ER",
         "close": 69,
@@ -11628,9 +11627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "FIXA11": { 
+    "FIXA11": {
         "stock": "FIXA11",
         "name": "BB FIXA11 F11",
         "close": 16.35,
@@ -11640,9 +11639,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mirae-asset-sec--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SEQR11": { 
+    "SEQR11": {
         "stock": "SEQR11",
         "name": "FII SEQUOIA CI ER",
         "close": 51.700001,
@@ -11652,9 +11651,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ADBE34": { 
+    "ADBE34": {
         "stock": "ADBE34",
         "name": "ADOBE INC DRN",
         "close": 57.959999,
@@ -11664,9 +11663,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/adobe--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "APTO11": { 
+    "APTO11": {
         "stock": "APTO11",
         "name": "FII NAVI RSDCI",
         "close": 9.53,
@@ -11676,9 +11675,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CRPT11": { 
+    "CRPT11": {
         "stock": "CRPT11",
         "name": "CRIPTO20 EMPCI",
         "close": 13.31,
@@ -11688,9 +11687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cripto20-empci--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MFAI11": { 
+    "MFAI11": {
         "stock": "MFAI11",
         "name": "FII MERITOFACI",
         "close": 64.010002,
@@ -11700,9 +11699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RNEW4F": { 
+    "RNEW4F": {
         "stock": "RNEW4F",
         "name": "RENOVA PN",
         "close": 0.87,
@@ -11712,9 +11711,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CRFF11": { 
+    "CRFF11": {
         "stock": "CRFF11",
         "name": "FII CX RBRA2CI",
         "close": 77.589996,
@@ -11724,9 +11723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GRWA11": { 
+    "GRWA11": {
         "stock": "GRWA11",
         "name": "FIAGRO GRWA CI ER",
         "close": 10.09,
@@ -11736,9 +11735,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "OIBR4": { 
+    "OIBR4": {
         "stock": "OIBR4",
         "name": "OI PN",
         "close": 12.14,
@@ -11748,9 +11747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oi--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "WLMM4": { 
+    "WLMM4": {
         "stock": "WLMM4",
         "name": "WLM IND COM PN",
         "close": 32,
@@ -11760,9 +11759,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wlm-ind-com-pn--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "EKTR4": { 
+    "EKTR4": {
         "stock": "EKTR4",
         "name": "ELEKTRO PN",
         "close": 41.799999,
@@ -11772,9 +11771,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/elektro-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ARXD11": { 
+    "ARXD11": {
         "stock": "ARXD11",
         "name": "FII ARXD R CI",
         "close": 99.699997,
@@ -11784,9 +11783,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CTSA4F": { 
+    "CTSA4F": {
         "stock": "CTSA4F",
         "name": "SANTANENSE PN",
         "close": 1.43,
@@ -11796,9 +11795,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "ENDD11": { 
+    "ENDD11": {
         "stock": "ENDD11",
         "name": "FIP END DEBTCI",
         "close": 109.4,
@@ -11808,9 +11807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BEES4F": { 
+    "BEES4F": {
         "stock": "BEES4F",
         "name": "BANESTES PN",
         "close": 9.96,
@@ -11820,9 +11819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banestes-on-ed--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "E1CO34": { 
+    "E1CO34": {
         "stock": "E1CO34",
         "name": "ECOPETROL SADRN",
         "close": 27.809999,
@@ -11832,9 +11831,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ecopetrol--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "ATTB34": { 
+    "ATTB34": {
         "stock": "ATTB34",
         "name": "ATT INC DRN",
         "close": 35.66,
@@ -11844,9 +11843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/at-and-t--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "PDTC3F": { 
+    "PDTC3F": {
         "stock": "PDTC3F",
         "name": "PADTEC",
         "close": 1.81,
@@ -11856,9 +11855,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Electronic Technology",
         "type": "stock",
-    }, 
+    },
 
-    "PACB11": { 
+    "PACB11": {
         "stock": "PACB11",
         "name": "BTG INF LONGF11",
         "close": 10.52,
@@ -11868,9 +11867,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ENGI3F": { 
+    "ENGI3F": {
         "stock": "ENGI3F",
         "name": "ENERGISA ED",
         "close": 14.55,
@@ -11880,9 +11879,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-unt-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "GURU11": { 
+    "GURU11": {
         "stock": "GURU11",
         "name": "ETF GURU CI",
         "close": 10.78,
@@ -11892,9 +11891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/etf-guru--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "IGTI3F": { 
+    "IGTI3F": {
         "stock": "IGTI3F",
         "name": "IGUATEMI S.AON",
         "close": 2.98,
@@ -11904,9 +11903,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iguatemi-saon-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BIOM3F": { 
+    "BIOM3F": {
         "stock": "BIOM3F",
         "name": "BIOMM MA",
         "close": 8.99,
@@ -11916,9 +11915,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "BRKM3F": { 
+    "BRKM3F": {
         "stock": "BRKM3F",
         "name": "BRASKEM",
         "close": 16.99,
@@ -11928,9 +11927,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/braskem--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "AIRB34": { 
+    "AIRB34": {
         "stock": "AIRB34",
         "name": "AIRBNB DRN",
         "close": 31.84,
@@ -11940,9 +11939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/airbnb--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "S1BS34": { 
+    "S1BS34": {
         "stock": "S1BS34",
         "name": "SIBANYE STILDRN",
         "close": 11.1,
@@ -11952,9 +11951,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sibanye-stillwater--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "VCRR11": { 
+    "VCRR11": {
         "stock": "VCRR11",
         "name": "FII VECT RENCI",
         "close": 64.989998,
@@ -11964,9 +11963,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vect-renci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "GCRI11": { 
+    "GCRI11": {
         "stock": "GCRI11",
         "name": "FII GLPG CRICI",
         "close": 71,
@@ -11976,9 +11975,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "UNIP5": { 
+    "UNIP5": {
         "stock": "UNIP5",
         "name": "UNIPAR PNA",
         "close": 49.5,
@@ -11988,9 +11987,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "RSUL4": { 
+    "RSUL4": {
         "stock": "RSUL4",
         "name": "RIOSULENSE PN",
         "close": 63.290001,
@@ -12000,9 +11999,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "CSRN3F": { 
+    "CSRN3F": {
         "stock": "CSRN3F",
         "name": "COSERN",
         "close": 15.46,
@@ -12012,9 +12011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosern-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BEWJ39": { 
+    "BEWJ39": {
         "stock": "BEWJ39",
         "name": "MSCI JAPAN DRE",
         "close": 46.279999,
@@ -12024,9 +12023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "NSDV11": { 
+    "NSDV11": {
         "stock": "NSDV11",
         "name": "NU IBOV DIV CI",
         "close": 120.35,
@@ -12036,9 +12035,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CHIP11": { 
+    "CHIP11": {
         "stock": "CHIP11",
         "name": "INVESTO CHIPCI",
         "close": 98,
@@ -12048,9 +12047,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CHVX34": { 
+    "CHVX34": {
         "stock": "CHVX34",
         "name": "CHEVRON DRN",
         "close": 79.459999,
@@ -12060,9 +12059,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/chevron--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "PPEI11": { 
+    "PPEI11": {
         "stock": "PPEI11",
         "name": "FIP PRISMA CI",
         "close": 94.769997,
@@ -12072,9 +12071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBHY11": { 
+    "RBHY11": {
         "stock": "RBHY11",
         "name": "FII RB YIELDCI",
         "close": 89.540001,
@@ -12084,9 +12083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "Z1OM34": { 
+    "Z1OM34": {
         "stock": "Z1OM34",
         "name": "ZOOM VIDEO DRN",
         "close": 12.48,
@@ -12096,9 +12095,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/zoom-video-communications--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BLQD39": { 
+    "BLQD39": {
         "stock": "BLQD39",
         "name": "BKR IBOX IGCDRE",
         "close": 60.779999,
@@ -12108,9 +12107,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "OFSA3": { 
+    "OFSA3": {
         "stock": "OFSA3",
         "name": "OUROFINO S/AON",
         "close": 22.370001,
@@ -12120,9 +12119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ourofino-s-aon-nm--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "EQMA3B": { 
+    "EQMA3B": {
         "stock": "EQMA3B",
         "name": "EQUATORIAL MARANHA",
         "close": 25.49,
@@ -12132,9 +12131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equatorial-maranha--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "RBRS11": { 
+    "RBRS11": {
         "stock": "RBRS11",
         "name": "FII RIOB RR CI",
         "close": 42.52,
@@ -12144,9 +12143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "JPPA11": { 
+    "JPPA11": {
         "stock": "JPPA11",
         "name": "FII JPPA CRICI",
         "close": 81.989998,
@@ -12156,9 +12155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CXCO11": { 
+    "CXCO11": {
         "stock": "CXCO11",
         "name": "FII CEF CORPCI",
         "close": 72.25,
@@ -12168,9 +12167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BIVE39": { 
+    "BIVE39": {
         "stock": "BIVE39",
         "name": "SP500 VALUE DRE",
         "close": 68.370003,
@@ -12180,9 +12179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CXAG11": { 
+    "CXAG11": {
         "stock": "CXAG11",
         "name": "FII CAIXA AGCI",
         "close": 76.599998,
@@ -12192,9 +12191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BPAC3F": { 
+    "BPAC3F": {
         "stock": "BPAC3F",
         "name": "BTGP BANCO",
         "close": 16.41,
@@ -12204,9 +12203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RBIF11": { 
+    "RBIF11": {
         "stock": "RBIF11",
         "name": "FIC FI RB ESCI",
         "close": 94.199997,
@@ -12216,9 +12215,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/riobravo--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "LVOL11": { 
+    "LVOL11": {
         "stock": "LVOL11",
         "name": "NUIBOVLOWVOLCI",
         "close": 103.47,
@@ -12228,9 +12227,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MSCD34": { 
+    "MSCD34": {
         "stock": "MSCD34",
         "name": "MASTERCARD DRN",
         "close": 80.959999,
@@ -12240,9 +12239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mastercard--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BLAK34": { 
+    "BLAK34": {
         "stock": "BLAK34",
         "name": "BLACKROCK DRN",
         "close": 71.389999,
@@ -12252,9 +12251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/blackrock--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "NUIF11": { 
+    "NUIF11": {
         "stock": "NUIF11",
         "name": "NU INFRA FICCI ER",
         "close": 104,
@@ -12264,9 +12263,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BDLL4": { 
+    "BDLL4": {
         "stock": "BDLL4",
         "name": "BARDELLA PN",
         "close": 9.2,
@@ -12276,9 +12275,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "EALT3": { 
+    "EALT3": {
         "stock": "EALT3",
         "name": "ACO ALTONA",
         "close": 14,
@@ -12288,9 +12287,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "RCSL3F": { 
+    "RCSL3F": {
         "stock": "RCSL3F",
         "name": "RECRUSUL",
         "close": 2.92,
@@ -12300,9 +12299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/recrusul--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "VITT3F": { 
+    "VITT3F": {
         "stock": "VITT3F",
         "name": "VITTIA",
         "close": 6.14,
@@ -12312,9 +12311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vittia-on-ed-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "FVPQ11": { 
+    "FVPQ11": {
         "stock": "FVPQ11",
         "name": "FII V PARQUECI",
         "close": 71.5,
@@ -12324,9 +12323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DVFF11": { 
+    "DVFF11": {
         "stock": "DVFF11",
         "name": "FII DEVA FOFCI ER",
         "close": 7.43,
@@ -12336,9 +12335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ALPK3F": { 
+    "ALPK3F": {
         "stock": "ALPK3F",
         "name": "ESTAPAR",
         "close": 3.88,
@@ -12348,9 +12347,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "WEB311": { 
+    "WEB311": {
         "stock": "WEB311",
         "name": "SMART HASH CI",
         "close": 26.35,
@@ -12360,9 +12359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CLOV34": { 
+    "CLOV34": {
         "stock": "CLOV34",
         "name": "CLOVERHEALTHDRN",
         "close": 13.8,
@@ -12372,9 +12371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/clover-health--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "DOTZ3F": { 
+    "DOTZ3F": {
         "stock": "DOTZ3F",
         "name": "DOTZ SA",
         "close": 5.7,
@@ -12384,9 +12383,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Technology Services",
         "type": "stock",
-    }, 
+    },
 
-    "NAVT11": { 
+    "NAVT11": {
         "stock": "NAVT11",
         "name": "FII NAVI TOTCI",
         "close": 85.690002,
@@ -12396,9 +12395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MSBR34": { 
+    "MSBR34": {
         "stock": "MSBR34",
         "name": "MORGAN STAN DRN",
         "close": 108.11,
@@ -12408,9 +12407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/morgan-stanley--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "PEPB34": { 
+    "PEPB34": {
         "stock": "PEPB34",
         "name": "PEPSICO INC DRN",
         "close": 63.529999,
@@ -12420,9 +12419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pepsico--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "CVSH34": { 
+    "CVSH34": {
         "stock": "CVSH34",
         "name": "CVS HEALTH DRN",
         "close": 30.76,
@@ -12432,9 +12431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cvs-health--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "SHOT11": { 
+    "SHOT11": {
         "stock": "SHOT11",
         "name": "IT NOW SHOT CI",
         "close": 12.85,
@@ -12444,9 +12443,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EGYR11": { 
+    "EGYR11": {
         "stock": "EGYR11",
         "name": "FII ENERGY CI",
         "close": 4.1,
@@ -12456,9 +12455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "RIGG34": { 
+    "RIGG34": {
         "stock": "RIGG34",
         "name": "TRANSOCEAN DRN",
         "close": 27.780001,
@@ -12468,9 +12467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/transocean-limited--big.svg",
         "sector": "Industrial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "EALT4F": { 
+    "EALT4F": {
         "stock": "EALT4F",
         "name": "ACO ALTONA PN",
         "close": 14.04,
@@ -12480,9 +12479,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "GSGI34": { 
+    "GSGI34": {
         "stock": "GSGI34",
         "name": "GOLDMANSACHSDRN",
         "close": 90.5,
@@ -12492,9 +12491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/golden-sachs-etf-trust-goldman--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "LFTT11": { 
+    "LFTT11": {
         "stock": "LFTT11",
         "name": "FII LOFT II CI EA",
         "close": 16.01,
@@ -12504,9 +12503,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TCSA3F": { 
+    "TCSA3F": {
         "stock": "TCSA3F",
         "name": "TECNISA",
         "close": 2.05,
@@ -12516,9 +12515,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tecnisa--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SYNE3F": { 
+    "SYNE3F": {
         "stock": "SYNE3F",
         "name": "SYN PROP TECON",
         "close": 10.45,
@@ -12528,9 +12527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/syn-prop-tecon-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "S2NA34": { 
+    "S2NA34": {
         "stock": "S2NA34",
         "name": "SNAP INC DRN",
         "close": 8.2,
@@ -12540,9 +12539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/snap--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CEBR6F": { 
+    "CEBR6F": {
         "stock": "CEBR6F",
         "name": "CEB PNB",
         "close": 17.700001,
@@ -12552,9 +12551,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "IB5M11": { 
+    "IB5M11": {
         "stock": "IB5M11",
         "name": "IT NOW IB5M F11",
         "close": 116.52,
@@ -12564,9 +12563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LSAG11": { 
+    "LSAG11": {
         "stock": "LSAG11",
         "name": "FIAGRO LESTECI",
         "close": 85.5,
@@ -12576,9 +12575,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PGCO34": { 
+    "PGCO34": {
         "stock": "PGCO34",
         "name": "PG DRN",
         "close": 65.800003,
@@ -12588,9 +12587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/procter-and-gamble--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "S2ED34": { 
+    "S2ED34": {
         "stock": "S2ED34",
         "name": "SOLAR TECH DRN",
         "close": 3.5,
@@ -12600,9 +12599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/solaredge-technologies--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "PTNT3": { 
+    "PTNT3": {
         "stock": "PTNT3",
         "name": "PETTENATI",
         "close": 9.020001,
@@ -12612,9 +12611,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "ALUP3F": { 
+    "ALUP3F": {
         "stock": "ALUP3F",
         "name": "ALUPAR",
         "close": 11.35,
@@ -12624,9 +12623,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alupar--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "EUCA3": { 
+    "EUCA3": {
         "stock": "EUCA3",
         "name": "EUCATEX",
         "close": 16.700001,
@@ -12636,9 +12635,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eucatex-pn-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "SNLG11": { 
+    "SNLG11": {
         "stock": "SNLG11",
         "name": "FII SUNO LG CI",
         "close": 33.299999,
@@ -12648,9 +12647,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SCHW34": { 
+    "SCHW34": {
         "stock": "SCHW34",
         "name": "SCHWAB DRN ED",
         "close": 44.919998,
@@ -12660,9 +12659,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/schwab--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "EDGA11": { 
+    "EDGA11": {
         "stock": "EDGA11",
         "name": "FII GALERIA CI",
         "close": 18.41,
@@ -12672,9 +12671,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BCSA34": { 
+    "BCSA34": {
         "stock": "BCSA34",
         "name": "SANTANDER DRN",
         "close": 24.780001,
@@ -12684,9 +12683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "JOGO11": { 
+    "JOGO11": {
         "stock": "JOGO11",
         "name": "INVESTO JOGOCI",
         "close": 91.599998,
@@ -12696,9 +12695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BRFT11": { 
+    "BRFT11": {
         "stock": "BRFT11",
         "name": "FIAGRO BRFT CI ER",
         "close": 85.959999,
@@ -12708,9 +12707,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "AGRI11": { 
+    "AGRI11": {
         "stock": "AGRI11",
         "name": "BB ETF IAGROCI",
         "close": 51.650002,
@@ -12720,9 +12719,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "REVE11": { 
+    "REVE11": {
         "stock": "REVE11",
         "name": "IT NOW GREENCI",
         "close": 57.639999,
@@ -12732,9 +12731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HGIC11": { 
+    "HGIC11": {
         "stock": "HGIC11",
         "name": "FII HGI CRI CI ER",
         "close": 97,
@@ -12744,9 +12743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GOVE11": { 
+    "GOVE11": {
         "stock": "GOVE11",
         "name": "IT NOW IGCT CI",
         "close": 58.150002,
@@ -12756,9 +12755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "GOGL35": { 
+    "GOGL35": {
         "stock": "GOGL35",
         "name": "ALPHABET DRN C",
         "close": 73.589996,
@@ -12768,9 +12767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alphabet--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "NORD3F": { 
+    "NORD3F": {
         "stock": "NORD3F",
         "name": "NORDON MET",
         "close": 10.56,
@@ -12780,9 +12779,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "CRPG6": { 
+    "CRPG6": {
         "stock": "CRPG6",
         "name": "CRISTAL PNB",
         "close": 29.59,
@@ -12792,9 +12791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cristal-pna--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BSLI3": { 
+    "BSLI3": {
         "stock": "BSLI3",
         "name": "BRB BANCO",
         "close": 10.93,
@@ -12804,9 +12803,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brb-banco-pn--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PLCA11": { 
+    "PLCA11": {
         "stock": "PLCA11",
         "name": "FIAGRO PLUR CI",
         "close": 77.150002,
@@ -12816,9 +12815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SADI11": { 
+    "SADI11": {
         "stock": "SADI11",
         "name": "FII SANT PAPCI",
         "close": 90.529999,
@@ -12828,9 +12827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DEEC34": { 
+    "DEEC34": {
         "stock": "DEEC34",
         "name": "DEERE CO DRN",
         "close": 64.260002,
@@ -12840,9 +12839,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/deere--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "TRPL3F": { 
+    "TRPL3F": {
         "stock": "TRPL3F",
         "name": "TRAN PAULISTON",
         "close": 32.080002,
@@ -12852,9 +12851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tran-paulistpn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "VRTX34": { 
+    "VRTX34": {
         "stock": "VRTX34",
         "name": "VERTEX PHARMDRN",
         "close": 642.56,
@@ -12864,9 +12863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vertex-pharmaceutical--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BAER39": { 
+    "BAER39": {
         "stock": "BAER39",
         "name": "US AEROSPACEDRE",
         "close": 38.720001,
@@ -12876,9 +12875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "ESPA3F": { 
+    "ESPA3F": {
         "stock": "ESPA3F",
         "name": "ESPACOLASER",
         "close": 1.04,
@@ -12888,9 +12887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/espacolaser-on-nm--big.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "BBRC11": { 
+    "BBRC11": {
         "stock": "BBRC11",
         "name": "FII BB CORP CI",
         "close": 115.01,
@@ -12900,9 +12899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CGAS5F": { 
+    "CGAS5F": {
         "stock": "CGAS5F",
         "name": "COMGAS PNA",
         "close": 113.53,
@@ -12912,9 +12911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/comgas-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "FIIB11": { 
+    "FIIB11": {
         "stock": "FIIB11",
         "name": "FII INDL BR CI",
         "close": 501.5,
@@ -12924,9 +12923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SNSY3": { 
+    "SNSY3": {
         "stock": "SNSY3",
         "name": "SANSUY",
         "close": 12.64,
@@ -12936,9 +12935,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sansuy-on--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SMRE11": { 
+    "SMRE11": {
         "stock": "SMRE11",
         "name": "FII SMRE CI",
         "close": 100,
@@ -12948,9 +12947,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FDMO34": { 
+    "FDMO34": {
         "stock": "FDMO34",
         "name": "FORD MOTORS DRN ED",
         "close": 56.099998,
@@ -12960,9 +12959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ford--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "ABCP11": { 
+    "ABCP11": {
         "stock": "ABCP11",
         "name": "FII ABC IMOBCI",
         "close": 69.650002,
@@ -12972,9 +12971,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ISUS11": { 
+    "ISUS11": {
         "stock": "ISUS11",
         "name": "IT NOW ISE CI",
         "close": 37.119999,
@@ -12984,9 +12983,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CTGP34": { 
+    "CTGP34": {
         "stock": "CTGP34",
         "name": "CITIGROUP DRN",
         "close": 54,
@@ -12996,9 +12995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/citigroup--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "MCDC34": { 
+    "MCDC34": {
         "stock": "MCDC34",
         "name": "MCDONALDS DRN",
         "close": 74.379997,
@@ -13008,9 +13007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mcdonalds--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "A1LL34": { 
+    "A1LL34": {
         "stock": "A1LL34",
         "name": "BREAD FINAN DRN ED",
         "close": 71.050003,
@@ -13020,9 +13019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alliance-data-system--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "PLRI11": { 
+    "PLRI11": {
         "stock": "PLRI11",
         "name": "FII POLO I CI",
         "close": 10,
@@ -13032,9 +13031,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CEBR3F": { 
+    "CEBR3F": {
         "stock": "CEBR3F",
         "name": "CEB",
         "close": 19.709999,
@@ -13044,9 +13043,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AXPB34": { 
+    "AXPB34": {
         "stock": "AXPB34",
         "name": "AMERICAN EXPDRN",
         "close": 133.24001,
@@ -13056,9 +13055,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/american-express--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "ABGD39": { 
+    "ABGD39": {
         "stock": "ABGD39",
         "name": "ABDEN GOLD DRE",
         "close": 64.019997,
@@ -13068,9 +13067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/abrdn--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "B1CS34": { 
+    "B1CS34": {
         "stock": "B1CS34",
         "name": "BARCLAYS PLCDRN",
         "close": 63.240002,
@@ -13080,9 +13079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/barclays--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "N1WG34": { 
+    "N1WG34": {
         "stock": "N1WG34",
         "name": "NATWEST GROUDRN ED",
         "close": 48.700001,
@@ -13092,9 +13091,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/natwest-group--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "RAPT3F": { 
+    "RAPT3F": {
         "stock": "RAPT3F",
         "name": "RANDON PART",
         "close": 9.11,
@@ -13104,9 +13103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/randon--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "ECOO11": { 
+    "ECOO11": {
         "stock": "ECOO11",
         "name": "ISHARES ECOOCI",
         "close": 113.55,
@@ -13116,9 +13115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "DHER34": { 
+    "DHER34": {
         "stock": "DHER34",
         "name": "DANAHER CORPDRN",
         "close": 52.290001,
@@ -13128,9 +13127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/danaher--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "NEWU11": { 
+    "NEWU11": {
         "stock": "NEWU11",
         "name": "FII NEWRU CI",
         "close": 80.699997,
@@ -13140,9 +13139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RFOF11": { 
+    "RFOF11": {
         "stock": "RFOF11",
         "name": "FII RB CFOF CI",
         "close": 70.75,
@@ -13152,9 +13151,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BSIL39": { 
+    "BSIL39": {
         "stock": "BSIL39",
         "name": "GX SILVER MNDRE",
         "close": 34.380001,
@@ -13164,9 +13163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "META11": { 
+    "META11": {
         "stock": "META11",
         "name": "META HASH CI",
         "close": 29.4,
@@ -13176,9 +13175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hashdex--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CGRA4F": { 
+    "CGRA4F": {
         "stock": "CGRA4F",
         "name": "GRAZZIOTIN PN",
         "close": 25.26,
@@ -13188,9 +13187,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "A1LN34": { 
+    "A1LN34": {
         "stock": "A1LN34",
         "name": "ALNYLAM PHARDRN",
         "close": 72.379997,
@@ -13200,9 +13199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alnylam-pharmaceuticals--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "ALZC11": { 
+    "ALZC11": {
         "stock": "ALZC11",
         "name": "FII ALIANZACCI",
         "close": 96,
@@ -13212,9 +13211,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PINE3": { 
+    "PINE3": {
         "stock": "PINE3",
         "name": "PINE",
         "close": 5.7,
@@ -13224,9 +13223,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "OSXB3": { 
+    "OSXB3": {
         "stock": "OSXB3",
         "name": "OSX BRASIL",
         "close": 3.72,
@@ -13236,9 +13235,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "HBRE3F": { 
+    "HBRE3F": {
         "stock": "HBRE3F",
         "name": "HBR REALTY",
         "close": 5.2,
@@ -13248,9 +13247,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RBIR11": { 
+    "RBIR11": {
         "stock": "RBIR11",
         "name": "FII RBRES IVCI",
         "close": 83.949997,
@@ -13260,9 +13259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "K1EL34": { 
+    "K1EL34": {
         "stock": "K1EL34",
         "name": "KELLANOVA DRN",
         "close": 219.2,
@@ -13272,9 +13271,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kellogg--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "BSOX39": { 
+    "BSOX39": {
         "stock": "BSOX39",
         "name": "BKR SEMICONDDRE",
         "close": 30.709999,
@@ -13284,9 +13283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "MRCK34": { 
+    "MRCK34": {
         "stock": "MRCK34",
         "name": "MERCK DRN",
         "close": 77.989998,
@@ -13296,9 +13295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/merck-and-co--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BLMO11": { 
+    "BLMO11": {
         "stock": "BLMO11",
         "name": "FII BLUEMAC CI",
         "close": 78,
@@ -13308,9 +13307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BSHV39": { 
+    "BSHV39": {
         "stock": "BSHV39",
         "name": "BKR SHORT TRDRE",
         "close": 60.459999,
@@ -13320,9 +13319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "CEOC11": { 
+    "CEOC11": {
         "stock": "CEOC11",
         "name": "FII CEO CCP CI ER",
         "close": 44.700001,
@@ -13332,9 +13331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BOVS11": { 
+    "BOVS11": {
         "stock": "BOVS11",
         "name": "SAFRAETFIBOVCI",
         "close": 102.79,
@@ -13344,9 +13343,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/safraetfelasci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HOSI11": { 
+    "HOSI11": {
         "stock": "HOSI11",
         "name": "FII HOUSI CI",
         "close": 94.650002,
@@ -13356,9 +13355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ATOM3F": { 
+    "ATOM3F": {
         "stock": "ATOM3F",
         "name": "ATOMPAR",
         "close": 1.99,
@@ -13368,9 +13367,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "B1PP34": { 
+    "B1PP34": {
         "stock": "B1PP34",
         "name": "BP PLC DRN ED",
         "close": 46.23,
@@ -13380,9 +13379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bp--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "S2UI34": { 
+    "S2UI34": {
         "stock": "S2UI34",
         "name": "SUN COMMUN DRN",
         "close": 36.110001,
@@ -13392,9 +13391,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sun-communities--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "HIGH11": { 
+    "HIGH11": {
         "stock": "HIGH11",
         "name": "NUIBOVHIGHBTCI",
         "close": 98.669998,
@@ -13404,9 +13403,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EQPA3F": { 
+    "EQPA3F": {
         "stock": "EQPA3F",
         "name": "EQTL PARA",
         "close": 6.93,
@@ -13416,9 +13415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eqtl-para-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "WSEC11": { 
+    "WSEC11": {
         "stock": "WSEC11",
         "name": "FII WARREN CI ER",
         "close": 86.849998,
@@ -13428,9 +13427,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TFCO4F": { 
+    "TFCO4F": {
         "stock": "TFCO4F",
         "name": "TRACK FIELD PN",
         "close": 12.39,
@@ -13440,9 +13439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/track-field-pn-n2--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "REDE3F": { 
+    "REDE3F": {
         "stock": "REDE3F",
         "name": "REDE ENERGIAON",
         "close": 6.99,
@@ -13452,9 +13451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rede-energiaon--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BAZA3F": { 
+    "BAZA3F": {
         "stock": "BAZA3F",
         "name": "AMAZONIA",
         "close": 97,
@@ -13464,9 +13463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/amazonia-on-es--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SCPF11": { 
+    "SCPF11": {
         "stock": "SCPF11",
         "name": "FII SCP CI",
         "close": 2.7,
@@ -13476,9 +13475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "FIIP11B": { 
+    "FIIP11B": {
         "stock": "FIIP11B",
         "name": "RB CAP RENDA I FD",
         "close": 172.35001,
@@ -13488,9 +13487,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rb-cap-renda-i-fd--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "IMBB11": { 
+    "IMBB11": {
         "stock": "IMBB11",
         "name": "BRAD IMA-B F11",
         "close": 133.56,
@@ -13500,9 +13499,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brad-ima-b-f11--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CXCE11": { 
+    "CXCE11": {
         "stock": "CXCE11",
         "name": "FII CX CEDAECI",
         "close": 40.93,
@@ -13512,9 +13511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BEGU39": { 
+    "BEGU39": {
         "stock": "BEGU39",
         "name": "TRUSTMSCI USDRE",
         "close": 65.459999,
@@ -13524,9 +13523,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "RPAD6": { 
+    "RPAD6": {
         "stock": "RPAD6",
         "name": "ALFA HOLDINGPNB",
         "close": 8.73,
@@ -13536,9 +13535,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CATP34": { 
+    "CATP34": {
         "stock": "CATP34",
         "name": "CATERPILLAR DRN",
         "close": 115.69,
@@ -13548,9 +13547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/caterpillar--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "BNFS11": { 
+    "BNFS11": {
         "stock": "BNFS11",
         "name": "FII BANRISULCI",
         "close": 120.2,
@@ -13560,9 +13559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "P2AN34": { 
+    "P2AN34": {
         "stock": "P2AN34",
         "name": "PALOALTO NETDRN",
         "close": 30.6,
@@ -13572,9 +13571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/palo-alto-networks--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "T1OW34": { 
+    "T1OW34": {
         "stock": "T1OW34",
         "name": "AMERICAN TOWDRN",
         "close": 50.849998,
@@ -13584,9 +13583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/american-tower--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "LAND3F": { 
+    "LAND3F": {
         "stock": "LAND3F",
         "name": "TERRASANTAPAON",
         "close": 13.19,
@@ -13596,9 +13595,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/terrasantapaon-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "J1NP34": { 
+    "J1NP34": {
         "stock": "J1NP34",
         "name": "JUNIPER NETWDRN",
         "close": 212.57001,
@@ -13608,9 +13607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/juniper-networks--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "D1EX34": { 
+    "D1EX34": {
         "stock": "D1EX34",
         "name": "DEXCOM INC DRN",
         "close": 7.67,
@@ -13620,9 +13619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexcom--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "LBRD34": { 
+    "LBRD34": {
         "stock": "LBRD34",
         "name": "LIBERTY BROADRN",
         "close": 28.469999,
@@ -13632,9 +13631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/liberty-broadband--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "BEWT39": { 
+    "BEWT39": {
         "stock": "BEWT39",
         "name": "MSCI TAIWAN DRE",
         "close": 48.25,
@@ -13644,9 +13643,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "LUGG11": { 
+    "LUGG11": {
         "stock": "LUGG11",
         "name": "FII LUGGO CI",
         "close": 73.5,
@@ -13656,9 +13655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "W1BD34": { 
+    "W1BD34": {
         "stock": "W1BD34",
         "name": "WARNER DISCODRN",
         "close": 38,
@@ -13668,9 +13667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/warner-bros-discovery--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "U2TH34": { 
+    "U2TH34": {
         "stock": "U2TH34",
         "name": "UNITEDTHERAPDRN",
         "close": 88.769997,
@@ -13680,9 +13679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/united-therapeutics--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "G1DS34": { 
+    "G1DS34": {
         "stock": "G1DS34",
         "name": "GDS HOLDINGSDRN",
         "close": 6.22,
@@ -13692,9 +13691,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gds-holdings--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "L1YG34": { 
+    "L1YG34": {
         "stock": "L1YG34",
         "name": "LLOYDS BANKIDRN",
         "close": 15.96,
@@ -13704,9 +13703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lloyds--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "FLCR11": { 
+    "FLCR11": {
         "stock": "FLCR11",
         "name": "FII FL RECEBCI ER",
         "close": 97.650002,
@@ -13716,9 +13715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BHER39": { 
+    "BHER39": {
         "stock": "BHER39",
         "name": "GX GAMES SPTDRE",
         "close": 29.469999,
@@ -13728,9 +13727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "BIEM39": { 
+    "BIEM39": {
         "stock": "BIEM39",
         "name": "COREMSCI EMKDRE",
         "close": 48.599998,
@@ -13740,9 +13739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BALM4": { 
+    "BALM4": {
         "stock": "BALM4",
         "name": "BAUMER PN",
         "close": 10.49,
@@ -13752,9 +13751,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "GEPA4": { 
+    "GEPA4": {
         "stock": "GEPA4",
         "name": "GER PARANAP PN",
         "close": 26.440001,
@@ -13764,9 +13763,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ger-paranap-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CGAS3": { 
+    "CGAS3": {
         "stock": "CGAS3",
         "name": "COMGAS",
         "close": 108.03,
@@ -13776,9 +13775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/comgas-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "NEXP3": { 
+    "NEXP3": {
         "stock": "NEXP3",
         "name": "NEXPE",
         "close": 4.16,
@@ -13788,9 +13787,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "SBUB34": { 
+    "SBUB34": {
         "stock": "SBUB34",
         "name": "STARBUCKS DRN",
         "close": 515.34954314,
@@ -13800,9 +13799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/starbucks--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BBUG39": { 
+    "BBUG39": {
         "stock": "BBUG39",
         "name": "GX CYBERSECTDRE",
         "close": 53.919998,
@@ -13812,9 +13811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "MMMC34": { 
+    "MMMC34": {
         "stock": "MMMC34",
         "name": "3M DRN",
         "close": 172.08,
@@ -13824,9 +13823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/3m--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BOBR4F": { 
+    "BOBR4F": {
         "stock": "BOBR4F",
         "name": "BOMBRIL PN",
         "close": 1.98,
@@ -13836,9 +13835,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "COCE5F": { 
+    "COCE5F": {
         "stock": "COCE5F",
         "name": "COELCE PNA",
         "close": 31.870001,
@@ -13848,9 +13847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coelce-pna--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "COWC34": { 
+    "COWC34": {
         "stock": "COWC34",
         "name": "COSTCO DRN",
         "close": 117.98,
@@ -13860,9 +13859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/costco-wholesale--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "T2DH34": { 
+    "T2DH34": {
         "stock": "T2DH34",
         "name": "TELADOCHEALTDRN",
         "close": 1.26,
@@ -13872,9 +13871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/teladoc-health--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "FHER3F": { 
+    "FHER3F": {
         "stock": "FHER3F",
         "name": "FER HERINGERON",
         "close": 4.29,
@@ -13884,9 +13883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fer-heringeron-nm--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "T1TW34": { 
+    "T1TW34": {
         "stock": "T1TW34",
         "name": "TAKE-TWO INTDRN",
         "close": 198.39999,
@@ -13896,9 +13895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/take-two-interactive-software--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ELMD3F": { 
+    "ELMD3F": {
         "stock": "ELMD3F",
         "name": "ELETROMIDIA",
         "close": 18.43,
@@ -13908,9 +13907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eletromidia-on-nm--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "LVTC3F": { 
+    "LVTC3F": {
         "stock": "LVTC3F",
         "name": "WDC NETWORKSON",
         "close": 3.91,
@@ -13920,9 +13919,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "B2YN34": { 
+    "B2YN34": {
         "stock": "B2YN34",
         "name": "BEYOND MEAT DRN",
         "close": 1.7,
@@ -13932,9 +13931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/beyond-meat--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "WHRL4F": { 
+    "WHRL4F": {
         "stock": "WHRL4F",
         "name": "WHIRLPOOL PN",
         "close": 4.45,
@@ -13944,9 +13943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/whirlpool-on--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "RDNI3F": { 
+    "RDNI3F": {
         "stock": "RDNI3F",
         "name": "RNI",
         "close": 3.21,
@@ -13956,9 +13955,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VTRU3F": { 
+    "VTRU3F": {
         "stock": "VTRU3F",
         "name": "VITRUEDUCA",
         "close": 11.2,
@@ -13968,9 +13967,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "N1TA34": { 
+    "N1TA34": {
         "stock": "N1TA34",
         "name": "NETAPP INC DRN",
         "close": 692.77002,
@@ -13980,9 +13979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/netapp--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "N2VC34": { 
+    "N2VC34": {
         "stock": "N2VC34",
         "name": "NOVOCURE DRN",
         "close": 9.56,
@@ -13992,9 +13991,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/novocure--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "ITIP11": { 
+    "ITIP11": {
         "stock": "ITIP11",
         "name": "FII INTER IPCI",
         "close": 80.089996,
@@ -14004,9 +14003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "N1DA34": { 
+    "N1DA34": {
         "stock": "N1DA34",
         "name": "NASDAQ INC DRN",
         "close": 189.62,
@@ -14016,9 +14015,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nasdaq--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "WHRL3F": { 
+    "WHRL3F": {
         "stock": "WHRL3F",
         "name": "WHIRLPOOL",
         "close": 4.31,
@@ -14028,9 +14027,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/whirlpool-on--big.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BMMT11": { 
+    "BMMT11": {
         "stock": "BMMT11",
         "name": "B INDEX MOMECI",
         "close": 119.9,
@@ -14040,9 +14039,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MILL11": { 
+    "MILL11": {
         "stock": "MILL11",
         "name": "DIGITAL LIFECI",
         "close": 62.290001,
@@ -14052,9 +14051,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "O1KT34": { 
+    "O1KT34": {
         "stock": "O1KT34",
         "name": "OKTA INC DRN",
         "close": 26.07,
@@ -14064,9 +14063,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/okta--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "HAGA4F": { 
+    "HAGA4F": {
         "stock": "HAGA4F",
         "name": "HAGA S/A PN",
         "close": 1.16,
@@ -14076,9 +14075,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CXCI11": { 
+    "CXCI11": {
         "stock": "CXCI11",
         "name": "FII CAIXA CICI ER",
         "close": 81.970001,
@@ -14088,9 +14087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "P1DD34": { 
+    "P1DD34": {
         "stock": "P1DD34",
         "name": "PDD HOLDING DRN",
         "close": 77.559998,
@@ -14100,9 +14099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pinduoduo--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "F2NV34": { 
+    "F2NV34": {
         "stock": "F2NV34",
         "name": "FRANCONEVADADRN",
         "close": 3.57,
@@ -14112,9 +14111,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/franco-nevada--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "PEAB3": { 
+    "PEAB3": {
         "stock": "PEAB3",
         "name": "PAR AL BAHIAON",
         "close": 43,
@@ -14124,9 +14123,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BGIP4": { 
+    "BGIP4": {
         "stock": "BGIP4",
         "name": "BANESE PN",
         "close": 24,
@@ -14136,9 +14135,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PLAS3": { 
+    "PLAS3": {
         "stock": "PLAS3",
         "name": "PLASCAR PARTON",
         "close": 5.5,
@@ -14148,9 +14147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/plascar-parton--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "ATMP3": { 
+    "ATMP3": {
         "stock": "ATMP3",
         "name": "ATMASA",
         "close": 1.6,
@@ -14160,9 +14159,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "NUTR3F": { 
+    "NUTR3F": {
         "stock": "NUTR3F",
         "name": "NUTRIPLANT MA",
         "close": 5.26,
@@ -14172,9 +14171,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "RCFA11": { 
+    "RCFA11": {
         "stock": "RCFA11",
         "name": "FII GP RCFA CI",
         "close": 1.01,
@@ -14184,9 +14183,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ORLY34": { 
+    "ORLY34": {
         "stock": "ORLY34",
         "name": "OREILLY AUT DRN",
         "close": 19.700001,
@@ -14196,9 +14195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/o-reilly-auto--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "OIBR4F": { 
+    "OIBR4F": {
         "stock": "OIBR4F",
         "name": "OI PN",
         "close": 12.07,
@@ -14208,9 +14207,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/oi--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "DNAI11": { 
+    "DNAI11": {
         "stock": "DNAI11",
         "name": "IT NOW DNA CI",
         "close": 35.560001,
@@ -14220,9 +14219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "NETE34": { 
+    "NETE34": {
         "stock": "NETE34",
         "name": "NETEASE DRN",
         "close": 47.799999,
@@ -14232,9 +14231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/netease--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CTSA3F": { 
+    "CTSA3F": {
         "stock": "CTSA3F",
         "name": "SANTANENSE",
         "close": 2.86,
@@ -14244,9 +14243,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "IDFI11": { 
+    "IDFI11": {
         "stock": "IDFI11",
         "name": "FII UNIDADESCI",
         "close": 8.04,
@@ -14256,9 +14255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BIYW39": { 
+    "BIYW39": {
         "stock": "BIYW39",
         "name": "US TECHNOLOGDRE",
         "close": 22.49,
@@ -14268,9 +14267,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BPAC5F": { 
+    "BPAC5F": {
         "stock": "BPAC5F",
         "name": "BTGP BANCO PNA",
         "close": 9.34,
@@ -14280,9 +14279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "GMCO34": { 
+    "GMCO34": {
         "stock": "GMCO34",
         "name": "GENERAL MOT DRN",
         "close": 59.77,
@@ -14292,9 +14291,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/general-motors--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "B1AM34": { 
+    "B1AM34": {
         "stock": "B1AM34",
         "name": "BROOKFIELD CDRN",
         "close": 63.119999,
@@ -14304,9 +14303,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brookfield--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "CMDB11": { 
+    "CMDB11": {
         "stock": "CMDB11",
         "name": "BTG COMMODITCI",
         "close": 13.59,
@@ -14316,9 +14315,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBLG11": { 
+    "RBLG11": {
         "stock": "RBLG11",
         "name": "FII RBCAP LGCI",
         "close": 65.779999,
@@ -14328,9 +14327,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LOGN3F": { 
+    "LOGN3F": {
         "stock": "LOGN3F",
         "name": "LOG-IN",
         "close": 35.799999,
@@ -14340,9 +14339,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/log-in--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "EKTR4F": { 
+    "EKTR4F": {
         "stock": "EKTR4F",
         "name": "ELEKTRO PN",
         "close": 41.799999,
@@ -14352,9 +14351,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/elektro-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "VVCO11": { 
+    "VVCO11": {
         "stock": "VVCO11",
         "name": "FII V2EDCORPCI",
         "close": 13.01,
@@ -14364,9 +14363,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RRCI11": { 
+    "RRCI11": {
         "stock": "RRCI11",
         "name": "FII RBCAP RICI",
         "close": 76.209999,
@@ -14376,9 +14375,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "R2BL34": { 
+    "R2BL34": {
         "stock": "R2BL34",
         "name": "ROBLOX CORP DRN",
         "close": 21.290001,
@@ -14388,9 +14387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/roblox--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "LSPA11": { 
+    "LSPA11": {
         "stock": "LSPA11",
         "name": "FII LESTE PACI",
         "close": 63.389999,
@@ -14400,9 +14399,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "ARMT34": { 
+    "ARMT34": {
         "stock": "ARMT34",
         "name": "ARCELOR DRN",
         "close": 59.639999,
@@ -14412,9 +14411,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/arcelormittal--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "RSUL4F": { 
+    "RSUL4F": {
         "stock": "RSUL4F",
         "name": "RIOSULENSE PN",
         "close": 63.099998,
@@ -14424,9 +14423,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "FSPE11F": { 
+    "FSPE11F": {
         "stock": "FSPE11F",
         "name": "FISET PESCA CI",
         "close": 0.32,
@@ -14436,9 +14435,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fiset-fl-refci--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "JDCO34": { 
+    "JDCO34": {
         "stock": "JDCO34",
         "name": "JD COM DRN",
         "close": 23.68,
@@ -14448,9 +14447,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jd-com--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "BSLI3F": { 
+    "BSLI3F": {
         "stock": "BSLI3F",
         "name": "BRB BANCO",
         "close": 10.5,
@@ -14460,9 +14459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brb-banco-pn--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "DAMA11": { 
+    "DAMA11": {
         "stock": "DAMA11",
         "name": "FII DAMA CI ER",
         "close": 10.02,
@@ -14472,9 +14471,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CHCM34": { 
+    "CHCM34": {
         "stock": "CHCM34",
         "name": "CHARTER COMMDRN",
         "close": 32.07,
@@ -14484,9 +14483,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/charter--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "M1NS34": { 
+    "M1NS34": {
         "stock": "M1NS34",
         "name": "MONSTER BEVEDRN",
         "close": 31.620001,
@@ -14496,9 +14495,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/monster-beverage--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "NEXT34": { 
+    "NEXT34": {
         "stock": "NEXT34",
         "name": "NEXTERA ENERDRN",
         "close": 106.81,
@@ -14508,9 +14507,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nextera-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "FSLR34": { 
+    "FSLR34": {
         "stock": "FSLR34",
         "name": "FIRST SOLAR DRN",
         "close": 623.07001,
@@ -14520,9 +14519,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/first-solar--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "GPRO34": { 
+    "GPRO34": {
         "stock": "GPRO34",
         "name": "GOPRO DRN",
         "close": 6.5,
@@ -14532,9 +14531,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gopro--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "A1ZN34": { 
+    "A1ZN34": {
         "stock": "A1ZN34",
         "name": "ASTRAZENECA DRN ED",
         "close": 76.510002,
@@ -14544,9 +14543,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/astrazeneca--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "A2FY34": { 
+    "A2FY34": {
         "stock": "A2FY34",
         "name": "AFYA LTD DRN",
         "close": 51.290001,
@@ -14556,9 +14555,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/afya-limited--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "VSHO11": { 
+    "VSHO11": {
         "stock": "VSHO11",
         "name": "FII VOT SHOPCI",
         "close": 73,
@@ -14568,9 +14567,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vot-log-ci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "WEST3F": { 
+    "WEST3F": {
         "stock": "WEST3F",
         "name": "WESTWING",
         "close": 0.94,
@@ -14580,9 +14579,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/westwing-on-nm--big.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "CEBR5F": { 
+    "CEBR5F": {
         "stock": "CEBR5F",
         "name": "CEB PNA",
         "close": 16.26,
@@ -14592,9 +14591,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "INEP4F": { 
+    "INEP4F": {
         "stock": "INEP4F",
         "name": "INEPAR PN",
         "close": 1.82,
@@ -14604,9 +14603,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "CGAS3F": { 
+    "CGAS3F": {
         "stock": "CGAS3F",
         "name": "COMGAS",
         "close": 113.01,
@@ -14616,9 +14615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/comgas-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AALR3F": { 
+    "AALR3F": {
         "stock": "AALR3F",
         "name": "ALLIAR",
         "close": 10.32,
@@ -14628,9 +14627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alliar--big.svg",
         "sector": "Health Services",
         "type": "stock",
-    }, 
+    },
 
-    "P2AT34": { 
+    "P2AT34": {
         "stock": "P2AT34",
         "name": "UIPATH INC DRN",
         "close": 7.79,
@@ -14640,9 +14639,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/uipath--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "S1NP34": { 
+    "S1NP34": {
         "stock": "S1NP34",
         "name": "SYNOPSYS INCDRN",
         "close": 724.32001,
@@ -14652,9 +14651,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/synopsys--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CLSC4F": { 
+    "CLSC4F": {
         "stock": "CLSC4F",
         "name": "CELESC PN",
         "close": 75,
@@ -14664,9 +14663,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celesc-on-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BEWG39": { 
+    "BEWG39": {
         "stock": "BEWG39",
         "name": "MSCI GERMANYDRE",
         "close": 56,
@@ -14676,9 +14675,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BSLI4": { 
+    "BSLI4": {
         "stock": "BSLI4",
         "name": "BRB BANCO PN",
         "close": 9.97,
@@ -14688,9 +14687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brb-banco-pn--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CEED3": { 
+    "CEED3": {
         "stock": "CEED3",
         "name": "CEEE-D",
         "close": 13,
@@ -14700,9 +14699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ceee-d--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "TELB3": { 
+    "TELB3": {
         "stock": "TELB3",
         "name": "TELEBRAS",
         "close": 13.9,
@@ -14712,9 +14711,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telebras-pn--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "BQTC39": { 
+    "BQTC39": {
         "stock": "BQTC39",
         "name": "FT NASD100TCDRE",
         "close": 66.709999,
@@ -14724,9 +14723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/first-trust--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BGIP3": { 
+    "BGIP3": {
         "stock": "BGIP3",
         "name": "BANESE",
         "close": 24.5,
@@ -14736,9 +14735,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "S2CH34": { 
+    "S2CH34": {
         "stock": "S2CH34",
         "name": "SOCIEDQM CHIDRN",
         "close": 32.34,
@@ -14748,9 +14747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sqm--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "BIYF39": { 
+    "BIYF39": {
         "stock": "BIYF39",
         "name": "US FINANCIALDRE",
         "close": 35.639999,
@@ -14760,9 +14759,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "ESTR4": { 
+    "ESTR4": {
         "stock": "ESTR4",
         "name": "ESTRELA PN",
         "close": 2.07,
@@ -14772,9 +14771,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "ENMT4": { 
+    "ENMT4": {
         "stock": "ENMT4",
         "name": "ENERGISA MT PN",
         "close": 72,
@@ -14784,9 +14783,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-mt-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "CMCS34": { 
+    "CMCS34": {
         "stock": "CMCS34",
         "name": "COMCAST DRN",
         "close": 42.630001,
@@ -14796,9 +14795,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/comcast--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "FLMA11": { 
+    "FLMA11": {
         "stock": "FLMA11",
         "name": "FII S F LIMACI ER",
         "close": 142.2,
@@ -14808,9 +14807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "HTEK11": { 
+    "HTEK11": {
         "stock": "HTEK11",
         "name": "IT NOW HCARECI",
         "close": 54.869999,
@@ -14820,9 +14819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/itau-unibanco--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "WPLZ11": { 
+    "WPLZ11": {
         "stock": "WPLZ11",
         "name": "FII W PLAZA CI",
         "close": 56.009998,
@@ -14832,9 +14831,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-w-plaza-ci-er--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "S2FM34": { 
+    "S2FM34": {
         "stock": "S2FM34",
         "name": "SPROUTS FARMDRN",
         "close": 175,
@@ -14844,9 +14843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sprouts-farmers-markets--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "KHCB34": { 
+    "KHCB34": {
         "stock": "KHCB34",
         "name": "KRAFT HEINZ DRN",
         "close": 47.279999,
@@ -14856,9 +14855,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kraft-heinz--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "ELAS11": { 
+    "ELAS11": {
         "stock": "ELAS11",
         "name": "SAFRAETFELASCI",
         "close": 130.39,
@@ -14868,9 +14867,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/safraetfelasci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TLNC34": { 
+    "TLNC34": {
         "stock": "TLNC34",
         "name": "TELEFONIC DRN",
         "close": 24.379999,
@@ -14880,9 +14879,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telefonica--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "FIVN11": { 
+    "FIVN11": {
         "stock": "FIVN11",
         "name": "FII VIDANOVACI",
         "close": 2.7,
@@ -14892,9 +14891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DEXP4F": { 
+    "DEXP4F": {
         "stock": "DEXP4F",
         "name": "DEXXOS PAR PN",
         "close": 9.21,
@@ -14904,9 +14903,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dexxos-par--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "EQIX34": { 
+    "EQIX34": {
         "stock": "EQIX34",
         "name": "EQUINIX INC DRN",
         "close": 57.419998,
@@ -14916,9 +14915,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equinix--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "H1SB34": { 
+    "H1SB34": {
         "stock": "H1SB34",
         "name": "HSBC HOLDINGDRN",
         "close": 58.619999,
@@ -14928,9 +14927,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hsbc--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "RECX11": { 
+    "RECX11": {
         "stock": "RECX11",
         "name": "FII REC FOF CI",
         "close": 65,
@@ -14940,9 +14939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RIOT34": { 
+    "RIOT34": {
         "stock": "RIOT34",
         "name": "RIO TINTO DRN",
         "close": 344.60999,
@@ -14952,9 +14951,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/rio-tinto--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "ALPA3F": { 
+    "ALPA3F": {
         "stock": "ALPA3F",
         "name": "ALPARGATAS",
         "close": 7.77,
@@ -14964,9 +14963,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alpargatas--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CGRA3F": { 
+    "CGRA3F": {
         "stock": "CGRA3F",
         "name": "GRAZZIOTIN",
         "close": 25,
@@ -14976,9 +14975,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Retail Trade",
         "type": "stock",
-    }, 
+    },
 
-    "RNDP11": { 
+    "RNDP11": {
         "stock": "RNDP11",
         "name": "FII BB R PAPCI",
         "close": 62.959999,
@@ -14988,9 +14987,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EXES11": { 
+    "EXES11": {
         "stock": "EXES11",
         "name": "FII EXES CI",
         "close": 9.89,
@@ -15000,9 +14999,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "VSTE3F": { 
+    "VSTE3F": {
         "stock": "VSTE3F",
         "name": "VESTE",
         "close": 13.22,
@@ -15012,9 +15011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/le-lis-blanc--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "CXRI11": { 
+    "CXRI11": {
         "stock": "CXRI11",
         "name": "FII CX RBRAVCI",
         "close": 77.879997,
@@ -15024,9 +15023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BIXJ39": { 
+    "BIXJ39": {
         "stock": "BIXJ39",
         "name": "GLOBALHEALTHDRE",
         "close": 66.370003,
@@ -15036,9 +15035,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "P1LD34": { 
+    "P1LD34": {
         "stock": "P1LD34",
         "name": "PROLOGIS INCDRN",
         "close": 56.459999,
@@ -15048,9 +15047,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/prologis--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "HBTS5F": { 
+    "HBTS5F": {
         "stock": "HBTS5F",
         "name": "HABITASUL PNA",
         "close": 40.200001,
@@ -15060,9 +15059,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "FDES11F": { 
+    "FDES11F": {
         "stock": "FDES11F",
         "name": "FUNDES CI",
         "close": 0.41,
@@ -15072,9 +15071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fundes-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "OFSA3F": { 
+    "OFSA3F": {
         "stock": "OFSA3F",
         "name": "OUROFINO S/AON",
         "close": 22.360001,
@@ -15084,9 +15083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ourofino-s-aon-nm--big.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "SNSY3F": { 
+    "SNSY3F": {
         "stock": "SNSY3F",
         "name": "SANSUY",
         "close": 12.64,
@@ -15096,9 +15095,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sansuy-on--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "RNEW11F": { 
+    "RNEW11F": {
         "stock": "RNEW11F",
         "name": "RENOVA UNT",
         "close": 2.69,
@@ -15108,9 +15107,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "fund",
-    }, 
+    },
 
-    "B2AP34": { 
+    "B2AP34": {
         "stock": "B2AP34",
         "name": "CREDICORP LTDRN",
         "close": 75.68,
@@ -15120,9 +15119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/credicorp--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "XBOV11": { 
+    "XBOV11": {
         "stock": "XBOV11",
         "name": "CAIXAETFXBOVCI",
         "close": 130.61,
@@ -15132,9 +15131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/caixaetfxbov--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "C2HP34": { 
+    "C2HP34": {
         "stock": "C2HP34",
         "name": "CHARGEPOINTHDRN",
         "close": 3.22,
@@ -15144,9 +15143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/chargepoint--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "P1KX34": { 
+    "P1KX34": {
         "stock": "P1KX34",
         "name": "POSCO HOLD DRN",
         "close": 83.68,
@@ -15156,9 +15155,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/posco--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "TXSA34": { 
+    "TXSA34": {
         "stock": "TXSA34",
         "name": "TERNIUMSA DRN",
         "close": 188.10001,
@@ -15168,9 +15167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ternium--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "BMEB3F": { 
+    "BMEB3F": {
         "stock": "BMEB3F",
         "name": "MERCANTIL",
         "close": 33.860001,
@@ -15180,9 +15179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/merc-brasil-pn-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "N1EM34": { 
+    "N1EM34": {
         "stock": "N1EM34",
         "name": "NEWMONT GOLDDRN",
         "close": 269.42999,
@@ -15192,9 +15191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/newmont--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "IRIM11": { 
+    "IRIM11": {
         "stock": "IRIM11",
         "name": "FII IRIM CI ER",
         "close": 72.900002,
@@ -15204,9 +15203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "PINE3F": { 
+    "PINE3F": {
         "stock": "PINE3F",
         "name": "PINE",
         "close": 5.82,
@@ -15216,9 +15215,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "UNIP5F": { 
+    "UNIP5F": {
         "stock": "UNIP5F",
         "name": "UNIPAR PNA",
         "close": 49.669998,
@@ -15228,9 +15227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unipar--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "GEPA4F": { 
+    "GEPA4F": {
         "stock": "GEPA4F",
         "name": "GER PARANAP PN",
         "close": 26.200001,
@@ -15240,9 +15239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ger-paranap-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "N1VS34": { 
+    "N1VS34": {
         "stock": "N1VS34",
         "name": "NOVARTIS AG DRN",
         "close": 62.220001,
@@ -15252,9 +15251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/novartis--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BBSD11": { 
+    "BBSD11": {
         "stock": "BBSD11",
         "name": "BB ETF SP DVCI",
         "close": 109.17,
@@ -15264,9 +15263,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bb-biotech--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BRSR5F": { 
+    "BRSR5F": {
         "stock": "BRSR5F",
         "name": "BANRISUL PNA",
         "close": 16.48,
@@ -15276,9 +15275,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "EUCA3F": { 
+    "EUCA3F": {
         "stock": "EUCA3F",
         "name": "EUCATEX",
         "close": 16.549999,
@@ -15288,9 +15287,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eucatex-pn-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "SHPH11": { 
+    "SHPH11": {
         "stock": "SHPH11",
         "name": "FII HIGIENOPCI",
         "close": 888,
@@ -15300,9 +15299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PICE11": { 
+    "PICE11": {
         "stock": "PICE11",
         "name": "FIP PATR INFCI",
         "close": 43.389999,
@@ -15312,9 +15311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fip-brz-ie-ci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TELB4F": { 
+    "TELB4F": {
         "stock": "TELB4F",
         "name": "TELEBRAS PN",
         "close": 9.55,
@@ -15324,9 +15323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telebras-pn--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "HOND34": { 
+    "HOND34": {
         "stock": "HOND34",
         "name": "HONDA MO DRN",
         "close": 167.03999,
@@ -15336,9 +15335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/honda--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "HLOG11": { 
+    "HLOG11": {
         "stock": "HLOG11",
         "name": "FII HEDGELOGCI",
         "close": 83.339996,
@@ -15348,9 +15347,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "FAMB11": { 
+    "FAMB11": {
         "stock": "FAMB11",
         "name": "FII ALMIRANTCI",
         "close": 999.98999,
@@ -15360,9 +15359,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "NEXP3F": { 
+    "NEXP3F": {
         "stock": "NEXP3F",
         "name": "NEXPE",
         "close": 4.07,
@@ -15372,9 +15371,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BGRT39": { 
+    "BGRT39": {
         "stock": "BGRT39",
         "name": "GLOBAL REIT DRE",
         "close": 45.950001,
@@ -15384,9 +15383,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "TMPS11": { 
+    "TMPS11": {
         "stock": "TMPS11",
         "name": "FII ITAU TEMCI",
         "close": 94.25,
@@ -15396,9 +15395,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "T1EC34": { 
+    "T1EC34": {
         "stock": "T1EC34",
         "name": "TECHNIPFMC PDRN",
         "close": 142.45,
@@ -15408,9 +15407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/technipfmc--big.svg",
         "sector": "Industrial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "G1SK34": { 
+    "G1SK34": {
         "stock": "G1SK34",
         "name": "GSK PLC DRN",
         "close": 45.720001,
@@ -15420,9 +15419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/glaxosmithkline--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "PHGN34": { 
+    "PHGN34": {
         "stock": "PHGN34",
         "name": "KOPHILIPS DRN",
         "close": 157.28,
@@ -15432,9 +15431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/philips--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "PPLA11": { 
+    "PPLA11": {
         "stock": "PPLA11",
         "name": "PPLA UNT",
         "close": 2.8,
@@ -15444,9 +15443,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ppla-unt--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "D2KN34": { 
+    "D2KN34": {
         "stock": "D2KN34",
         "name": "DRAFTKINGS DRN",
         "close": 29.219999,
@@ -15456,9 +15455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/draftkings--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BDEF11": { 
+    "BDEF11": {
         "stock": "BDEF11",
         "name": "B INDEX DEFECI",
         "close": 125.14,
@@ -15468,9 +15467,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "E1DU34": { 
+    "E1DU34": {
         "stock": "E1DU34",
         "name": "NEW ORIENTALDRN",
         "close": 24.84,
@@ -15480,9 +15479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/new-oriental--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "OSXB3F": { 
+    "OSXB3F": {
         "stock": "OSXB3F",
         "name": "OSX BRASIL",
         "close": 3.78,
@@ -15492,9 +15491,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "NCRI11": { 
+    "NCRI11": {
         "stock": "NCRI11",
         "name": "FII NAVI CRICI ER",
         "close": 8.69,
@@ -15504,9 +15503,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "I1QY34": { 
+    "I1QY34": {
         "stock": "I1QY34",
         "name": "IQIYI INC DRN",
         "close": 8.58,
@@ -15516,9 +15515,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iqiyi--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "EURO11": { 
+    "EURO11": {
         "stock": "EURO11",
         "name": "FII EUROPAR CI",
         "close": 248.98,
@@ -15528,9 +15527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "G1LL34": { 
+    "G1LL34": {
         "stock": "G1LL34",
         "name": "GLOBE LIFE IDRN",
         "close": 26,
@@ -15540,9 +15539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/globe-life--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "L1YV34": { 
+    "L1YV34": {
         "stock": "L1YV34",
         "name": "LIVE NATION DRN",
         "close": 102.3,
@@ -15552,9 +15551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/live-nation--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BSLI4F": { 
+    "BSLI4F": {
         "stock": "BSLI4F",
         "name": "BRB BANCO PN",
         "close": 9.74,
@@ -15564,9 +15563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/brb-banco-pn--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "EMAE4F": { 
+    "EMAE4F": {
         "stock": "EMAE4F",
         "name": "EMAE PN",
         "close": 40.889999,
@@ -15576,9 +15575,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BCOM39": { 
+    "BCOM39": {
         "stock": "BCOM39",
         "name": "BKR COMT ROLDRE",
         "close": 47.849998,
@@ -15588,9 +15587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "APER3F": { 
+    "APER3F": {
         "stock": "APER3F",
         "name": "ALPER S.A.",
         "close": 47.970001,
@@ -15600,9 +15599,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "PTNT4F": { 
+    "PTNT4F": {
         "stock": "PTNT4F",
         "name": "PETTENATI PN",
         "close": 5.99,
@@ -15612,9 +15611,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "FSPM11": { 
+    "FSPM11": {
         "stock": "FSPM11",
         "name": "FIM F3 FUNDSCI",
         "close": 69.900002,
@@ -15624,9 +15623,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "APER3": { 
+    "APER3": {
         "stock": "APER3",
         "name": "ALPER S.A.",
         "close": 46.330002,
@@ -15636,9 +15635,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "URHF11": { 
+    "URHF11": {
         "stock": "URHF11",
         "name": "FII URHF CI",
         "close": 105,
@@ -15648,9 +15647,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BGIP3F": { 
+    "BGIP3F": {
         "stock": "BGIP3F",
         "name": "BANESE",
         "close": 24.16,
@@ -15660,9 +15659,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CTKA4": { 
+    "CTKA4": {
         "stock": "CTKA4",
         "name": "KARSTEN PN",
         "close": 15.46,
@@ -15672,9 +15671,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "HETA4": { 
+    "HETA4": {
         "stock": "HETA4",
         "name": "HERCULES PN",
         "close": 5.21,
@@ -15684,9 +15683,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "MKLC34": { 
+    "MKLC34": {
         "stock": "MKLC34",
         "name": "MARKELGROUP DRN",
         "close": 418.39001,
@@ -15696,9 +15695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/markel--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BCIC11": { 
+    "BCIC11": {
         "stock": "BCIC11",
         "name": "B INDEX CICLCI",
         "close": 122.68,
@@ -15708,9 +15707,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "WUNI34": { 
+    "WUNI34": {
         "stock": "WUNI34",
         "name": "WESTERNUNIONDRN",
         "close": 63.540001,
@@ -15720,9 +15719,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/western-union-company--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BRSR5": { 
+    "BRSR5": {
         "stock": "BRSR5",
         "name": "BANRISUL PNA",
         "close": 17,
@@ -15732,9 +15731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banrisul--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "CPLE5": { 
+    "CPLE5": {
         "stock": "CPLE5",
         "name": "COPEL PNA",
         "close": 12.28,
@@ -15744,9 +15743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "HBTS5": { 
+    "HBTS5": {
         "stock": "HBTS5",
         "name": "HABITASUL PNA",
         "close": 40.200001,
@@ -15756,9 +15755,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BNBR3": { 
+    "BNBR3": {
         "stock": "BNBR3",
         "name": "NORD BRASIL",
         "close": 101.5,
@@ -15768,9 +15767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nord-brasil-on--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BREW11": { 
+    "BREW11": {
         "stock": "BREW11",
         "name": "B INDEX BREWCI",
         "close": 123.28,
@@ -15780,9 +15779,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "TXRX4": { 
+    "TXRX4": {
         "stock": "TXRX4",
         "name": "TEX RENAUX PN",
         "close": 2.29,
@@ -15792,9 +15791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tex-renaux-on--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "COCE3": { 
+    "COCE3": {
         "stock": "COCE3",
         "name": "COELCE",
         "close": 33,
@@ -15804,9 +15803,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coelce-pna--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "FCXO34": { 
+    "FCXO34": {
         "stock": "FCXO34",
         "name": "FREEPORT DRN",
         "close": 76.470001,
@@ -15816,9 +15815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/freeport-mcmoran--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "SNEC34": { 
+    "SNEC34": {
         "stock": "SNEC34",
         "name": "SONY GROUP DRN",
         "close": 487.76001,
@@ -15828,9 +15827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sony--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BIEF39": { 
+    "BIEF39": {
         "stock": "BIEF39",
         "name": "COREMSCIEAFEDRE",
         "close": 50.27,
@@ -15840,9 +15839,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BBFI11": { 
+    "BBFI11": {
         "stock": "BBFI11",
         "name": "FII BB PROGRCI",
         "close": 624.89001,
@@ -15852,9 +15851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bb-biotech--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BITO39": { 
+    "BITO39": {
         "stock": "BITO39",
         "name": "CORE SP TOTADRE",
         "close": 65.050003,
@@ -15864,9 +15863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BALM4F": { 
+    "BALM4F": {
         "stock": "BALM4F",
         "name": "BAUMER PN",
         "close": 10.4,
@@ -15876,9 +15875,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "BLCA11": { 
+    "BLCA11": {
         "stock": "BLCA11",
         "name": "FII BLUE AAACI ER",
         "close": 103,
@@ -15888,9 +15887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BGIP4F": { 
+    "BGIP4F": {
         "stock": "BGIP4F",
         "name": "BANESE PN",
         "close": 23.540001,
@@ -15900,9 +15899,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "HGAG11": { 
+    "HGAG11": {
         "stock": "HGAG11",
         "name": "FIAGRO HIGH CI",
         "close": 18.299999,
@@ -15912,9 +15911,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-do-brasil--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "W1BO34": { 
+    "W1BO34": {
         "stock": "W1BO34",
         "name": "WEIBO CORP DRN",
         "close": 10.74,
@@ -15924,9 +15923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/weibo--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "VVCR11": { 
+    "VVCR11": {
         "stock": "VVCR11",
         "name": "FII V2 RECE CI",
         "close": 9.95,
@@ -15936,9 +15935,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "UPSS34": { 
+    "UPSS34": {
         "stock": "UPSS34",
         "name": "UPS DRN",
         "close": 43.279999,
@@ -15948,9 +15947,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/united-parcel--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BCPX39": { 
+    "BCPX39": {
         "stock": "BCPX39",
         "name": "GX COPPER MNDRE",
         "close": 44.330002,
@@ -15960,9 +15959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CPLE5F": { 
+    "CPLE5F": {
         "stock": "CPLE5F",
         "name": "COPEL PNA",
         "close": 12.83,
@@ -15972,9 +15971,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cia-paranaense--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "C1CL34": { 
+    "C1CL34": {
         "stock": "C1CL34",
         "name": "CARNIVAL CORDRN",
         "close": 80.559998,
@@ -15984,9 +15983,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/carnival--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BLOK11": { 
+    "BLOK11": {
         "stock": "BLOK11",
         "name": "INVESTO BLOKCI",
         "close": 154.14999,
@@ -15996,9 +15995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PQDP11": { 
+    "PQDP11": {
         "stock": "PQDP11",
         "name": "FII D PEDRO CI",
         "close": 1917.99,
@@ -16008,9 +16007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "HRDF11": { 
+    "HRDF11": {
         "stock": "HRDF11",
         "name": "FII HREALTY CI",
         "close": 3.2,
@@ -16020,9 +16019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "GCOI11": { 
+    "GCOI11": {
         "stock": "GCOI11",
         "name": "FII GALAP SPCI",
         "close": 98.989998,
@@ -16032,9 +16031,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBDS11": { 
+    "RBDS11": {
         "stock": "RBDS11",
         "name": "FII RBRESID2CI",
         "close": 3,
@@ -16044,9 +16043,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "AVLL3F": { 
+    "AVLL3F": {
         "stock": "AVLL3F",
         "name": "ALPHAVILLE",
         "close": 4.07,
@@ -16056,9 +16055,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "RBOP11": { 
+    "RBOP11": {
         "stock": "RBOP11",
         "name": "FII MERC BR CI ER",
         "close": 364,
@@ -16068,9 +16067,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CPRL34": { 
+    "CPRL34": {
         "stock": "CPRL34",
         "name": "CANAD KANSASDRN",
         "close": 106.37,
@@ -16080,9 +16079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/canadian-pacific-railway--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BHYG39": { 
+    "BHYG39": {
         "stock": "BHYG39",
         "name": "BKR IBOXX HYDRE",
         "close": 53.669998,
@@ -16092,9 +16091,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CSRN5F": { 
+    "CSRN5F": {
         "stock": "CSRN5F",
         "name": "COSERN PNA",
         "close": 18.99,
@@ -16104,9 +16103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosern-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BIYE39": { 
+    "BIYE39": {
         "stock": "BIYE39",
         "name": "BKR US ENER DRE",
         "close": 86.25,
@@ -16116,9 +16115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "COLG34": { 
+    "COLG34": {
         "stock": "COLG34",
         "name": "COLGATE DRN",
         "close": 79.68,
@@ -16128,9 +16127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/colgate-palmolive--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "NVHO11": { 
+    "NVHO11": {
         "stock": "NVHO11",
         "name": "FII NOVOHORICI",
         "close": 12.43,
@@ -16140,9 +16139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FESA3F": { 
+    "FESA3F": {
         "stock": "FESA3F",
         "name": "FERBASA",
         "close": 13.24,
@@ -16152,9 +16151,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ferbasa--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "NSLU11": { 
+    "NSLU11": {
         "stock": "NSLU11",
         "name": "FII LOURDES CI",
         "close": 182.98,
@@ -16164,9 +16163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "MNDL3F": { 
+    "MNDL3F": {
         "stock": "MNDL3F",
         "name": "MUNDIAL",
         "close": 13.43,
@@ -16176,9 +16175,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Non-Durables",
         "type": "stock",
-    }, 
+    },
 
-    "SIMN34": { 
+    "SIMN34": {
         "stock": "SIMN34",
         "name": "SIMON PROP DRN",
         "close": 214.62,
@@ -16188,9 +16187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/simon-property--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "MTSA4F": { 
+    "MTSA4F": {
         "stock": "MTSA4F",
         "name": "METISA PN",
         "close": 42.41,
@@ -16200,9 +16199,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "IGTI4F": { 
+    "IGTI4F": {
         "stock": "IGTI4F",
         "name": "IGUATEMI S.APN",
         "close": 10.5,
@@ -16212,9 +16211,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/iguatemi-saon-n1--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "VRTM11": { 
+    "VRTM11": {
         "stock": "VRTM11",
         "name": "FII VRTM CI",
         "close": 10.8,
@@ -16224,9 +16223,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "C1DN34": { 
+    "C1DN34": {
         "stock": "C1DN34",
         "name": "CADENCE DESIDRN",
         "close": 739.67999,
@@ -16236,9 +16235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cadence-design-systems--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MNPR3F": { 
+    "MNPR3F": {
         "stock": "MNPR3F",
         "name": "MINUPAR",
         "close": 16.59,
@@ -16248,9 +16247,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "DPRO11": { 
+    "DPRO11": {
         "stock": "DPRO11",
         "name": "FII DEVA PROCI ER",
         "close": 6.98,
@@ -16260,9 +16259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ASMT11": { 
+    "ASMT11": {
         "stock": "ASMT11",
         "name": "FII ASA MET CI",
         "close": 37.02,
@@ -16272,9 +16271,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CRPG5F": { 
+    "CRPG5F": {
         "stock": "CRPG5F",
         "name": "CRISTAL PNA",
         "close": 29.07,
@@ -16284,9 +16283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cristal-pna--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "HOME34": { 
+    "HOME34": {
         "stock": "HOME34",
         "name": "HOME DEPOT DRN",
         "close": 70.139999,
@@ -16296,9 +16295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/home-depot--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "UBSG34": { 
+    "UBSG34": {
         "stock": "UBSG34",
         "name": "UBS GROUP DRN",
         "close": 169,
@@ -16308,9 +16307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ubs-group--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "K1BF34": { 
+    "K1BF34": {
         "stock": "K1BF34",
         "name": "KB FINANCIALDRN",
         "close": 84.93,
@@ -16320,9 +16319,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kb-financial--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "N1WS35": { 
+    "N1WS35": {
         "stock": "N1WS35",
         "name": "NEWS CORP DRN",
         "close": 78.080002,
@@ -16332,9 +16331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/news-corporation--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "WLMM3F": { 
+    "WLMM3F": {
         "stock": "WLMM3F",
         "name": "WLM IND COM",
         "close": 26.68,
@@ -16344,9 +16343,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wlm-ind-com-pn--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "H1CA34": { 
+    "H1CA34": {
         "stock": "H1CA34",
         "name": "HCA HEALTHCADRN",
         "close": 100.3,
@@ -16356,9 +16355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hca-healthcare--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "PTNT3F": { 
+    "PTNT3F": {
         "stock": "PTNT3F",
         "name": "PETTENATI",
         "close": 8.97,
@@ -16368,9 +16367,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "CBOP11": { 
+    "CBOP11": {
         "stock": "CBOP11",
         "name": "FII CBOP PAXCI",
         "close": 28.200001,
@@ -16380,9 +16379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EALT3F": { 
+    "EALT3F": {
         "stock": "EALT3F",
         "name": "ACO ALTONA",
         "close": 14.35,
@@ -16392,9 +16391,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "TMOS34": { 
+    "TMOS34": {
         "stock": "TMOS34",
         "name": "THERMFISCHERDRN",
         "close": 68.32,
@@ -16404,9 +16403,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/thermo-fisher-scientific--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "B1NT34": { 
+    "B1NT34": {
         "stock": "B1NT34",
         "name": "BIONTECH SE DRN",
         "close": 29,
@@ -16416,9 +16415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/biontech--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "HCRI11": { 
+    "HCRI11": {
         "stock": "HCRI11",
         "name": "FII CRIANCA CI",
         "close": 281.98999,
@@ -16428,9 +16427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CTNM4F": { 
+    "CTNM4F": {
         "stock": "CTNM4F",
         "name": "COTEMINAS PN",
         "close": 0.91,
@@ -16440,9 +16439,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "U1RI34": { 
+    "U1RI34": {
         "stock": "U1RI34",
         "name": "UNITED RENTADRN ED",
         "close": 137.89999,
@@ -16452,9 +16451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/united-rentals--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "R1IN34": { 
+    "R1IN34": {
         "stock": "R1IN34",
         "name": "REALTY INCOMDRN",
         "close": 164.96001,
@@ -16464,9 +16463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/realty-income--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "C1BS34": { 
+    "C1BS34": {
         "stock": "C1BS34",
         "name": "PARAMOUNT GLDRN",
         "close": 56.34,
@@ -16476,9 +16475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/viacomcbs--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "E1SE34": { 
+    "E1SE34": {
         "stock": "E1SE34",
         "name": "EVERSOURCE EDRN",
         "close": 179,
@@ -16488,9 +16487,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eversource-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "EVTC31": { 
+    "EVTC31": {
         "stock": "EVTC31",
         "name": "EVERTEC INC DR1",
         "close": 178.02,
@@ -16500,9 +16499,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/evertec-inc--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "F2VR34": { 
+    "F2VR34": {
         "stock": "F2VR34",
         "name": "FIVERR INTL DRN",
         "close": 6.45,
@@ -16512,9 +16511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fiverr--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "S2TA34": { 
+    "S2TA34": {
         "stock": "S2TA34",
         "name": "STAG INDUSTRDRN",
         "close": 43.400002,
@@ -16524,9 +16523,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/stag-industrial--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "TXRX4F": { 
+    "TXRX4F": {
         "stock": "TXRX4F",
         "name": "TEX RENAUX PN",
         "close": 2.21,
@@ -16536,9 +16535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tex-renaux-on--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BIYT39": { 
+    "BIYT39": {
         "stock": "BIYT39",
         "name": "BKR 7 10 YRTDRE",
         "close": 53.450001,
@@ -16548,9 +16547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "PRSN11": { 
+    "PRSN11": {
         "stock": "PRSN11",
         "name": "FII PERSONALCI",
         "close": 1.09,
@@ -16560,9 +16559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/personale-i-fundo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "I1FO34": { 
+    "I1FO34": {
         "stock": "I1FO34",
         "name": "INFOSYS LTD DRN",
         "close": 59.580002,
@@ -16572,9 +16571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/infosys--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BVLU39": { 
+    "BVLU39": {
         "stock": "BVLU39",
         "name": "MSCIUSVALUEFDRE",
         "close": 55.860001,
@@ -16584,9 +16583,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "PQAG11": { 
+    "PQAG11": {
         "stock": "PQAG11",
         "name": "FII PARQ ANHCI",
         "close": 59.779999,
@@ -16596,9 +16595,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "J2WA34": { 
+    "J2WA34": {
         "stock": "J2WA34",
         "name": "JOHN WILEY SDRN",
         "close": 49.23,
@@ -16608,9 +16607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wiley-john-and-sons--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MFCR11": { 
+    "MFCR11": {
         "stock": "MFCR11",
         "name": "FII MERITO RCI",
         "close": 26.82,
@@ -16620,9 +16619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BOEI34": { 
+    "BOEI34": {
         "stock": "BOEI34",
         "name": "BOEING DRN",
         "close": 920.91998,
@@ -16632,9 +16631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/boeing--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "CSRN6F": { 
+    "CSRN6F": {
         "stock": "CSRN6F",
         "name": "COSERN PNB",
         "close": 16.629999,
@@ -16644,9 +16643,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cosern-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "AFLT3F": { 
+    "AFLT3F": {
         "stock": "AFLT3F",
         "name": "AFLUENTE T",
         "close": 7.17,
@@ -16656,9 +16655,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "M2PW34": { 
+    "M2PW34": {
         "stock": "M2PW34",
         "name": "MEDICAL P TRDRN",
         "close": 12.72,
@@ -16668,9 +16667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/medical-properties-trust--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BOTZ39": { 
+    "BOTZ39": {
         "stock": "BOTZ39",
         "name": "GX ROBOTC AIDRE",
         "close": 40.900002,
@@ -16680,9 +16679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "KOPA11": { 
+    "KOPA11": {
         "stock": "KOPA11",
         "name": "FIAGRO KOPA CI",
         "close": 999.90002,
@@ -16692,9 +16691,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DGCO34": { 
+    "DGCO34": {
         "stock": "DGCO34",
         "name": "DOLLAR GENERDRN",
         "close": 26.700001,
@@ -16704,9 +16703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dollar-general--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "C2AC34": { 
+    "C2AC34": {
         "stock": "C2AC34",
         "name": "CACI INTERNLDRN",
         "close": 3.19,
@@ -16716,9 +16715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/caci-international--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "GEOO34": { 
+    "GEOO34": {
         "stock": "GEOO34",
         "name": "GEAEROSPACE DRN",
         "close": 916.02002,
@@ -16728,9 +16727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/general-electric--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "BIXN39": { 
+    "BIXN39": {
         "stock": "BIXN39",
         "name": "GLOBAL TECH DRE",
         "close": 14.46,
@@ -16740,9 +16739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "SGPS3F": { 
+    "SGPS3F": {
         "stock": "SGPS3F",
         "name": "SPRINGS",
         "close": 1.85,
@@ -16752,9 +16751,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "GSHP3F": { 
+    "GSHP3F": {
         "stock": "GSHP3F",
         "name": "GENERALSHOPPON",
         "close": 10.53,
@@ -16764,9 +16763,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "P1GR34": { 
+    "P1GR34": {
         "stock": "P1GR34",
         "name": "THE PROGRESSDRN",
         "close": 640.5,
@@ -16776,9 +16775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/progressive-ohio--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "T1RI34": { 
+    "T1RI34": {
         "stock": "T1RI34",
         "name": "TRIPADVISOR DRN",
         "close": 73.199997,
@@ -16788,9 +16787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tripadvisor--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CNIC34": { 
+    "CNIC34": {
         "stock": "CNIC34",
         "name": "CANAD NATIONDRN",
         "close": 25.379999,
@@ -16800,9 +16799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/canadian-national-railways--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "PLAS3F": { 
+    "PLAS3F": {
         "stock": "PLAS3F",
         "name": "PLASCAR PARTON",
         "close": 5.45,
@@ -16812,9 +16811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/plascar-parton--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "U1AL34": { 
+    "U1AL34": {
         "stock": "U1AL34",
         "name": "UNITED AIRLIDRN",
         "close": 110.81,
@@ -16824,9 +16823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/united-airlines--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "MGEL4F": { 
+    "MGEL4F": {
         "stock": "MGEL4F",
         "name": "MANGELS INDLPN",
         "close": 12.09,
@@ -16836,9 +16835,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "BMKS3": { 
+    "BMKS3": {
         "stock": "BMKS3",
         "name": "BIC MONARK",
         "close": 313,
@@ -16848,9 +16847,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "C2OL34": { 
+    "C2OL34": {
         "stock": "C2OL34",
         "name": "BANCOLOMBIA DRN",
         "close": 46.099998,
@@ -16860,9 +16859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bancolombia--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "NINJ3F": { 
+    "NINJ3F": {
         "stock": "NINJ3F",
         "name": "GETNINJAS",
         "close": 4.61,
@@ -16872,9 +16871,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "MOAR3F": { 
+    "MOAR3F": {
         "stock": "MOAR3F",
         "name": "MONT ARANHA",
         "close": 340,
@@ -16884,9 +16883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mont-aranha-on--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BNBR3F": { 
+    "BNBR3F": {
         "stock": "BNBR3F",
         "name": "NORD BRASIL",
         "close": 102.79,
@@ -16896,9 +16895,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nord-brasil-on--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BZRO39": { 
+    "BZRO39": {
         "stock": "BZRO39",
         "name": "PCOM 25 YRZCDRE",
         "close": 37.080002,
@@ -16908,9 +16907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pimco--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BTSG11": { 
+    "BTSG11": {
         "stock": "BTSG11",
         "name": "FII BTSP I CI",
         "close": 160,
@@ -16920,9 +16919,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CEEB3F": { 
+    "CEEB3F": {
         "stock": "CEEB3F",
         "name": "COELBA",
         "close": 39.099998,
@@ -16932,9 +16931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/coelba-pna--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "DOHL4F": { 
+    "DOHL4F": {
         "stock": "DOHL4F",
         "name": "DOHLER PN",
         "close": 4,
@@ -16944,9 +16943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dohler-pn-ed--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "G1FI34": { 
+    "G1FI34": {
         "stock": "G1FI34",
         "name": "GOLD FIELDS DRN",
         "close": 43.080002,
@@ -16956,9 +16955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/gold-fields--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "EAIN34": { 
+    "EAIN34": {
         "stock": "EAIN34",
         "name": "ELECTR ARTS DRN",
         "close": 400.56,
@@ -16968,9 +16967,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/electronic-arts--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BILB34": { 
+    "BILB34": {
         "stock": "BILB34",
         "name": "BILBAOVIZ DRN",
         "close": 54.150002,
@@ -16980,9 +16979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/banco-bilbao-vizcaya-argentaria--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "CRPG6F": { 
+    "CRPG6F": {
         "stock": "CRPG6F",
         "name": "CRISTAL PNB",
         "close": 28.690001,
@@ -16992,9 +16991,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cristal-pna--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "SCAR3F": { 
+    "SCAR3F": {
         "stock": "SCAR3F",
         "name": "SAO CARLOS",
         "close": 23.610001,
@@ -17004,9 +17003,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sao-carlos-on-nm--big.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "E1XC34": { 
+    "E1XC34": {
         "stock": "E1XC34",
         "name": "EXELON CORP DRN ED",
         "close": 203.91,
@@ -17016,9 +17015,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/exelon--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "C1GP34": { 
+    "C1GP34": {
         "stock": "C1GP34",
         "name": "COSTAR GROUPDRN",
         "close": 4,
@@ -17028,9 +17027,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/costar-group--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "L2PL34": { 
+    "L2PL34": {
         "stock": "L2PL34",
         "name": "LPL FINCL HDDRN ED",
         "close": 65.800003,
@@ -17040,9 +17039,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lpl-finl--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "G1LP34": { 
+    "G1LP34": {
         "stock": "G1LP34",
         "name": "GALAPAGOS NVDRN",
         "close": 6.61,
@@ -17052,9 +17051,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/galapagos--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "CEDO4F": { 
+    "CEDO4F": {
         "stock": "CEDO4F",
         "name": "CEDRO PN",
         "close": 24.290001,
@@ -17064,9 +17063,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "A1EP34": { 
+    "A1EP34": {
         "stock": "A1EP34",
         "name": "AMERICAN ELEDRN ED",
         "close": 266.76001,
@@ -17076,9 +17075,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/american-electric-power--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "DUKB34": { 
+    "DUKB34": {
         "stock": "DUKB34",
         "name": "DUKE ENERGY DRN",
         "close": 622.33002,
@@ -17088,9 +17087,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/duke-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "BEFV39": { 
+    "BEFV39": {
         "stock": "BEFV39",
         "name": "MSCIEAFEVALUDRE",
         "close": 49.299999,
@@ -17100,9 +17099,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "DTCY3F": { 
+    "DTCY3F": {
         "stock": "DTCY3F",
         "name": "DTCOM-DIRECTON",
         "close": 5.93,
@@ -17112,9 +17111,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "N1GG34": { 
+    "N1GG34": {
         "stock": "N1GG34",
         "name": "NATIONAL GRIDRN",
         "close": 58.860001,
@@ -17124,9 +17123,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/national-grid--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "E1RI34": { 
+    "E1RI34": {
         "stock": "E1RI34",
         "name": "ERICSSON LM DRN",
         "close": 18.84,
@@ -17136,9 +17135,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ericsson--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "T1EV34": { 
+    "T1EV34": {
         "stock": "T1EV34",
         "name": "TEVA PHARMACDRN",
         "close": 48.799999,
@@ -17148,9 +17147,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/teva--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "N1OW34": { 
+    "N1OW34": {
         "stock": "N1OW34",
         "name": "SERVICENOW DRN",
         "close": 89.18,
@@ -17160,9 +17159,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/servicenow--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ATMP3F": { 
+    "ATMP3F": {
         "stock": "ATMP3F",
         "name": "ATMASA",
         "close": 1.71,
@@ -17172,9 +17171,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "HONB34": { 
+    "HONB34": {
         "stock": "HONB34",
         "name": "HONEYWELL DRN",
         "close": 1096.1896,
@@ -17184,9 +17183,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/honeywell--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "FPNG11": { 
+    "FPNG11": {
         "stock": "FPNG11",
         "name": "FII P NEGRA CI",
         "close": 200,
@@ -17196,9 +17195,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "METB34": { 
+    "METB34": {
         "stock": "METB34",
         "name": "METLIFE INC DRN ED",
         "close": 385.85001,
@@ -17208,9 +17207,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/metlife--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "RYTT34": { 
+    "RYTT34": {
         "stock": "RYTT34",
         "name": "RAYTHEONTECHDRN",
         "close": 107.07,
@@ -17220,9 +17219,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/raytheon--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "V1OD34": { 
+    "V1OD34": {
         "stock": "V1OD34",
         "name": "VODAFONE GRODRN",
         "close": 26.219999,
@@ -17232,9 +17231,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vodafone--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "AAGR11": { 
+    "AAGR11": {
         "stock": "AAGR11",
         "name": "FIAGRO AAGR CI ER",
         "close": 98.309998,
@@ -17244,9 +17243,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "ABTT34": { 
+    "ABTT34": {
         "stock": "ABTT34",
         "name": "ABBOTT DRN",
         "close": 49.200001,
@@ -17256,9 +17255,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/abbott--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "ATSA11": { 
+    "ATSA11": {
         "stock": "ATSA11",
         "name": "FII HATRIUM CI",
         "close": 56,
@@ -17268,9 +17267,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "I1RP34": { 
+    "I1RP34": {
         "stock": "I1RP34",
         "name": "TRANE TECH DRN",
         "close": 934.65002,
@@ -17280,9 +17279,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/trane-technologies--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "NVRP11": { 
+    "NVRP11": {
         "stock": "NVRP11",
         "name": "FIP NVRAPOSOCI",
         "close": 110,
@@ -17292,9 +17291,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "A1UT34": { 
+    "A1UT34": {
         "stock": "A1UT34",
         "name": "AUTODESK INCDRN",
         "close": 336.92999,
@@ -17304,9 +17303,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/autodesk--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "DBAG34": { 
+    "DBAG34": {
         "stock": "DBAG34",
         "name": "DEUTSCHE AK DRN",
         "close": 80.559998,
@@ -17316,9 +17315,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/deutsche-bank-ag--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "ZAVC11": { 
+    "ZAVC11": {
         "stock": "ZAVC11",
         "name": "FII ZAVIT C CI",
         "close": 10.49,
@@ -17328,9 +17327,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FSTU11F": { 
+    "FSTU11F": {
         "stock": "FSTU11F",
         "name": "FISET TUR CI",
         "close": 0.37,
@@ -17340,9 +17339,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fiset-fl-refci--big.svg",
         "sector": "Finance",
         "type": "fund",
-    }, 
+    },
 
-    "BALM3F": { 
+    "BALM3F": {
         "stock": "BALM3F",
         "name": "BAUMER",
         "close": 11.76,
@@ -17352,9 +17351,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Health Technology",
         "type": "stock",
-    }, 
+    },
 
-    "W1MG34": { 
+    "W1MG34": {
         "stock": "W1MG34",
         "name": "WARNER MUSICDRN",
         "close": 38.310001,
@@ -17364,9 +17363,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wmg--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BMIN4F": { 
+    "BMIN4F": {
         "stock": "BMIN4F",
         "name": "MERC INVEST PN",
         "close": 16.389999,
@@ -17376,9 +17375,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "T1DG34": { 
+    "T1DG34": {
         "stock": "T1DG34",
         "name": "TRANSDIGM GRDRN",
         "close": 135.24001,
@@ -17388,9 +17387,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/transdigm-group--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "A1DM34": { 
+    "A1DM34": {
         "stock": "A1DM34",
         "name": "ARCHER DANIEDRN",
         "close": 320,
@@ -17400,9 +17399,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/archer-daniels-midland--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "BAHI3F": { 
+    "BAHI3F": {
         "stock": "BAHI3F",
         "name": "BAHEMA MA",
         "close": 6,
@@ -17412,9 +17411,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Services",
         "type": "stock",
-    }, 
+    },
 
-    "FISC11": { 
+    "FISC11": {
         "stock": "FISC11",
         "name": "FII SC 401 CI ER",
         "close": 60,
@@ -17424,9 +17423,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BMIN3F": { 
+    "BMIN3F": {
         "stock": "BMIN3F",
         "name": "MERC INVEST",
         "close": 19.870001,
@@ -17436,9 +17435,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "S2QS34": { 
+    "S2QS34": {
         "stock": "S2QS34",
         "name": "SQUARESPACE DRN",
         "close": 40.360001,
@@ -17448,9 +17447,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/squarespace--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "I1CE34": { 
+    "I1CE34": {
         "stock": "I1CE34",
         "name": "INTERCONTINEDRN",
         "close": 428.39999,
@@ -17460,9 +17459,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/intercontinental-exchange--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "CTXT11": { 
+    "CTXT11": {
         "stock": "CTXT11",
         "name": "FII C TEXTILCI",
         "close": 8.35,
@@ -17472,9 +17471,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PATI4F": { 
+    "PATI4F": {
         "stock": "PATI4F",
         "name": "PANATLANTICAPN",
         "close": 29,
@@ -17484,9 +17483,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/panatlanticapn--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "SCVB11": { 
+    "SCVB11": {
         "stock": "SCVB11",
         "name": "INVESTO SCVBCI",
         "close": 91.459999,
@@ -17496,9 +17495,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "CEED3F": { 
+    "CEED3F": {
         "stock": "CEED3F",
         "name": "CEEE-D",
         "close": 12.84,
@@ -17508,9 +17507,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ceee-d--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "P2IN34": { 
+    "P2IN34": {
         "stock": "P2IN34",
         "name": "PINTERESTINCDRN",
         "close": 26.459999,
@@ -17520,9 +17519,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/pinterest--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BIHI39": { 
+    "BIHI39": {
         "stock": "BIHI39",
         "name": "USMEDICDEVICDRE",
         "close": 8.770001,
@@ -17532,9 +17531,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "TRXB11": { 
+    "TRXB11": {
         "stock": "TRXB11",
         "name": "FII TRX R IICI",
         "close": 149.44,
@@ -17544,9 +17543,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-trxe-corci--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "SLBG34": { 
+    "SLBG34": {
         "stock": "SLBG34",
         "name": "SCHLUMBERGERDRN",
         "close": 118.74,
@@ -17556,9 +17555,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/schlumberger--big.svg",
         "sector": "Industrial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "EDFO11": { 
+    "EDFO11": {
         "stock": "EDFO11",
         "name": "FII OURINVESCI",
         "close": 180,
@@ -17568,9 +17567,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "UPAC34": { 
+    "UPAC34": {
         "stock": "UPAC34",
         "name": "UNIONPACIFICDRN",
         "close": 330.82001,
@@ -17580,9 +17579,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/union-pacific--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "DRIT11": { 
+    "DRIT11": {
         "stock": "DRIT11",
         "name": "FII MTGESTAOCI ER",
         "close": 81.019997,
@@ -17592,9 +17591,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/multigestao-renda--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "B2MB34": { 
+    "B2MB34": {
         "stock": "B2MB34",
         "name": "BUMBLE INC DRN",
         "close": 6.4,
@@ -17604,9 +17603,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bumble--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "L1RC34": { 
+    "L1RC34": {
         "stock": "L1RC34",
         "name": "LAM RESEARCHDRN",
         "close": 104.2,
@@ -17616,9 +17615,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lam-research--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "SMAB11": { 
+    "SMAB11": {
         "stock": "SMAB11",
         "name": "BTG SMLL CAPCI",
         "close": 7.8,
@@ -17628,9 +17627,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/country/BR--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "EBAY34": { 
+    "EBAY34": {
         "stock": "EBAY34",
         "name": "EBAY DRN",
         "close": 153.48,
@@ -17640,9 +17639,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ebay--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "E2EF34": { 
+    "E2EF34": {
         "stock": "E2EF34",
         "name": "EURONETWORLDDRN",
         "close": 3.65,
@@ -17652,9 +17651,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/euronet-worldwide--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "A1TH34": { 
+    "A1TH34": {
         "stock": "A1TH34",
         "name": "AUTOHOME INCDRN",
         "close": 12.29,
@@ -17664,9 +17663,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/autohome--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ELCI34": { 
+    "ELCI34": {
         "stock": "ELCI34",
         "name": "ESTEE LAUDERDRN",
         "close": 20.549999,
@@ -17676,9 +17675,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/estee-lauder--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "S1RE34": { 
+    "S1RE34": {
         "stock": "S1RE34",
         "name": "SEMPRA DRN",
         "close": 107.91,
@@ -17688,9 +17687,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sempra-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "EKTR3F": { 
+    "EKTR3F": {
         "stock": "EKTR3F",
         "name": "ELEKTRO",
         "close": 45,
@@ -17700,9 +17699,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/elektro-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "A1VB34": { 
+    "A1VB34": {
         "stock": "A1VB34",
         "name": "AVALONBAY CODRN",
         "close": 292,
@@ -17712,9 +17711,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/avalonbay-communities--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "S1HW34": { 
+    "S1HW34": {
         "stock": "S1HW34",
         "name": "THE SHERWIN DRN",
         "close": 194.734215,
@@ -17724,9 +17723,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sherwin-williams--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "E1TN34": { 
+    "E1TN34": {
         "stock": "E1TN34",
         "name": "EATON CORP PDRN",
         "close": 117,
@@ -17736,9 +17735,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/eaton--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "E1QN34": { 
+    "E1QN34": {
         "stock": "E1QN34",
         "name": "EQUINOR ASA DRN",
         "close": 76.269997,
@@ -17748,9 +17747,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equinor--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "M2AS34": { 
+    "M2AS34": {
         "stock": "M2AS34",
         "name": "MASIMO CORP DRN",
         "close": 23.540001,
@@ -17760,9 +17759,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/masimo--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "AHEB5F": { 
+    "AHEB5F": {
         "stock": "AHEB5F",
         "name": "SPTURIS PNA",
         "close": 30,
@@ -17772,9 +17771,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/spturis--big.svg",
         "sector": "Commercial Services",
         "type": "stock",
-    }, 
+    },
 
-    "BQUA39": { 
+    "BQUA39": {
         "stock": "BQUA39",
         "name": "MSCIUSQUAL FDRE",
         "close": 62.459999,
@@ -17784,9 +17783,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "C1MI34": { 
+    "C1MI34": {
         "stock": "C1MI34",
         "name": "CUMMINS INC DRN",
         "close": 399,
@@ -17796,9 +17795,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cummins--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "BTIP39": { 
+    "BTIP39": {
         "stock": "BTIP39",
         "name": "BKR TIP DRE",
         "close": 59.52,
@@ -17808,9 +17807,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "ARNC34": { 
+    "ARNC34": {
         "stock": "ARNC34",
         "name": "HOWMET AERO DRN ED",
         "close": 510,
@@ -17820,9 +17819,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/howmet-aerospace--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "A2RE34": { 
+    "A2RE34": {
         "stock": "A2RE34",
         "name": "ARES MANAGEMDRN",
         "close": 78.559998,
@@ -17832,9 +17831,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ares-management--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "N1RG34": { 
+    "N1RG34": {
         "stock": "N1RG34",
         "name": "NRG ENERGY IDRN",
         "close": 442.79999,
@@ -17844,9 +17843,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nrg-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "HAGA3F": { 
+    "HAGA3F": {
         "stock": "HAGA3F",
         "name": "HAGA S/A",
         "close": 2.4,
@@ -17856,9 +17855,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "P1UK34": { 
+    "P1UK34": {
         "stock": "P1UK34",
         "name": "PRUDENTIAL PDRN",
         "close": 22.440001,
@@ -17868,9 +17867,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/prudential--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "M1UF34": { 
+    "M1UF34": {
         "stock": "M1UF34",
         "name": "MITSUBISHI UDRN",
         "close": 54.049999,
@@ -17880,9 +17879,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mitsubishi-group--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "SPGI34": { 
+    "SPGI34": {
         "stock": "SPGI34",
         "name": "SP GLOBAL DRN",
         "close": 74.760002,
@@ -17892,9 +17891,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/s-and-p-global--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BEPP39": { 
+    "BEPP39": {
         "stock": "BEPP39",
         "name": "BKR MSCI JPNDRE",
         "close": 59.220001,
@@ -17904,9 +17903,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "C1BL34": { 
+    "C1BL34": {
         "stock": "C1BL34",
         "name": "CHUBB LTD DRN",
         "close": 363.70999,
@@ -17916,9 +17915,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/chubb--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "XRXB34": { 
+    "XRXB34": {
         "stock": "XRXB34",
         "name": "XEROX CORP DRN",
         "close": 54.720001,
@@ -17928,9 +17927,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/xerox--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "P1AY34": { 
+    "P1AY34": {
         "stock": "P1AY34",
         "name": "PAYCHEX INC DRN ED",
         "close": 344,
@@ -17940,9 +17939,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/paychex--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ZAGH11": { 
+    "ZAGH11": {
         "stock": "ZAGH11",
         "name": "FII ZAGH CI ER",
         "close": 11.9,
@@ -17952,9 +17951,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "CSXC34": { 
+    "CSXC34": {
         "stock": "CSXC34",
         "name": "CSX CORP DRN",
         "close": 90.870003,
@@ -17964,9 +17963,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/csx--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BPRP11": { 
+    "BPRP11": {
         "stock": "BPRP11",
         "name": "FII BRLPROP CI ER",
         "close": 106.95,
@@ -17976,9 +17975,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BIJH39": { 
+    "BIJH39": {
         "stock": "BIJH39",
         "name": "CORE MIDCAP DRE",
         "close": 16.129999,
@@ -17988,9 +17987,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "H1UM34": { 
+    "H1UM34": {
         "stock": "H1UM34",
         "name": "HUMANA INC DRN",
         "close": 43.27,
@@ -18000,9 +17999,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/humana--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "P1YC34": { 
+    "P1YC34": {
         "stock": "P1YC34",
         "name": "PAYCOM SOFTWDRN",
         "close": 28.469999,
@@ -18012,9 +18011,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/paycom-software--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "E1MR34": { 
+    "E1MR34": {
         "stock": "E1MR34",
         "name": "EMERSON ELECDRN",
         "close": 558.35227686,
@@ -18024,9 +18023,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/emerson--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BDAP11": { 
+    "BDAP11": {
         "stock": "BDAP11",
         "name": "BB ETF DAP5 F11",
         "close": 10.77,
@@ -18036,9 +18035,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BSHY39": { 
+    "BSHY39": {
         "stock": "BSHY39",
         "name": "BKR 1 3 YRTRDRE",
         "close": 56.43,
@@ -18048,9 +18047,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "P2EN34": { 
+    "P2EN34": {
         "stock": "P2EN34",
         "name": "PENN NATIONLDRN",
         "close": 9.87,
@@ -18060,9 +18059,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/penn-national-gaming--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "HUCG11": { 
+    "HUCG11": {
         "stock": "HUCG11",
         "name": "FII UNIMED CCI",
         "close": 83.389999,
@@ -18072,9 +18071,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BRKM6F": { 
+    "BRKM6F": {
         "stock": "BRKM6F",
         "name": "BRASKEM PNB",
         "close": 13.47,
@@ -18084,9 +18083,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/braskem--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "P1SA34": { 
+    "P1SA34": {
         "stock": "P1SA34",
         "name": "PUBLIC STORADRN",
         "close": 348.60001,
@@ -18096,9 +18095,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/public-storage--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "WLMM4F": { 
+    "WLMM4F": {
         "stock": "WLMM4F",
         "name": "WLM IND COM PN",
         "close": 30.42,
@@ -18108,9 +18107,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wlm-ind-com-pn--big.svg",
         "sector": "Distribution Services",
         "type": "stock",
-    }, 
+    },
 
-    "EQMA3BF": { 
+    "EQMA3BF": {
         "stock": "EQMA3BF",
         "name": "EQUATORIAL MARANHA",
         "close": 25.99,
@@ -18120,9 +18119,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/equatorial-maranha--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "ENMT4F": { 
+    "ENMT4F": {
         "stock": "ENMT4F",
         "name": "ENERGISA MT PN",
         "close": 69.040001,
@@ -18132,9 +18131,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/energisa-mt-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "M1DB34": { 
+    "M1DB34": {
         "stock": "M1DB34",
         "name": "MONGODB INC DRN",
         "close": 66.370003,
@@ -18144,9 +18143,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mongodb--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MWET4F": { 
+    "MWET4F": {
         "stock": "MWET4F",
         "name": "WETZEL S/A PN",
         "close": 9.35,
@@ -18156,9 +18155,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "F1TN34": { 
+    "F1TN34": {
         "stock": "F1TN34",
         "name": "FORTINET INCDRN",
         "close": 200.60001,
@@ -18168,9 +18167,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fortinet--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "A1RE34": { 
+    "A1RE34": {
         "stock": "A1RE34",
         "name": "ALEXANDRIA RDRN",
         "close": 156.5,
@@ -18180,9 +18179,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/alexandria-real-estate-equities--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BBIL39": { 
+    "BBIL39": {
         "stock": "BBIL39",
         "name": "JP BTB INTL DRE",
         "close": 65.040001,
@@ -18192,9 +18191,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/jpmorgan--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "CHME34": { 
+    "CHME34": {
         "stock": "CHME34",
         "name": "CME GROUP DRN",
         "close": 284.20001,
@@ -18204,9 +18203,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cme--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "ESTR4F": { 
+    "ESTR4F": {
         "stock": "ESTR4F",
         "name": "ESTRELA PN",
         "close": 2.01,
@@ -18216,9 +18215,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "W1EL34": { 
+    "W1EL34": {
         "stock": "W1EL34",
         "name": "WELLTOWER INDRN ED",
         "close": 321.29999,
@@ -18228,9 +18227,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/welltower-indrn--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "TGTB34": { 
+    "TGTB34": {
         "stock": "TGTB34",
         "name": "TARGET CORP DRN",
         "close": 744,
@@ -18240,9 +18239,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/target--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "SOND6F": { 
+    "SOND6F": {
         "stock": "SOND6F",
         "name": "SONDOTECNICAPNB",
         "close": 58.560001,
@@ -18252,9 +18251,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sondotecnicapnb--big.svg",
         "sector": "Industrial Services",
         "type": "stock",
-    }, 
+    },
 
-    "AZOI34": { 
+    "AZOI34": {
         "stock": "AZOI34",
         "name": "AUTOZONE INCDRN",
         "close": 79.150002,
@@ -18264,9 +18263,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/autozone--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "CLSC3F": { 
+    "CLSC3F": {
         "stock": "CLSC3F",
         "name": "CELESC",
         "close": 72.5,
@@ -18276,9 +18275,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celesc-on-n2--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BIXU39": { 
+    "BIXU39": {
         "stock": "BIXU39",
         "name": "BKR TI STOCKDRE",
         "close": 62.040001,
@@ -18288,9 +18287,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "CXTL11": { 
+    "CXTL11": {
         "stock": "CXTL11",
         "name": "FII CX TRX CI",
         "close": 225.66,
@@ -18300,9 +18299,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "E1WL34": { 
+    "E1WL34": {
         "stock": "E1WL34",
         "name": "EDWARDS LIFEDRN",
         "close": 90.809998,
@@ -18312,9 +18311,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/edwards--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "I1DX34": { 
+    "I1DX34": {
         "stock": "I1DX34",
         "name": "IDEXX LABORADRN",
         "close": 522,
@@ -18324,9 +18323,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/idexx-laboratories--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "C1AB34": { 
+    "C1AB34": {
         "stock": "C1AB34",
         "name": "CABLEE INDRN",
         "close": 10.33,
@@ -18336,9 +18335,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/cable-one--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BXPO11": { 
+    "BXPO11": {
         "stock": "BXPO11",
         "name": "INVESTO BXPOCI",
         "close": 127.29,
@@ -18348,9 +18347,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BDOM11": { 
+    "BDOM11": {
         "stock": "BDOM11",
         "name": "INVESTO BDOMCI",
         "close": 115.08,
@@ -18360,9 +18359,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PABY11": { 
+    "PABY11": {
         "stock": "PABY11",
         "name": "FII PANAMBY CI",
         "close": 13.72,
@@ -18372,9 +18371,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "PEAB3F": { 
+    "PEAB3F": {
         "stock": "PEAB3F",
         "name": "PAR AL BAHIAON",
         "close": 40.5,
@@ -18384,9 +18383,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "BIWF39": { 
+    "BIWF39": {
         "stock": "BIWF39",
         "name": "RUSSEL1000GRDRE",
         "close": 77.839996,
@@ -18396,9 +18395,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "TRNT11": { 
+    "TRNT11": {
         "stock": "TRNT11",
         "name": "FII TORRE NOCI",
         "close": 112.99,
@@ -18408,9 +18407,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BICR11": { 
+    "BICR11": {
         "stock": "BICR11",
         "name": "FII INTER CI",
         "close": 48.900002,
@@ -18420,9 +18419,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "H1AS34": { 
+    "H1AS34": {
         "stock": "H1AS34",
         "name": "HASBRO INC DRN",
         "close": 176.28999,
@@ -18432,9 +18431,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hasbro--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "JCCJ11": { 
+    "JCCJ11": {
         "stock": "JCCJ11",
         "name": "FII JHSF CJ CI",
         "close": 138.5,
@@ -18444,9 +18443,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "G2DD34": { 
+    "G2DD34": {
         "stock": "G2DD34",
         "name": "GODADDY INC DRN",
         "close": 88.019997,
@@ -18456,9 +18455,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/godaddy--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "C1TV34": { 
+    "C1TV34": {
         "stock": "C1TV34",
         "name": "CORTEVA INC DRN",
         "close": 70.699997,
@@ -18468,9 +18467,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/corteva--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "USIM6F": { 
+    "USIM6F": {
         "stock": "USIM6F",
         "name": "USIMINAS PNB",
         "close": 12.97,
@@ -18480,9 +18479,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/usiminas-pna-n1--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "stock",
-    }, 
+    },
 
-    "ACNB34": { 
+    "ACNB34": {
         "stock": "ACNB34",
         "name": "ACCENTURE DRN",
         "close": 1748.7,
@@ -18492,9 +18491,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/accenture--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "W1EC34": { 
+    "W1EC34": {
         "stock": "W1EC34",
         "name": "WEC ENERGY GDRN ED",
         "close": 245.52,
@@ -18504,9 +18503,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wec-energy--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "CPLG11": { 
+    "CPLG11": {
         "stock": "CPLG11",
         "name": "FII CPLG CI",
         "close": 10.6,
@@ -18516,9 +18515,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BONY34": { 
+    "BONY34": {
         "stock": "BONY34",
         "name": "BNY MELLON DRN",
         "close": 349.64999,
@@ -18528,9 +18527,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/bank-of-new-york-mellon--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "MRSA5BF": { 
+    "MRSA5BF": {
         "stock": "MRSA5BF",
         "name": "MRS LOGISTICA",
         "close": 33,
@@ -18540,9 +18539,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mrs-logistica--big.svg",
         "sector": "Transportation",
         "type": "stock",
-    }, 
+    },
 
-    "N1VR34": { 
+    "N1VR34": {
         "stock": "N1VR34",
         "name": "NVR INC DRN",
         "close": 936.51001,
@@ -18552,9 +18551,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/nvr--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "KEVE11": { 
+    "KEVE11": {
         "stock": "KEVE11",
         "name": "FII EVEN II CI",
         "close": 1137,
@@ -18564,9 +18563,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HPDP11": { 
+    "HPDP11": {
         "stock": "HPDP11",
         "name": "FII HEDGEPDPCI",
         "close": 89.559998,
@@ -18576,9 +18575,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BIVW39": { 
+    "BIVW39": {
         "stock": "BIVW39",
         "name": "SP500GROWTH DRE",
         "close": 61.509998,
@@ -18588,9 +18587,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "IDGR11": { 
+    "IDGR11": {
         "stock": "IDGR11",
         "name": "FII UNID II CI",
         "close": 7.5,
@@ -18600,9 +18599,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "BAAX39": { 
+    "BAAX39": {
         "stock": "BAAX39",
         "name": "MSCI ASIA JPDRE",
         "close": 39.02,
@@ -18612,9 +18611,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "VOTS11": { 
+    "VOTS11": {
         "stock": "VOTS11",
         "name": "FII V MASTERCI",
         "close": 81.389999,
@@ -18624,9 +18623,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-vot-log-ci-er--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "DAMT11": { 
+    "DAMT11": {
         "stock": "DAMT11",
         "name": "FII DIAMANTECI",
         "close": 12.68,
@@ -18636,9 +18635,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/btgp--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "HDEL11": { 
+    "HDEL11": {
         "stock": "HDEL11",
         "name": "FII HEDGE DVCI",
         "close": 111,
@@ -18648,9 +18647,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FRIO3F": { 
+    "FRIO3F": {
         "stock": "FRIO3F",
         "name": "METALFRIO",
         "close": 170,
@@ -18660,9 +18659,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "D1OC34": { 
+    "D1OC34": {
         "stock": "D1OC34",
         "name": "DOCUSIGN INCDRN",
         "close": 15,
@@ -18672,9 +18671,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/docusign--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BEMC39": { 
+    "BEMC39": {
         "stock": "BEMC39",
         "name": "BKR EME XCHIDRE",
         "close": 64.980003,
@@ -18684,9 +18683,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "SRXM34": { 
+    "SRXM34": {
         "stock": "SRXM34",
         "name": "SIRIUS XM HDDRN ED",
         "close": 17.190001,
@@ -18696,9 +18695,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sirius-xm--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "AATH11": { 
+    "AATH11": {
         "stock": "AATH11",
         "name": "FIP ATHON CI",
         "close": 1399,
@@ -18708,9 +18707,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BICE11": { 
+    "BICE11": {
         "stock": "BICE11",
         "name": "FII BRIO CRECI",
         "close": 920,
@@ -18720,9 +18719,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "T1LK34": { 
+    "T1LK34": {
         "stock": "T1LK34",
         "name": "PT TELEKOMUNDRN",
         "close": 50.349998,
@@ -18732,9 +18731,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telekom-indonesia--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "BRIP11": { 
+    "BRIP11": {
         "stock": "BRIP11",
         "name": "FII BRIO IIICI ER",
         "close": 969.98999,
@@ -18744,9 +18743,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "LOWC34": { 
+    "LOWC34": {
         "stock": "LOWC34",
         "name": "LOWES COMPA DRN",
         "close": 64.989998,
@@ -18756,9 +18755,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lowe-s--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "H2UB34": { 
+    "H2UB34": {
         "stock": "H2UB34",
         "name": "HUBSPOT INC DRN",
         "close": 52.799999,
@@ -18768,9 +18767,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hubspot--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "MTSA3F": { 
+    "MTSA3F": {
         "stock": "MTSA3F",
         "name": "METISA",
         "close": 79.989998,
@@ -18780,9 +18779,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "D1DG34": { 
+    "D1DG34": {
         "stock": "D1DG34",
         "name": "DATADOG INC DRN",
         "close": 63.119999,
@@ -18792,9 +18791,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/datadog--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ANCR11": { 
+    "ANCR11": {
         "stock": "ANCR11",
         "name": "FII ANCAR ICCI ER",
         "close": 101,
@@ -18804,9 +18803,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "L1EG34": { 
+    "L1EG34": {
         "stock": "L1EG34",
         "name": "LEGGETT PL DRN",
         "close": 67.059998,
@@ -18816,9 +18815,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/legget-platt--big.svg",
         "sector": "Consumer Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "M1CK34": { 
+    "M1CK34": {
         "stock": "M1CK34",
         "name": "MCKESSON CORDRN",
         "close": 762.75,
@@ -18828,9 +18827,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mckesson--big.svg",
         "sector": "Distribution Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BGWH39": { 
+    "BGWH39": {
         "stock": "BGWH39",
         "name": "COREDIVGROWTDRE",
         "close": 65,
@@ -18840,9 +18839,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "V1RS34": { 
+    "V1RS34": {
         "stock": "V1RS34",
         "name": "VERISK ANALYDRN",
         "close": 19.120001,
@@ -18852,9 +18851,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/verisk-analytics--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "HUSC11": { 
+    "HUSC11": {
         "stock": "HUSC11",
         "name": "FII H UNIMEDCI",
         "close": 113.44,
@@ -18864,9 +18863,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BSDV39": { 
+    "BSDV39": {
         "stock": "BSDV39",
         "name": "GX SUPERDIVDDRE ED",
         "close": 59.880001,
@@ -18876,9 +18875,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "F1NI34": { 
+    "F1NI34": {
         "stock": "F1NI34",
         "name": "FIDELITY NATDRN",
         "close": 26.700001,
@@ -18888,9 +18887,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fidelity-information-services--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BTEK11": { 
+    "BTEK11": {
         "stock": "BTEK11",
         "name": "INVESTO BTEKCI",
         "close": 73.93,
@@ -18900,9 +18899,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "RBTS11": { 
+    "RBTS11": {
         "stock": "RBTS11",
         "name": "FII RB TFO CI",
         "close": 725,
@@ -18912,9 +18911,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "BOXP34": { 
+    "BOXP34": {
         "stock": "BOXP34",
         "name": "BXP INC DRN",
         "close": 37.84,
@@ -18924,9 +18923,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/boston-prop-drn--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "C1HR34": { 
+    "C1HR34": {
         "stock": "C1HR34",
         "name": "CH ROBINSON DRN",
         "close": 26.790001,
@@ -18936,9 +18935,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ch-robinson--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BDVY39": { 
+    "BDVY39": {
         "stock": "BDVY39",
         "name": "SELECT DIVIDDRE",
         "close": 70.489998,
@@ -18948,9 +18947,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "FLRP11": { 
+    "FLRP11": {
         "stock": "FLRP11",
         "name": "FII FLORIPA CI",
         "close": 2059.98,
@@ -18960,9 +18959,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "PEVC11": { 
+    "PEVC11": {
         "stock": "PEVC11",
         "name": "INVESTO PEVCCI",
         "close": 162.36,
@@ -18972,9 +18971,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "V1IP34": { 
+    "V1IP34": {
         "stock": "V1IP34",
         "name": "VIPSHOP HOLDDRN",
         "close": 36.84,
@@ -18984,9 +18983,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vipshop--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "MOSC34": { 
+    "MOSC34": {
         "stock": "MOSC34",
         "name": "MOSAIC CO DRN",
         "close": 25.27,
@@ -18996,9 +18995,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mosaic--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "ROST34": { 
+    "ROST34": {
         "stock": "ROST34",
         "name": "ROSS STORES DRN",
         "close": 387.07999,
@@ -19008,9 +19007,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ross-stores--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "FOOD11": { 
+    "FOOD11": {
         "stock": "FOOD11",
         "name": "INVESTO FOODCI",
         "close": 81.110001,
@@ -19020,9 +19019,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/investo--big.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "APXM11": { 
+    "APXM11": {
         "stock": "APXM11",
         "name": "FII APEX MS CI",
         "close": 99.970001,
@@ -19032,9 +19031,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "M1HK34": { 
+    "M1HK34": {
         "stock": "M1HK34",
         "name": "MOHAWK INDUSDRN",
         "close": 30.6,
@@ -19044,9 +19043,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/mohawk-industries--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "S1LG34": { 
+    "S1LG34": {
         "stock": "S1LG34",
         "name": "SL GREEN READRN",
         "close": 170.34,
@@ -19056,9 +19055,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sl-green-realty--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "TXRX3F": { 
+    "TXRX3F": {
         "stock": "TXRX3F",
         "name": "TEX RENAUX",
         "close": 11,
@@ -19068,9 +19067,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/tex-renaux-on--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "F1MC34": { 
+    "F1MC34": {
         "stock": "F1MC34",
         "name": "FMC CORP DRN",
         "close": 167.45,
@@ -19080,9 +19079,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fmc--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "OCRE11": { 
+    "OCRE11": {
         "stock": "OCRE11",
         "name": "FII OCTO CI",
         "close": 92.010002,
@@ -19092,9 +19091,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "FMXB34": { 
+    "FMXB34": {
         "stock": "FMXB34",
         "name": "FEMSA DRN",
         "close": 614.27002,
@@ -19104,9 +19103,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/femsa--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "B1SX34": { 
+    "B1SX34": {
         "stock": "B1SX34",
         "name": "BOSTON SCIENDRN",
         "close": 416.56,
@@ -19116,9 +19115,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/boston-scientific--big.svg",
         "sector": "Health Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "V2TX34": { 
+    "V2TX34": {
         "stock": "V2TX34",
         "name": "VTEX DRN",
         "close": 38.75,
@@ -19128,9 +19127,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/vtex--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BFXI39": { 
+    "BFXI39": {
         "stock": "BFXI39",
         "name": "CHINALARGECADRE",
         "close": 27.75,
@@ -19140,9 +19139,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "PEAB4F": { 
+    "PEAB4F": {
         "stock": "PEAB4F",
         "name": "PAR AL BAHIAPN",
         "close": 48,
@@ -19152,9 +19151,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "F1SL34": { 
+    "F1SL34": {
         "stock": "F1SL34",
         "name": "FASTLY INC DRN",
         "close": 3.35,
@@ -19164,9 +19163,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fastly-inc--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "H1RL34": { 
+    "H1RL34": {
         "stock": "H1RL34",
         "name": "HORMEL FOODSDRN",
         "close": 177.2,
@@ -19176,9 +19175,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/hormel-foods--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "ULEV34": { 
+    "ULEV34": {
         "stock": "ULEV34",
         "name": "UNILEVER DRN ED",
         "close": 333.29999,
@@ -19188,9 +19187,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/unilever--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "E1LV34": { 
+    "E1LV34": {
         "stock": "E1LV34",
         "name": "ELEV HEALTH DRN",
         "close": 590.96002,
@@ -19200,9 +19199,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/anthem--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "ADPR34": { 
+    "ADPR34": {
         "stock": "ADPR34",
         "name": "AUTOMATIC DTDRN",
         "close": 59.700001,
@@ -19212,9 +19211,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/automatic-data-processing--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "Y2PF34": { 
+    "Y2PF34": {
         "stock": "Y2PF34",
         "name": "YPF SA DRN",
         "close": 120.48,
@@ -19224,9 +19223,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ypf--big.svg",
         "sector": "Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "A1EG34": { 
+    "A1EG34": {
         "stock": "A1EG34",
         "name": "AEGON LTD DRN",
         "close": 33.509998,
@@ -19236,9 +19235,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aegon--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "STZB34": { 
+    "STZB34": {
         "stock": "STZB34",
         "name": "CONSTELLATIODRN",
         "close": 327.5,
@@ -19248,9 +19247,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/constellation-brands--big.svg",
         "sector": "Consumer Non-Durables",
         "type": "bdr",
-    }, 
+    },
 
-    "S2TW34": { 
+    "S2TW34": {
         "stock": "S2TW34",
         "name": "STARWOOD PRODRN",
         "close": 35.759998,
@@ -19260,9 +19259,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/starwood-property-trust--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "SAPP34": { 
+    "SAPP34": {
         "stock": "SAPP34",
         "name": "SAP SE DRN",
         "close": 1160.35,
@@ -19272,9 +19271,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sap--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BQYL39": { 
+    "BQYL39": {
         "stock": "BQYL39",
         "name": "GX NASDAQ100DRE",
         "close": 31.799999,
@@ -19284,9 +19283,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "A1NE34": { 
+    "A1NE34": {
         "stock": "A1NE34",
         "name": "ARISTA NETWODRN",
         "close": 474.32001,
@@ -19296,9 +19295,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/arista-networks--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "CEGR3F": { 
+    "CEGR3F": {
         "stock": "CEGR3F",
         "name": "CEG",
         "close": 66,
@@ -19308,9 +19307,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ceg-on--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "SJAU11": { 
+    "SJAU11": {
         "stock": "SJAU11",
         "name": "FII SJ AU CI",
         "close": 59.080002,
@@ -19320,9 +19319,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "M1TT34": { 
+    "M1TT34": {
         "stock": "M1TT34",
         "name": "MARRIOTT INTDRN",
         "close": 295.91271706,
@@ -19332,9 +19331,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/marriott--big.svg",
         "sector": "Consumer Services",
         "type": "bdr",
-    }, 
+    },
 
-    "TELB3F": { 
+    "TELB3F": {
         "stock": "TELB3F",
         "name": "TELEBRAS",
         "close": 13.02,
@@ -19344,9 +19343,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/telebras-pn--big.svg",
         "sector": "Communications",
         "type": "stock",
-    }, 
+    },
 
-    "INGG34": { 
+    "INGG34": {
         "stock": "INGG34",
         "name": "ING GROEP DRN ED",
         "close": 92.699997,
@@ -19356,9 +19355,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ing--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "A1PH34": { 
+    "A1PH34": {
         "stock": "A1PH34",
         "name": "AMPHENOL CORDRN",
         "close": 176.94,
@@ -19368,9 +19367,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/amphenol--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BEWU39": { 
+    "BEWU39": {
         "stock": "BEWU39",
         "name": "MSCI UK DRE",
         "close": 65.529999,
@@ -19380,9 +19379,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BDLL3F": { 
+    "BDLL3F": {
         "stock": "BDLL3F",
         "name": "BARDELLA",
         "close": 13,
@@ -19392,9 +19391,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "LIPR3F": { 
+    "LIPR3F": {
         "stock": "LIPR3F",
         "name": "ELETROPAR",
         "close": 48,
@@ -19404,9 +19403,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "T1WL34": { 
+    "T1WL34": {
         "stock": "T1WL34",
         "name": "TWILIO INC DRN",
         "close": 13.5,
@@ -19416,9 +19415,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/twilio--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "T1MU34": { 
+    "T1MU34": {
         "stock": "T1MU34",
         "name": "T-MOBILE US DRN",
         "close": 536.44,
@@ -19428,9 +19427,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/t-mobile--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "PRSV11": { 
+    "PRSV11": {
         "stock": "PRSV11",
         "name": "FII P VARGASCI",
         "close": 58.91,
@@ -19440,9 +19439,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "D2AS34": { 
+    "D2AS34": {
         "stock": "D2AS34",
         "name": "DOORDASH INCDRN",
         "close": 45.700001,
@@ -19452,9 +19451,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/doordash--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BLUR11": { 
+    "BLUR11": {
         "stock": "BLUR11",
         "name": "FII BLUE RECCI",
         "close": 79,
@@ -19464,9 +19463,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "DEAI34": { 
+    "DEAI34": {
         "stock": "DEAI34",
         "name": "DELTA DRN",
         "close": 211.97,
@@ -19476,9 +19475,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/delta-air-lines--big.svg",
         "sector": "Transportation",
         "type": "bdr",
-    }, 
+    },
 
-    "BLPA39": { 
+    "BLPA39": {
         "stock": "BLPA39",
         "name": "GX MLP ETF DRE ED",
         "close": 63,
@@ -19488,9 +19487,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "HETA4F": { 
+    "HETA4F": {
         "stock": "HETA4F",
         "name": "HERCULES PN",
         "close": 5.22,
@@ -19500,9 +19499,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "A1ME34": { 
+    "A1ME34": {
         "stock": "A1ME34",
         "name": "AMETEK INC DRN",
         "close": 36.490002,
@@ -19512,9 +19511,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ametek--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "JOPA4F": { 
+    "JOPA4F": {
         "stock": "JOPA4F",
         "name": "JOSAPAR PN",
         "close": 27.99,
@@ -19524,9 +19523,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "F2RT34": { 
+    "F2RT34": {
         "stock": "F2RT34",
         "name": "FIRST IND RTDRN",
         "close": 36.869999,
@@ -19536,9 +19535,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/first-industrial-realty-trust--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "L1CA34": { 
+    "L1CA34": {
         "stock": "L1CA34",
         "name": "LABCORPHLDG DRN",
         "close": 301.88,
@@ -19548,9 +19547,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/laboratory-amer--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "PATI3F": { 
+    "PATI3F": {
         "stock": "PATI3F",
         "name": "PANATLANTICAON",
         "close": 24.5,
@@ -19560,9 +19559,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/panatlanticapn--big.svg",
         "sector": "Producer Manufacturing",
         "type": "stock",
-    }, 
+    },
 
-    "W1AB34": { 
+    "W1AB34": {
         "stock": "W1AB34",
         "name": "WABTEC CORP DRN",
         "close": 425.70001,
@@ -19572,9 +19571,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/wabtec--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "CYLD11": { 
+    "CYLD11": {
         "stock": "CYLD11",
         "name": "FII CYLD CI",
         "close": 99,
@@ -19584,9 +19583,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "C1FG34": { 
+    "C1FG34": {
         "stock": "C1FG34",
         "name": "CITIZENS FINDRN",
         "close": 219.12,
@@ -19596,9 +19595,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/citizens-financial-group--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "D1OW34": { 
+    "D1OW34": {
         "stock": "D1OW34",
         "name": "DOW INC DRN",
         "close": 72.029999,
@@ -19608,9 +19607,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dow--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-    "K2RC34": { 
+    "K2RC34": {
         "stock": "K2RC34",
         "name": "KILROY REALTDRN",
         "close": 22.780001,
@@ -19620,9 +19619,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/kilroy-realty--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "FPAB11": { 
+    "FPAB11": {
         "stock": "FPAB11",
         "name": "FII A BRANCACI ER",
         "close": 226.67999,
@@ -19632,9 +19631,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/fii-a-brancaci--big.svg",
         "sector": "Miscellaneous",
         "type": "fund",
-    }, 
+    },
 
-    "TRVC34": { 
+    "TRVC34": {
         "stock": "TRVC34",
         "name": "TRAVELERS DRN",
         "close": 36.68,
@@ -19644,9 +19643,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/travelers--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BEWZ39": { 
+    "BEWZ39": {
         "stock": "BEWZ39",
         "name": "MSCI BRAZIL DRE",
         "close": 54.77,
@@ -19656,9 +19655,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "USBC34": { 
+    "USBC34": {
         "stock": "USBC34",
         "name": "US BANCORP DRN",
         "close": 57.84,
@@ -19668,9 +19667,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/us-bancorp--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "B1SA34": { 
+    "B1SA34": {
         "stock": "B1SA34",
         "name": "BANCO SANTANDRN",
         "close": 54.700001,
@@ -19680,9 +19679,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/santander--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "IBMB34": { 
+    "IBMB34": {
         "stock": "IBMB34",
         "name": "IBM DRN ED",
         "close": 1050.4,
@@ -19692,9 +19691,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/international-bus-mach--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "BCAT39": { 
+    "BCAT39": {
         "stock": "BCAT39",
         "name": "GX CATHOLVALDRE",
         "close": 72.5,
@@ -19704,9 +19703,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "S1KM34": { 
+    "S1KM34": {
         "stock": "S1KM34",
         "name": "SK TELECOM CDRN",
         "close": 30.870001,
@@ -19716,9 +19715,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/sk-telecom--big.svg",
         "sector": "Communications",
         "type": "bdr",
-    }, 
+    },
 
-    "USSX34": { 
+    "USSX34": {
         "stock": "USSX34",
         "name": "US STEEL DRN ED",
         "close": 232.53,
@@ -19728,9 +19727,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/united-states-steel--big.svg",
         "sector": "Non-Energy Minerals",
         "type": "bdr",
-    }, 
+    },
 
-    "NOCG34": { 
+    "NOCG34": {
         "stock": "NOCG34",
         "name": "NORTHROP GRUDRN",
         "close": 549.45001,
@@ -19740,9 +19739,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/northrop-grumman--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "BRIM11": { 
+    "BRIM11": {
         "stock": "BRIM11",
         "name": "FII BRIO II CI",
         "close": 1008,
@@ -19752,9 +19751,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "MERC4F": { 
+    "MERC4F": {
         "stock": "MERC4F",
         "name": "MERC FINANC PN",
         "close": 9.15,
@@ -19764,9 +19763,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "H1BA34": { 
+    "H1BA34": {
         "stock": "H1BA34",
         "name": "HUNTINGTON BDRN",
         "close": 73.639999,
@@ -19776,9 +19775,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/huntington-bancshares--big.svg",
         "sector": "Finance",
         "type": "bdr",
-    }, 
+    },
 
-    "BLPX39": { 
+    "BLPX39": {
         "stock": "BLPX39",
         "name": "GX MLP EN INDRE ED",
         "close": 70.839996,
@@ -19788,9 +19787,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "A1AP34": { 
+    "A1AP34": {
         "stock": "A1AP34",
         "name": "ADVANCE AUTODRN",
         "close": 20.799999,
@@ -19800,9 +19799,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/advance-auto-parts--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "L1UL34": { 
+    "L1UL34": {
         "stock": "L1UL34",
         "name": "LULULEMON ATDRN",
         "close": 332.31,
@@ -19812,9 +19811,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/lululemon-athletica--big.svg",
         "sector": "Retail Trade",
         "type": "bdr",
-    }, 
+    },
 
-    "F2IV34": { 
+    "F2IV34": {
         "stock": "F2IV34",
         "name": "FIVE9 INC DRN",
         "close": 11.81,
@@ -19824,9 +19823,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/five9--big.svg",
         "sector": "Technology Services",
         "type": "bdr",
-    }, 
+    },
 
-    "A1ES34": { 
+    "A1ES34": {
         "stock": "A1ES34",
         "name": "AES CORP DRN",
         "close": 92.25,
@@ -19836,9 +19835,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/aes--big.svg",
         "sector": "Utilities",
         "type": "bdr",
-    }, 
+    },
 
-    "GEPA3F": { 
+    "GEPA3F": {
         "stock": "GEPA3F",
         "name": "GER PARANAP",
         "close": 26.08,
@@ -19848,9 +19847,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ger-paranap-pn--big.svg",
         "sector": "Utilities",
         "type": "stock",
-    }, 
+    },
 
-    "BIYG39": { 
+    "BIYG39": {
         "stock": "BIYG39",
         "name": "USFINANCSERVDRE",
         "close": 18.52,
@@ -19860,9 +19859,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "BDVD39": { 
+    "BDVD39": {
         "stock": "BDVD39",
         "name": "GX SUPDIV USDRE ED",
         "close": 49.049999,
@@ -19872,9 +19871,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/global-x--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "A2MB34": { 
+    "A2MB34": {
         "stock": "A2MB34",
         "name": "AMBARELLA INDRN",
         "close": 10.07,
@@ -19884,9 +19883,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ambarella--big.svg",
         "sector": "Electronic Technology",
         "type": "bdr",
-    }, 
+    },
 
-    "RPAD5F": { 
+    "RPAD5F": {
         "stock": "RPAD5F",
         "name": "ALFA HOLDINGPNA",
         "close": 8.41,
@@ -19896,9 +19895,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Finance",
         "type": "stock",
-    }, 
+    },
 
-    "C1NC34": { 
+    "C1NC34": {
         "stock": "C1NC34",
         "name": "CENTENE CORPDRN",
         "close": 419.16,
@@ -19908,9 +19907,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/centene--big.svg",
         "sector": "Health Services",
         "type": "bdr",
-    }, 
+    },
 
-    "R2RX34": { 
+    "R2RX34": {
         "stock": "R2RX34",
         "name": "REGALREXNORDDRN",
         "close": 46.389999,
@@ -19920,9 +19919,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/regal-beloit--big.svg",
         "sector": "Producer Manufacturing",
         "type": "bdr",
-    }, 
+    },
 
-    "DOHL3F": { 
+    "DOHL3F": {
         "stock": "DOHL3F",
         "name": "DOHLER",
         "close": 10.17,
@@ -19932,9 +19931,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/dohler-pn-ed--big.svg",
         "sector": "Process Industries",
         "type": "stock",
-    }, 
+    },
 
-    "BCNY39": { 
+    "BCNY39": {
         "stock": "BCNY39",
         "name": "BKR CHINA A DRE",
         "close": 45.43,
@@ -19944,9 +19943,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": "Miscellaneous",
         "type": "bdr",
-    }, 
+    },
 
-    "O1MC34": { 
+    "O1MC34": {
         "stock": "O1MC34",
         "name": "OMNICOM GROUDRN",
         "close": 258.95999,
@@ -19956,9 +19955,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/omnicom-group--big.svg",
         "sector": "Commercial Services",
         "type": "bdr",
-    }, 
+    },
 
-    "CTNM3F": { 
+    "CTNM3F": {
         "stock": "CTNM3F",
         "name": "COTEMINAS",
         "close": 7.13,
@@ -19968,9 +19967,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": "Consumer Durables",
         "type": "stock",
-    }, 
+    },
 
-    "BICL39": { 
+    "BICL39": {
         "stock": "BICL39",
         "name": "BKR GL CLEANDRE",
         "close": 38.560001,
@@ -19980,9 +19979,9 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/ishares--big.svg",
         "sector": None,
         "type": "bdr",
-    }, 
+    },
 
-    "DVER11": { 
+    "DVER11": {
         "stock": "DVER11",
         "name": "BB ETF DVER CI",
         "close": 11.15,
@@ -19992,9 +19991,9 @@ stocks = {
         "logo": "https://brapi.dev/favicon.svg",
         "sector": None,
         "type": "fund",
-    }, 
+    },
 
-    "C1NS34": { 
+    "C1NS34": {
         "stock": "C1NS34",
         "name": "CELANESE CORDRN",
         "close": 345.10001,
@@ -20004,39 +20003,36 @@ stocks = {
         "logo": "https://s3-symbol-logo.tradingview.com/celanese--big.svg",
         "sector": "Process Industries",
         "type": "bdr",
-    }, 
+    },
 
-} 
+}
 
+availableSectors = (
+    "Retail Trade",
+    "Energy Minerals",
+    "Health Services",
+    "Utilities",
+    "Finance",
+    "Consumer Services",
+    "Consumer Non-Durables",
+    "Non-Energy Minerals",
+    "Commercial Services",
+    "Distribution Services",
+    "Transportation",
+    "Technology Services",
+    "Process Industries",
+    "Communications",
+    "Producer Manufacturing",
+    "Miscellaneous",
+    "Electronic Technology",
+    "Industrial Services",
+    "Health Technology",
+    "Consumer Durables",
+)
 
-availableSectors = ( 
-    "Retail Trade", 
-    "Energy Minerals", 
-    "Health Services", 
-    "Utilities", 
-    "Finance", 
-    "Consumer Services", 
-    "Consumer Non-Durables", 
-    "Non-Energy Minerals", 
-    "Commercial Services", 
-    "Distribution Services", 
-    "Transportation", 
-    "Technology Services", 
-    "Process Industries", 
-    "Communications", 
-    "Producer Manufacturing", 
-    "Miscellaneous", 
-    "Electronic Technology", 
-    "Industrial Services", 
-    "Health Technology", 
-    "Consumer Durables", 
+availableStockTypes = (
+    "stock",
+    "fund",
+    "bdr",
 ) 
 
-
-availableStockTypes = ( 
-    "stock", 
-    "fund", 
-    "bdr", 
-) 
-
-all_stocks_tuple = (indexes, stocks, availableSectors, availableStockTypes)

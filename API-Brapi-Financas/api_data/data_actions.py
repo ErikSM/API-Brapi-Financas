@@ -1,27 +1,19 @@
 try:
-    from api_data.all_stocks import all_stocks_tuple
+    from api_data.all_stocks import indexes, stocks
 except Exception as ex_1:
     print(ex_1)
 
 
-def names_to_tickers_dict():
-
-    names_to_tickers = dict()
+def stocks_names_to_tickers_dict():
+    name_to_ticker = dict()
 
     try:
-        indexes = all_stocks_tuple[0]
-        stocks = all_stocks_tuple[1]
-    except Exception as ex_2:
-        print(ex_2)
-
-    else:
         for i in indexes:
-            names_to_tickers[indexes[i]['name']] = i
+            name_to_ticker[indexes[i]['name']] = i, 'index'
         for i in stocks:
-            names_to_tickers[stocks[i]['name']] = i
+            name_to_ticker[stocks[i]['name']] = i, 'stock'
+    except Exception as ex:
+        print(ex)
+    else:
+        return name_to_ticker
 
-    return names_to_tickers
-
-
-teste = names_to_tickers_dict()
-print(teste)
