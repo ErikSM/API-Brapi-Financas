@@ -15,7 +15,7 @@ def processing_search(searched):
         stock_found = Stock(stock_names[searched][0]), True
 
     else:
-        stock_found = 'not stock found', False
+        stock_found = 'stock not found', False
 
         requested = make_request('All stocks', **param)
 
@@ -28,6 +28,3 @@ def processing_search(searched):
             possible_tickers.append('tickers not found')
 
     return possible_tickers, stock_found
-
-
-

@@ -24,7 +24,6 @@ class Stock:
         return len(self.__stock)
 
     def show_logo(self):
-
         try:
             create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
         except KeyError:
