@@ -4,7 +4,7 @@ except Exception as ex_1:
     print(ex_1)
 
 
-def stocks_names_to_tickers_dict():
+def stocks_names_to_tickers_dict(specific=None):
     name_to_ticker = dict()
 
     try:
@@ -12,8 +12,18 @@ def stocks_names_to_tickers_dict():
             name_to_ticker[indexes[i]['name']] = i, 'index'
         for i in stocks:
             name_to_ticker[stocks[i]['name']] = i, 'stock'
+
     except Exception as ex:
         print(ex)
-    else:
-        return name_to_ticker
 
+    else:
+        if specific is not None:
+            try:
+                specified = name_to_ticker[specific]
+            except KeyError:
+                pass
+            else:
+                return specified[0]
+
+        else:
+            return name_to_ticker

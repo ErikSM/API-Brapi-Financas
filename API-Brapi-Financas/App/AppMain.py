@@ -3,6 +3,7 @@ from tkinter import *
 from App.app_action import processing_search
 from App.app_config import colr, font
 from api_data.about_api import about_brapi
+from api_data.all_stocks import indexes
 from api_data.data_actions import stocks_names_to_tickers_dict
 from object.Stock import Stock
 
@@ -154,10 +155,28 @@ class AppMain:
         self.listbox.insert(END, captured)
 
         if self.opt_menu_str.get() == 'Stocks tickers':
-            stock = Stock(captured)
+            try:
+                stock = Stock(captured)
+                self.text.insert(END, *stock.basic_info())
+            except Exception as ex:
+                self.text.insert(END, f'not found:  \n\n{ex}')
 
-            self.text.insert(END, *stock.basic_info())
-            self.opt_menu_str.set('')
+        elif self.opt_menu_str.get() == 'Indexes tickers':
+            try:
+                index = indexes[captured]
+                self.text.insert(END, index['name'])
+            except Exception as ex:
+                self.text.insert(END, f'not found: \n\n{ex}')
+
+        elif self.opt_menu_str.get() == 'Stocks names':
+            try:
+                stock_ticker = stocks_names_to_tickers_dict(captured)
+                stock = Stock(stock_ticker)
+                self.text.insert(END, *stock.basic_info())
+            except Exception as ex:
+                self.text.insert(END, f'not found: \n\n{ex}')
+
+        self.opt_menu_str.set('')
 
 
 AppMain()
