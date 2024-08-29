@@ -5,6 +5,7 @@ from App.app_config import colr, font
 from api_data.about_api import about_brapi
 from api_data.all_stocks import indexes
 from api_data.data_actions import stocks_names_to_tickers_dict
+from object.Index import Index
 from object.Stock import Stock
 
 
@@ -158,15 +159,21 @@ class AppMain:
             try:
                 stock = Stock(captured)
                 self.text.insert(END, *stock.basic_info())
+
+                # testing
+                for i in stock.qualified_data():
+                    print(i)
+                # ------
+
             except Exception as ex:
-                self.text.insert(END, f'not found:  \n\n{ex}')
+                self.text.insert(END, f'\n\nnot found:  \n\n{ex}')
 
         elif self.opt_menu_str.get() == 'Indexes tickers':
             try:
-                index = indexes[captured]
-                self.text.insert(END, index['name'])
+                index = Index(captured)
+                self.text.insert(END, *index.information())
             except Exception as ex:
-                self.text.insert(END, f'not found: \n\n{ex}')
+                self.text.insert(END, f'\n\nnot found: \n\n{ex}')
 
         elif self.opt_menu_str.get() == 'Stocks names':
             try:
@@ -174,7 +181,7 @@ class AppMain:
                 stock = Stock(stock_ticker)
                 self.text.insert(END, *stock.basic_info())
             except Exception as ex:
-                self.text.insert(END, f'not found: \n\n{ex}')
+                self.text.insert(END, f'\n\nnot found: \n\n{ex}')
 
         self.opt_menu_str.set('')
 

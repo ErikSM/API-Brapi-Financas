@@ -1,6 +1,8 @@
 from api_data.all_stocks import stocks
 from webview import create_window
 
+from access.api_request import make_request
+
 
 class Stock:
 
@@ -9,7 +11,7 @@ class Stock:
         try:
             self.__stock = stocks[ticker]
         except KeyError:
-            self.__stock = {'stock': f"{tiker}", "name": "KeyError"}
+            self.__stock = {'stock': f"{ticker}", "name": "KeyError"}
 
     def __str__(self):
         return self.__stock['name']
@@ -19,9 +21,6 @@ class Stock:
 
     def __getitem__(self, item):
         return self.__stock[item]
-
-    def __len__(self):
-        return len(self.__stock)
 
     def show_logo(self):
         try:
@@ -39,3 +38,11 @@ class Stock:
             if i not in advanced:
                 yield f'{i}: {self.__stock[i]}\n'
 
+    def qualified_data(self):
+
+        parameter = {'complement': self.__stock['stock']}
+        requested = make_request('Specific stock', **parameter)
+
+        data = requested['results'][0]
+        for i in data:
+            yield f'{i}: {data[i]}\n'
