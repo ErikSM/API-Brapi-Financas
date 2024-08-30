@@ -44,5 +44,7 @@ class Stock:
         requested = make_request('Specific stock', **parameter)
 
         data = requested['results'][0]
+        data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+
         for i in data:
             yield f'{i}: {data[i]}\n'

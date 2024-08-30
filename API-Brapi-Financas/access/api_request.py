@@ -66,7 +66,7 @@ def make_request(endpoint: all_endpoints, **parameters):
 
 
 def testar_request():
-    testando = make_request('Specific stock', complement='^GDAXI')
+    testando = make_request('Specific stock', complement='CHME34')
 
     print("-" * 70)
     for i in testando:
@@ -95,4 +95,4 @@ def testar_request():
                 print("-" * 70)
 
 
-testar_request()
+#  testar_request()
