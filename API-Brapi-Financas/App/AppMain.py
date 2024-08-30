@@ -3,10 +3,7 @@ from tkinter import *
 from App.app_action import processing_search, processing_play
 from App.app_config import colr, font
 from api_data.about_api import about_brapi
-from api_data.all_stocks import indexes
 from api_data.data_actions import stocks_names_to_tickers_dict
-from object.Index import Index
-from object.Stock import Stock
 
 
 class AppMain:
@@ -17,6 +14,7 @@ class AppMain:
         self.entry_search_str = StringVar()
 
         self.entry_text_str = StringVar()
+        self.entry_text_str.set('../>')
 
         self.opt_menu_str = StringVar()
         self.opt_menu_list = 'Indexes tickers', 'Stocks tickers', 'Stocks names'
@@ -114,6 +112,7 @@ class AppMain:
     def do_search(self):
         searched = self.entry_search_str.get()
 
+        self._update_local(*['search', searched])
         processed = processing_search(searched)
 
         self.listbox.delete(0, END)
@@ -129,6 +128,8 @@ class AppMain:
     def active_opt_menu(self, opt_str):
         self.listbox.delete(0, END)
         self.text.delete(1.0, END)
+
+        self._update_local(*[opt_str.title().replace(' ', '')])
 
         names = stocks_names_to_tickers_dict()
 
@@ -148,17 +149,27 @@ class AppMain:
                     self.listbox.insert(END, names[i][0])
 
     def do_play(self):
-        captured = self.listbox.get(ANCHOR)
+        item_captured = self.listbox.get(ANCHOR)
+        menu_selected = self.opt_menu_str.get()
+
+        self._update_local(*[menu_selected.title().replace(' ', ''), item_captured])
 
         self.listbox.delete(0, END)
         self.text.delete(1.0, END)
 
-        self.listbox.insert(END, captured)
+        self.listbox.insert(END, item_captured)
 
-        processed = processing_play(self.opt_menu_str.get(), captured)
+        processed = processing_play(menu_selected, item_captured)
         self.text.insert(END, *processed.basic_info())
 
         self.opt_menu_str.set('')
+
+    def _update_local(self, *args):
+        all_local = ''
+
+        for i in args:
+            all_local += f'>{i}/'
+        self.entry_text_str.set(f'../{all_local}')
 
 
 AppMain()
