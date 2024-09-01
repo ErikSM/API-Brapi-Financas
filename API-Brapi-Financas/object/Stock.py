@@ -10,8 +10,13 @@ class Stock:
 
         try:
             self.__stock = stocks[ticker]
+
         except KeyError:
-            self.__stock = {'stock': f"{ticker}", "name": "KeyError"}
+            self.__stock = {'stock': f"{ticker}", "name": "(Stock) not found"}
+            print(f'Error: >>{self.__stock}')
+            print("local: Object/Stock")
+
+        self.__advanced_data = None
 
     def __str__(self):
         return self.__stock['name']
@@ -31,11 +36,8 @@ class Stock:
             return webview
 
     def basic_info(self):
-
-        advanced = 'logo', 'change', 'volume', 'close'
-
         for i in self.__stock:
-            if i not in advanced:
+            if i != 'logo':
                 yield f'{i}: {self.__stock[i]}\n'
 
     def qualified_data(self):
@@ -43,8 +45,8 @@ class Stock:
         parameter = {'complement': self.__stock['stock']}
         requested = make_request('Specific stock', **parameter)
 
-        data = requested['results'][0]
-        data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+        self.__advanced_data = requested['results'][0]
+        self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
 
-        for i in data:
-            yield f'{i}: {data[i]}\n'
+        for i in self.__advanced_data:
+            yield f'{i}: {self.__advanced_data[i]}\n'

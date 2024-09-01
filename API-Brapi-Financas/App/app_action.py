@@ -5,20 +5,32 @@ from object.Stock import Stock
 
 
 def processing_search(searched):
+    searched = searched.upper()
+    param = {'search': searched}
 
-    param = {'search': searched.upper()}
-
+    stock_found = None
     possible_tickers = list()
 
-    stock_names = stocks_names_to_tickers_dict()
-    if searched in stock_names.keys():
+    all_names = stocks_names_to_tickers_dict()
+    all_tickers = {all_names[i][0]: (i, all_names[i][1]) for i in all_names}
 
-        stock_found = Stock(stock_names[searched][0]), True
+    if searched in all_names.keys():
+        if all_names[searched][1] == 'stock':
+            stock_found = Stock(all_names[searched][0]), True
+        elif all_names[searched][1] == 'index':
+            stock_found = Index(all_names[searched][0]), True
+
+    elif searched in all_tickers.keys():
+        if all_tickers[searched][1] == 'stock':
+            stock_found = Stock(searched), True
+        elif all_tickers[searched][1] == 'index':
+            stock_found = Index(searched), True
 
     else:
-        stock_found = 'stock not found', False
+        stock_found = 'stock not found', False, 'undefined'
 
         requested = make_request('All stocks', **param)
+        print(requested)
 
         for i in requested:
             if i == "stocks":
@@ -31,17 +43,27 @@ def processing_search(searched):
     return possible_tickers, stock_found
 
 
-def processing_play(type_selected, captured):
+def processing_play(menu_selected, captured):
     processed = None
 
-    if type_selected == 'Stocks tickers':
+    if menu_selected == 'Stocks tickers':
         processed = Stock(captured)
 
-    elif type_selected == 'Indexes tickers':
+    elif menu_selected == 'Indexes tickers':
         processed = Index(captured)
 
-    elif type_selected == 'Stocks names':
+    elif menu_selected == 'Stocks names':
         stock_ticker = stocks_names_to_tickers_dict(captured)
         processed = Stock(stock_ticker)
+
+    elif menu_selected == 'Search':
+        try:
+            processed = Stock(captured)
+        except Exception as ex:
+            print(f'1 - {ex}')
+            try:
+                processed = Index(captured)
+            except Exception as ex_2:
+                print(f'2 - {ex_2}')
 
     return processed

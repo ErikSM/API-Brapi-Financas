@@ -11,9 +11,11 @@ class Index:
             self.__index['type'] = 'index'
 
         except KeyError:
-            self.__index = {'stock': f"{ticker}", "name": "KeyError"}
+            self.__index = {'stock': f"{ticker}", "name": "(Stock) not found"}
+            print(f'Error: >>{self.__index}')
+            print("local: Object/Index")
 
-        print(self.__index['name'])
+        self.__advanced_data = None
 
     def __str__(self):
         return self.__index['name']
@@ -33,8 +35,8 @@ class Index:
         parameter = {'complement': self.__index['stock']}
         requested = make_request('Specific stock', **parameter)
 
-        data = requested['results'][0]
-        data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+        self.__advanced_data = requested['results'][0]
+        self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
 
-        for i in data:
-            yield f'{i}: {data[i]}\n'
+        for i in self.__advanced_data:
+            yield f'{i}: {self.__advanced_data[i]}\n'
