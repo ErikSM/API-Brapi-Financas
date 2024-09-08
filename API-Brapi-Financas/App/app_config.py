@@ -13,4 +13,3 @@ font = {
         'Principal': ('Consolas', 12, 'bold'),
         'foot': ('Consolas', 7, 'bold'),
 }
-
