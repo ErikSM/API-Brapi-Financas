@@ -190,12 +190,12 @@ class AppMain:
         self._update_local(*[menu_selected.title().replace(' ', ''), item_captured])
 
         self.listbox.delete(0, END)
-        self.text.delete(1.0, END)
-
         self.listbox.insert(END, item_captured)
 
-        self.__main_obj = processing_play(menu_selected, item_captured)
+        if self.__main_obj is None or self.__main_obj['stock'] != item_captured:
+            self.__main_obj = processing_play(menu_selected, item_captured)
 
+        self.text.delete(1.0, END)
         try:
             for i in self.__main_obj.basic_info():
                 self.text.insert(END, i)
@@ -214,8 +214,10 @@ class AppMain:
             self.local_captured = 'play', menu_selected, item_captured
 
             self.buts[1].config(state=DISABLED)
+            self.buts[3].config(state=NORMAL)
 
     def do_return(self):
+
         match self.last_local:
 
             case 'initial', None:
@@ -226,21 +228,39 @@ class AppMain:
                 self.do_search()
                 self.last_local = 'initial', None
                 self.buts[1].config(state=NORMAL)
+                self.buts[3].config(state=DISABLED)
 
             case 'menu', opt_str:
                 self.opt_menu_str.set(opt_str)
                 self.active_opt_menu(opt_str)
                 self.last_local = 'initial', None
                 self.buts[1].config(state=NORMAL)
+                self.buts[3].config(state=DISABLED)
 
             case 'play', menu_selected, item_captured:
                 self.opt_menu_str.set(menu_selected)
                 self.listbox.delete(0, END)
-                self.listbox.insert(END, item_captured)
+                self.listbox.insert(0, item_captured)
+                self.listbox.selection_anchor(0)
                 self.do_play()
+                self.buts[3].config(state=NORMAL)
+                self.buts[2].config(state=DISABLED)
 
     def go_to_more(self):
-        pass
+        self.listbox.delete(0, END)
+        self.listbox.insert(END, *self.__main_obj.basic_info())
+
+        self.text.delete(1.0, END)
+        for i in self.__main_obj.qualified_data():
+            self.text.insert(END, i)
+
+        local_one = self.last_local
+        local_two = self.local_captured
+
+        self.last_local = local_two
+        self.local_captured = local_one
+
+        self.buts[3].config(state=DISABLED)
 
 
 AppMain()

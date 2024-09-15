@@ -88,4 +88,5 @@ def processing_play(menu_selected, captured):
             except Exception as ex_2:
                 print(f'2 - {ex_2}')
 
+
     return processed

@@ -8,15 +8,16 @@ class Stock:
 
     def __init__(self, ticker):
 
+        self.__advanced_data = None
+
         try:
             self.__stock = stocks[ticker]
 
         except KeyError:
             self.__stock = {'stock': f"{ticker}", "name": "(Stock) not found"}
+
             print(f'Error: >>{self.__stock}')
             print("local: Object/Stock")
-
-        self.__advanced_data = None
 
     def __str__(self):
         return self.__stock['name']
@@ -27,13 +28,15 @@ class Stock:
     def __getitem__(self, item):
         return self.__stock[item]
 
-    def show_logo(self):
-        try:
-            create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
-        except KeyError:
-            create_window(self.__stock['name'], "https://brapi.dev/", width=350, height=200)
+    def _build_advanced(self):
+        if self.__advanced_data is None:
+            parameter = {'complement': self.__stock['stock']}
+            requested = make_request('Specific stock', **parameter)
+
+            self.__advanced_data = requested['results'][0]
+            self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
         else:
-            return webview
+            pass
 
     def basic_info(self):
         for i in self.__stock:
@@ -41,12 +44,15 @@ class Stock:
                 yield f'{i}: {self.__stock[i]}\n'
 
     def qualified_data(self):
-
-        parameter = {'complement': self.__stock['stock']}
-        requested = make_request('Specific stock', **parameter)
-
-        self.__advanced_data = requested['results'][0]
-        self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+        self._build_advanced()
 
         for i in self.__advanced_data:
             yield f'{i}: {self.__advanced_data[i]}\n'
+
+    def show_logo(self):
+        try:
+            create_window(self.__stock['name'], self.__stock['logo'], width=350, height=200)
+        except KeyError:
+            create_window(self.__stock['name'], "https://brapi.dev/", width=350, height=200)
+        else:
+            return webview
