@@ -30,3 +30,14 @@ def stocks_names_to_tickers_dict(specific=None):
 
         else:
             return name_to_ticker
+
+
+def stocks_for_types(stock_type):
+
+    type_list = list()
+
+    for i in stocks:
+        if stocks[i]['type'] == stock_type:
+            type_list.append(stocks[i]['name'])
+
+    return type_list

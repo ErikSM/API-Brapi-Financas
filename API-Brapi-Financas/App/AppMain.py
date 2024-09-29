@@ -2,7 +2,9 @@ from tkinter import *
 
 from App.app_action import processing_search, processing_play, processing_menu_opt
 from App.app_config import colr, font
+from access.data_updates import uploading_and_update_data
 from api_data.about_api import about_brapi
+from api_data.data_actions import stocks_for_types
 
 
 class AppMain:
@@ -21,7 +23,23 @@ class AppMain:
         self.entry_text_str = StringVar()
 
         self.opt_menu_str = StringVar()
-        self.opt_menu_tuple = ('Indexes tickers', 'Stocks tickers', 'Stocks names')
+        self.opt_menu_tuple = ('Indexes tickers', 'Indexes names', 'Stocks tickers', 'Stocks names')
+
+        _menu = Menu(self.__root, bd=10)
+
+        menu_types = Menu(_menu, tearoff=0)
+        all_types = "stock", "fund", "bdr"
+        for i in all_types:
+            menu_types.add_command(label=f"{i.title()}'s", command=lambda select=i: self.categories_select(select))
+
+        _menu.add_cascade(label='Categories', menu=menu_types)
+
+        menu_config = Menu(_menu, tearoff=0)
+        menu_config.add_command(label='Initial setting', command=self._initial_setting)
+        menu_config.add_command(label='Update data', command=self.update_data)
+        _menu.add_cascade(label='Config', menu=menu_config)
+
+        self.__root.config(menu=_menu)
 
         self.img_logo = PhotoImage(file=r'..\assets\logo.png')
         self.img_magnifier = PhotoImage(file=r'..\assets\magnifier.png')
@@ -136,7 +154,7 @@ class AppMain:
         self.buts[0].config(state=DISABLED)
         self.buts[3].config(state=DISABLED)
 
-    def _update_local(self, *args):
+    def _write_entry_local_(self, *args):
         all_local = ''
 
         for i in args:
@@ -146,7 +164,7 @@ class AppMain:
     def do_search(self):
         searched = self.entry_search_str.get()
 
-        self._update_local(*['search', searched])
+        self._write_entry_local_(*['search', searched])
         processed = processing_search(searched)
 
         self.listbox.delete(0, END)
@@ -173,7 +191,7 @@ class AppMain:
         self.listbox.delete(0, END)
         self.text.delete(1.0, END)
 
-        self._update_local(*[opt_str.title().replace(' ', '')])
+        self._write_entry_local_(*[opt_str.title().replace(' ', '')])
 
         processed = processing_menu_opt(opt_str)
         self.listbox.insert(END, *processed)
@@ -182,12 +200,13 @@ class AppMain:
         self.local_captured = 'menu', opt_str
 
         self.buts[0].config(state=NORMAL)
+        self.buts[1].config(state=NORMAL)
 
     def do_play(self):
         item_captured = self.listbox.get(ANCHOR)
         menu_selected = self.opt_menu_str.get()
 
-        self._update_local(*[menu_selected.title().replace(' ', ''), item_captured])
+        self._write_entry_local_(*[menu_selected.title().replace(' ', ''), item_captured])
 
         self.listbox.delete(0, END)
         self.listbox.insert(END, item_captured)
@@ -237,6 +256,12 @@ class AppMain:
                 self.buts[1].config(state=NORMAL)
                 self.buts[3].config(state=DISABLED)
 
+            case 'categories', type_selected:
+                self.categories_select(type_selected)
+                self.last_local = 'initial', None
+                self.buts[1].config(state=NORMAL)
+                self.buts[3].config(state=DISABLED)
+
             case 'play', menu_selected, item_captured:
                 self.opt_menu_str.set(menu_selected)
                 self.listbox.delete(0, END)
@@ -261,6 +286,29 @@ class AppMain:
         self.local_captured = local_one
 
         self.buts[3].config(state=DISABLED)
+
+    def update_data(self):
+        try:
+            uploading_and_update_data()
+        except Exception as ex:
+            print('Error(Local: update AppMain) >> ', ex)
+        else:
+            self._initial_setting()
+            self.text.insert(END, 'Update OK')
+
+    def categories_select(self, type_selected):
+        self._initial_setting()
+
+        self._write_entry_local_(*['categories', type_selected])
+        self.opt_menu_str.set('Stocks names')
+
+        self.listbox.insert(END, *stocks_for_types(type_selected))
+
+        self.last_local = self.local_captured
+        self.local_captured = 'categories', type_selected
+
+        self.buts[0].config(state=NORMAL)
+        self.buts[1].config(state=NORMAL)
 
 
 AppMain()

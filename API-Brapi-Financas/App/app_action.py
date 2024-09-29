@@ -54,6 +54,10 @@ def processing_menu_opt(opt_str):
             if stock_or_index == 'index':
                 processed_list.append(names[i][0])
 
+        elif opt_str == 'Indexes names':
+            if stock_or_index == 'index':
+                processed_list.append(i)
+
         elif opt_str == 'Stocks names':
             if stock_or_index == 'stock':
                 processed_list.append(i)
@@ -77,6 +81,10 @@ def processing_play(menu_selected, captured):
     elif menu_selected == 'Stocks names':
         stock_ticker = stocks_names_to_tickers_dict(captured)
         processed = Stock(stock_ticker)
+
+    elif menu_selected == 'Indexes names':
+        index_ticker = stocks_names_to_tickers_dict(captured)
+        processed = Index(index_ticker)
 
     elif menu_selected == 'Search':
         try:

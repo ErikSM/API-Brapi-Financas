@@ -33,8 +33,12 @@ class Stock:
             parameter = {'complement': self.__stock['stock']}
             requested = make_request('Specific stock', **parameter)
 
-            self.__advanced_data = requested['results'][0]
-            self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+            try:
+                self.__advanced_data = requested['results'][0]
+                self.__advanced_data['_this_request'] = {"requestedAt": requested['requestedAt'], "took": requested['took']}
+            except KeyError:
+                self.__advanced_data = {'Error': 'not found data'}
+                print('Error: >> KeyError, Local: Stock._buildAdv" ')
         else:
             pass
 

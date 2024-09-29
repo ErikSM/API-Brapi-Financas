@@ -59,8 +59,13 @@ def make_request(endpoint: all_endpoints, **parameters):
     print(params)
     print(f'{base_url}{endpoint_used}{complement_used}')
 
-    required = requests.get(f'{base_url}{endpoint_used}{complement_used}', params=params)
-    result = json.loads(required.text)
+    try:
+        required = requests.get(f'{base_url}{endpoint_used}{complement_used}', params=params)
+    except Exception as ex:
+        print('Error(local: make_request) >> ', ex)
+        result = {}
+    else:
+        result = json.loads(required.text)
 
     return result
 
